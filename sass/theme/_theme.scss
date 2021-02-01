@@ -1,0 +1,22 @@
+
+// Testing => Green body
+.wrapper {
+    background-color: $primary;
+}
+
+
+//Header
+.navbar {
+    height: 180px;
+    font-size: larger;
+    // font-family: Roboto;
+    background-color: $header-bg;
+    // position: fixed;
+    // width: 100%;
+    
+    .nav-link {
+        margin-left: 10px;
+        text-transform: uppercase;
+    }
+}
+

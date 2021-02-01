@@ -1,0 +1,6 @@
+*.log
+node_modules/
+.vscode/
+settings.json
+imports/lib/
+public/fonts/
