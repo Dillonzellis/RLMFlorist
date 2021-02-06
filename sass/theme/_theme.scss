@@ -9,15 +9,22 @@ body {
     font-family: $primary-font;
 }
 
-// current testing // needed for nav-link padding for some reason???
-@media (min-width: 992px){
-    .navbar-expand-lg .navbar-nav .nav-link {
+
+// Header
+@media (min-width: 1159px){
+    .navbar-expand-lg .navbar-nav .nav-link{
         padding-right: 15px;
         padding-left: 15px;
     }
 }
 
-//Header
+// @media (min-width: 992px){
+//     .navbar-expand-lg .navbar-nav .nav-link{
+//         padding-right: 15px;
+//         padding-left: 15px;
+//     }
+// }
+
 .navbar {
     height: 180px;
     font-size: larger;
@@ -30,13 +37,25 @@ body {
         text-transform: uppercase;
         font-size: 15px;
         line-height: 60px;
-        // padding-left: 15px;
-        // padding-right: 15px;
         &:hover {
             color: $header-link-hover;
         }
     }
+    .navbar-toggler {
+        color: $navbar-light-color;
+        border-color: $navbar-light-toggler-border-color;
+      }
+    .navbar-toggler-icon {
+        background-image: $navbar-light-toggler-icon-bg;
+  }
+
 }
+
+.nav-link {
+    padding: 0 15px;
+}
+
+
 
 
 
