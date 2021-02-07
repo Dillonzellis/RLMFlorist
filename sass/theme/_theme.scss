@@ -11,19 +11,12 @@ body {
 
 
 // Header
-@media (min-width: 1159px){
+@media (min-width: 1200px){
     .navbar-expand-lg .navbar-nav .nav-link{
         padding-right: 15px;
         padding-left: 15px;
     }
 }
-
-// @media (min-width: 992px){
-//     .navbar-expand-lg .navbar-nav .nav-link{
-//         padding-right: 15px;
-//         padding-left: 15px;
-//     }
-// }
 
 .navbar {
     height: 180px;
@@ -31,6 +24,9 @@ body {
     background-color: $header-bg;
     // position: fixed;
     // width: 100%;
+    .dropdown:hover .dropdown-menu{
+        display: block;
+    }
     .nav-link {
         color: $header-link-color;
         // margin-left: 10px;
@@ -51,12 +47,20 @@ body {
 
 }
 
-.nav-link {
-    padding: 0 15px;
+
+@media (max-width: 1107px){
+    .nav-link {
+        padding: 0;
+    }
 }
 
+.cart-icon{
+    display: none;
+}
 
-
-
-
+@media (min-width: 992px){
+    .cart-icon{
+        display: visible;
+    }
+}
 

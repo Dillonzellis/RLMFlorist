@@ -62,7 +62,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 					)
 				); ?>
 
-				<a href="#"><i class="fas fa-shopping-cart nav-link"></i></a>
+				<a href="#"><i class="fas fa-shopping-cart nav-link cart-icon"></i></a>
 
 				</div><!-- .container -->
 			</nav><!-- .site-navigation -->
