@@ -30,7 +30,6 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<div class="site" id="page">
 
 		<!-- ******************* The Navbar Area ******************* -->
-		<!-- <div id="wrapper-navbar" itemscope itemtype="http://schema.org/WebSite"> -->
 
 			<nav id="main-nav" class="navbar navbar-expand-xl bg-header-bg">
 
@@ -62,7 +61,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 					)
 				); ?>
 
-				<a href="#"><i class="fas fa-shopping-cart fa-2x cart-icon"></i></a>
+				<a href="#"><i class="fas fa-shopping-cart fa-lg cart-icon"></i></a>
 
 				</div><!-- .container -->
 			</nav><!-- .site-navigation -->
