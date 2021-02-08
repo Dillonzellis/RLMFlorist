@@ -13,7 +13,16 @@ body {
     background-color: $header-bg;
     }
     .navbar-toggler{
-        margin-left: 25%;
+       
+        @media(min-width: 365px) {
+            margin-left: 30%;
+        }
+        @media(min-width: $sm) {
+            margin-left: 50%;
+        }
+        @media(min-width: $md) {
+            margin-left: 60%;
+        }
         @media(min-width: $lg) {
             margin-left: 75%;
         }
