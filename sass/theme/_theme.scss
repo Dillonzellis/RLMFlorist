@@ -6,66 +6,86 @@ body {
 }
 
 // Header
-#main-nav{
+#main-nav {
     height: 180px;
     background-color: white;
+
     @media(min-width: $md) {
-    background-color: $header-bg;
+        background-color: $header-bg;
     }
+
     .mobile-menu-dropdown {
-        .navbar-toggler{
-       
-        // @media(min-width: 365px) {
-        //     margin-left: 30%;
-        // }
-        // @media(min-width: $sm) {
-        //     margin-left: 50%;
-        // }
-        // @media(min-width: $md) {
-        //     margin-left: 60%;
-        // }
-        // @media(min-width: $lg) {
-        //     margin-left: 75%;
-        // }
-        background-color: $primary;
-        .navbar-toggler-icon {
-            background-image: $navbar-dark-toggler-icon-bg;
+
+        border: 1px solid red;
+        text-align: right;
+        span {
+
         }
+        button {
+
+        }
+        // .navbar-toggler {
+
+        //     @media(min-width: 365px) {
+        //         margin-left: 30%;
+        //     }
+
+        //     @media(min-width: $sm) {
+        //         margin-left: 50%;
+        //     }
+
+        //     @media(min-width: $md) {
+        //         margin-left: 60%;
+        //     }
+
+        //     @media(min-width: $lg) {
+        //         margin-left: 75%;
+        //     }
+
+        //     background-color: $primary;
+
+        //     .navbar-toggler-icon {
+        //         background-image: $navbar-dark-toggler-icon-bg;
+        //     }
+        // }
     }
-    }
-    #main-menu{
+
+    #main-menu {
         @media(min-width: $xl) {
-            .dropdown:hover .dropdown-menu{
+            .dropdown:hover .dropdown-menu {
                 display: block;
             }
         }
-        .dropdown-menu{
+
+        // li {
+        //     a {
+        //         font-size: 15px;
+        //         color: $header-link-color;
+        //         letter-spacing: 1.5px;
+        //         text-transform: uppercase;
+        //         padding: 0 15px;
+
+        //         &:hover {
+        //             color: $header-link-hover;
+        //         }
+        //     }
+        // }
+
+        .dropdown-menu {
             background-color: $header-bg;
-            &:hover{
+
+            &:hover {
                 color: $header-link-hover;
             }
-            li{
-                a{
+
+            li {
+                a {
                     border-bottom-width: 0.1px;
                     border-style: solid;
                     border-color: #eaeaea;
                     padding: .9em 1em;
-                    }
-                } 
-            }
-        }
-        li{
-            a{
-                font-size: 15px;
-                color: $header-link-color;
-                letter-spacing: 1.5px;
-                text-transform: uppercase;
-                padding: 0 15px;
-                &:hover{
-                    color: $header-link-hover;
                 }
             }
         }
-
-        
     }
+}

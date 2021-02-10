@@ -45,7 +45,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 					<div class="mobile-menu-dropdown">
 						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'understrap' ); ?>">
-							<span class="navbar-toggler-icon "></span>
+							<i class="fas fa-bars fa-2x"></i>
 						</button>
 					</div>
 
@@ -60,10 +60,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 						'menu_id'         => 'main-menu',
 						'depth'           => 2,
 						'walker'          => new Understrap_WP_Bootstrap_Navwalker(),
-					)
-				); ?>
+						)
+					); ?>
 
-				<a href="#"><i class="fas fa-shopping-cart fa-lg cart-icon"></i></a>
+					<!-- <a href="#"><i class="fas fa-shopping-cart fa-lg cart-icon"></i></a> -->
 
 				</div><!-- .container -->
 			</nav><!-- .site-navigation -->
