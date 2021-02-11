@@ -43,27 +43,38 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 					<!-- end custom logo -->
 
-					<div class="mobile-menu-dropdown">
-						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'understrap' ); ?>">
-							<i class="fas fa-bars fa-2x"></i>
-						</button>
+					<div class="container-fluid align-items-center">
+
+						<!-- <div class="mobile-menu-dropdown">
+							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'understrap' ); ?>">
+								<i class="fas fa-bars fa-2x"></i>
+							</button>
+						</div> -->
+
+						<!-- The WordPress Menu goes here -->
+						<?php wp_nav_menu(
+						array(
+							'theme_location'  => 'primary',
+							'container_class' => 'collapse navbar-collapse',
+							'container_id'    => 'navbarNavDropdown',
+							'menu_class'      => 'navbar-nav ml-auto',
+							'fallback_cb'     => '',
+							'menu_id'         => 'main-menu',
+							'depth'           => 2,
+							'walker'          => new Understrap_WP_Bootstrap_Navwalker(),
+							)
+						); ?>
+
+						<div class="cart-icon-holder">
+							<div class="cart-icon">
+								<a href="#"><i class="fas fa-shopping-cart fa-lg"></i></a>
+							</div>
+						</div>
+						
+
 					</div>
 
-					<!-- The WordPress Menu goes here -->
-					<?php wp_nav_menu(
-					array(
-						'theme_location'  => 'primary',
-						'container_class' => 'collapse navbar-collapse',
-						'container_id'    => 'navbarNavDropdown',
-						'menu_class'      => 'navbar-nav ml-auto',
-						'fallback_cb'     => '',
-						'menu_id'         => 'main-menu',
-						'depth'           => 2,
-						'walker'          => new Understrap_WP_Bootstrap_Navwalker(),
-						)
-					); ?>
 
-					<!-- <a href="#"><i class="fas fa-shopping-cart fa-lg cart-icon"></i></a> -->
 
 				</div><!-- .container -->
 			</nav><!-- .site-navigation -->

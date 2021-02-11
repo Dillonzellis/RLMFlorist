@@ -8,13 +8,19 @@
     .mobile-menu-dropdown {
 
         button {
-            // outline: none;
             &:focus {outline:none;}
         }
 
         .fas {
             color: $primary;
              }
+    }
+
+    .cart-icon-holder {
+        border: 2px solid blueviolet;
+        padding: 10px;
+        display:inline-flex;
+        width: 100px;
     }
 
     #main-menu {
