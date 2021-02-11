@@ -30,6 +30,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<div class="site" id="page">
 
 		<!-- ******************* The Navbar Area ******************* -->
+		<div id="wrapper-nav">
 
 			<nav id="main-nav" class="navbar navbar-expand-xl bg-header-bg">
 
@@ -79,4 +80,5 @@ $container = get_theme_mod( 'understrap_container_type' );
 				</div><!-- .container -->
 			</nav><!-- .site-navigation -->
 
-		<!-- </div>#wrapper-navbar end -->
+		</div><!-- #wrapper-navbar end -->
+		
