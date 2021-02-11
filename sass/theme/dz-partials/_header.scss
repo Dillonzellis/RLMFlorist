@@ -6,6 +6,12 @@
     // dropdown menu hover
 
     .mobile-menu-dropdown {
+
+        button {
+            // outline: none;
+            &:focus {outline:none;}
+        }
+
         .fas {
             color: $primary;
              }
@@ -27,6 +33,7 @@
 
         .dropdown-menu {
             background-color: $header-bg;
+          
             .dropdown-item {
                 border-bottom-width: 0.1px;
                 border-style: solid;
