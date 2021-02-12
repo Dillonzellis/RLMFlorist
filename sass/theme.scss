@@ -1,4 +1,3 @@
-@import "theme/theme_variables";  // <-------- Add your variables into this file. Also add variables to overwrite Bootstrap or UnderStrap variables here
 @import "assets/bootstrap4";      // <-------- Loads Bootstrap4
 @import "understrap/understrap";  // <-------- Loads the UnderStrap defaults. Just a few classes to incorporate BS in WP
 @import "understrap/woocommerce"; // <-------- Loads WooCommerce style fixes. Comment out if you aren't using WooCommerce
@@ -9,6 +8,7 @@
 
 // Any additional imported files //
 // Partials //
+@import "theme/theme_variables";  // <-------- Add your variables into this file. Also add variables to overwrite Bootstrap or UnderStrap variables here
 @import "theme/dz-partials/utility";
 @import "theme/dz-partials/header";
 // @import "theme/theme";            // <-------- That's where you can add your own design. Thats your part!

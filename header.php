@@ -30,76 +30,66 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<?php do_action( 'wp_body_open' ); ?>
 	<div class="site" id="page">
 
-		<div id="wrapper-nav">
+		<nav class="navbar navbar-expand-lg">
 
-			<div class="top-header">
+			<a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>">
 
-				<div class="container-fluid ">
+				<img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="logo" srcset="">
 
-					<div class="row custom-flex">
+			</a>
 
-						<div class="col col-lg-2">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+				aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
 
-							<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
+				<span class="navbar-toggler-icon">
+					<i class="fas fa-bars fa-2x"></i>
+				</span>
 
-								<img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="logo"
-									srcset="">
+			</button>
 
-							</a>
+			<div class="collapse navbar-collapse" id="navbarToggler">
 
-						</div>
+				<ul class="navbar-nav ml-auto mt-2 mt-lg-0">
 
-						<div class="col col-lg-9">
+					<li class="nav-item">
 
-							<nav id="main-nav" class="navbar navbar-expand-xl bg-header-bg">
+						<a class="nav-link" href="#">occasion</a>
 
-								<div class="mobile-menu-dropdown">
-									<button class="navbar-toggler" type="button" data-toggle="collapse"
-										data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
-										aria-expanded="false"
-										aria-label="<?php esc_attr_e( 'Toggle navigation', 'understrap' ); ?>">
-										<i class="fas fa-bars fa-2x"></i>
-									</button>
-								</div>
+					</li>
+					<li class="nav-item">
 
-								<?php wp_nav_menu(
-									array(
-										'theme_location'  => 'primary',
-										'container_class' => 'collapse navbar-collapse',
-										'container_id'    => 'navbarNavDropdown',
-										'menu_class'      => 'navbar-nav ml-auto',
-										'fallback_cb'     => '',
-										'menu_id'         => 'main-menu',
-										'depth'           => 2,
-										'walker'          => new Understrap_WP_Bootstrap_Navwalker(),
-										)
-								); ?>
+						<a class="nav-link" href="#">holidays</a>
 
-							</nav>
+					</li>
+					<li class="nav-item">
 
-						</div>
+						<a class="nav-link" href="#">babycakes</a>
 
-						<div class="col col-lg-1">
+					</li>
+					<li class="nav-item">
 
-							<div class="cart-icon">
+						<a class="nav-link" href="#">all products</a>
 
-								<a href="#"><i class="fas fa-shopping-cart fa-lg"></i></a>
+					</li>
+					<li class="nav-item">
 
-							</div>
+						<a class="nav-link" href="#">venue & event services</a>
 
-						</div>
+					</li>
+					<li class="nav-item">
 
-					</div>
+						<a class="nav-link" href="#">my account</a>
 
-				</div>
+					</li>
+					<li class="nav-item">
 
+						<a class="nav-link" href="#">
+
+							<i class="fas fa-shopping-cart">
+
+						</a>
+
+					</li>
+				</ul>
 			</div>
-
-
-
-
-
-
-
-
-		</div><!-- #wrapper-navbar end -->
+		</nav>
