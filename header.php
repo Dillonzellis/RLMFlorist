@@ -33,9 +33,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 		<nav class="navbar navbar-expand-lg">
 
 			<a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>">
-
 				<img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="logo" srcset="">
-
 			</a>
 
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
@@ -51,44 +49,56 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 				<ul class="navbar-nav ml-auto mt-2 mt-lg-0">
 
-					<li class="nav-item">
-
-						<a class="nav-link" href="#">occasion</a>
-
-					</li>
-					<li class="nav-item">
-
-						<a class="nav-link" href="#">holidays</a>
-
-					</li>
-					<li class="nav-item">
-
-						<a class="nav-link" href="#">babycakes</a>
-
-					</li>
-					<li class="nav-item">
-
-						<a class="nav-link" href="#">all products</a>
-
-					</li>
-					<li class="nav-item">
-
-						<a class="nav-link" href="#">venue & event services</a>
-
-					</li>
-					<li class="nav-item">
-
-						<a class="nav-link" href="#">my account</a>
-
-					</li>
-					<li class="nav-item">
-
-						<a class="nav-link" href="#">
-
-							<i class="fas fa-shopping-cart">
-
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+							aria-haspopup="true" aria-expanded="false">
+							occasion
 						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item" href="#">Action</a>
+							<a class="dropdown-item" href="#">Another action</a>
+							<a class="dropdown-item" href="#">Something else here</a>
+						</div>
+					</li>
 
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+							aria-haspopup="true" aria-expanded="false">
+							holidays
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item" href="#">Action</a>
+							<a class="dropdown-item" href="#">Another action</a>
+							<a class="dropdown-item" href="#">Something else here</a>
+						</div>
+					</li>
+
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+							aria-haspopup="true" aria-expanded="false">
+							babycakes
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item" href="#">Action</a>
+							<a class="dropdown-item" href="#">Another action</a>
+							<a class="dropdown-item" href="#">Something else here</a>
+						</div>
+					</li>
+
+				
+					<li class="nav-item">
+						<a class="nav-link" href="#">all products</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">venue & event services</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">my account</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">
+							<i class="fas fa-shopping-cart"></i>
+						</a>
 					</li>
 				</ul>
 			</div>
