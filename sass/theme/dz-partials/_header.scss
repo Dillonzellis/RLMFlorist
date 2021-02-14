@@ -49,6 +49,7 @@
 }
 
 // Body start
+// Hero img
 .home-hero-banner-top {
     // position: absolute;
     height: 1080px;
@@ -68,7 +69,7 @@
     .main-title {
         font-size: 94.5px;
         line-height: 113.4px;
-        padding-top: 50px;
+        padding-top: 80px;
         padding-bottom: 81px;
     }
     .sub-title {
@@ -85,6 +86,31 @@
     hr {
         padding: 15px 0;
         border-top: 1.8px solid white;
+    }
+}
+
+// shop card 1
+.shop-card-holder {
+    color: $primary;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+ 
+    .sub-title {
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        font-weight: 300;
+    }
+    .shop-card-title {
+        display: flex;
+        justify-content: center;
+        font-size: 50px;
+        font-weight: 400;
+    }
+
+    .card {
+        display: flex;
+        justify-content: center;
     }
 }
 

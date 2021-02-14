@@ -34,17 +34,47 @@ $container = get_theme_mod( 'understrap_container_type' );
         </h3>
       </div>
     </div>
-    <div class="row justify-content-center">
+    <div class="row justify-content-space-around">
       <div class="col headers">
-      <button type="button" class="btn btn-outline-light headers">770-536-7306</button>
+        <button type="button" class="btn btn-outline-light headers">770-536-7306</button>
       </div>
       <div class="col headers">
-      <button type="button" class="btn btn-outline-light headers">Shop Now</button>
+        <button type="button" class="btn btn-outline-light headers">Shop Now</button>
       </div>
     </div>
     <div class="row">
       <div class="col">
         <h4 class=" headers sub-2-title p-3">Same Day Delivery</h4>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="shop-card-holder">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="sub-title">the</div>
+        <div class="shop-card-title">
+          valentine's collection
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="card">
+          card 1
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          card 1
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          card 1
+        </div>
       </div>
     </div>
   </div>
