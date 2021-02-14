@@ -20,7 +20,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,300;1,400&display=swap"
+		rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
 		integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 	<?php wp_head(); ?>
@@ -58,6 +60,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 							<a class="dropdown-item" href="#">Action</a>
 							<a class="dropdown-item" href="#">Another action</a>
 							<a class="dropdown-item" href="#">Something else here</a>
+							<a class="dropdown-item" href="#">Action</a>
+							<a class="dropdown-item" href="#">Another action</a>
+							<a class="dropdown-item" href="#">Something else here</a>
 						</div>
 					</li>
 
@@ -67,6 +72,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 							holidays
 						</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item" href="#">Action</a>
+							<a class="dropdown-item" href="#">Another action</a>
+							<a class="dropdown-item" href="#">Something else here</a>
 							<a class="dropdown-item" href="#">Action</a>
 							<a class="dropdown-item" href="#">Another action</a>
 							<a class="dropdown-item" href="#">Something else here</a>
@@ -81,11 +89,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 							<a class="dropdown-item" href="#">Action</a>
 							<a class="dropdown-item" href="#">Another action</a>
-							<a class="dropdown-item" href="#">Something else here</a>
 						</div>
 					</li>
 
-				
+
 					<li class="nav-item">
 						<a class="nav-link" href="#">all products</a>
 					</li>

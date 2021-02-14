@@ -1,4 +1,6 @@
 .navbar {
+    // position: relative;
+    // z-index: 4;
     padding-left: 35px;
     padding-right: 35px;
     padding-top: 15px;
@@ -36,9 +38,53 @@
             padding: .9em 1em;
 
             &:hover {
-                // color: $header-link-hover;
-                // background-color: $header-bg;
+                color: $header-link-hover;
+                background-color: #ffffff00;
+            }
+            &:focus {
+                background-color: #ffffff00;
             }
         }
     }
 }
+
+// Body start
+.home-hero-banner-top {
+    // position: absolute;
+    height: 1080px;
+    background-image: url("../img/a1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 29, 53, 0.4);
+    background-blend-mode: multiply;
+    .headers {
+        display: flex;
+        justify-content: center;
+        color: $home-header-font-color;
+        letter-spacing: 1.5px;
+        font-weight: 300;
+    }
+    .main-title {
+        font-size: 94.5px;
+        line-height: 113.4px;
+        padding-top: 50px;
+        padding-bottom: 81px;
+    }
+    .sub-title {
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .sub-2-title {
+        font-size: 20px;
+        font-style: italic;
+        line-height: 20px;
+    }
+
+
+    hr {
+        padding: 15px 0;
+        border-top: 1.8px solid white;
+    }
+}
+
