@@ -35,10 +35,10 @@ $container = get_theme_mod( 'understrap_container_type' );
       </div>
     </div>
     <div class="row">
-      <div class="col flex-end">
+      <div class="col text-right">
         <button type="button" class="btn btn-outline-light">770-536-7306</button>
       </div>
-      <div class="col">
+      <div class="col text-left">
         <button type="button" class="btn btn-outline-light">Shop Now</button>
       </div>
     </div>
@@ -209,7 +209,12 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <div class="worked-with-carousel">
   <div class="container-fluid">
-    <h1>carousel</h1>
+    <div class="worked-with-title">
+      We Have Worked With
+    </div>
+    <div class="carousel">
+      <p>carousel</p>
+    </div>
     <hr>
   </div>
 </div>
@@ -227,6 +232,7 @@ $container = get_theme_mod( 'understrap_container_type' );
         <div class="covid-body">
           We realize that this is a very stressful time, and we are here for your floral, event, BabyCakes &amp; venue needs. We are monitoring the situation closely and will update you with any changes as they arise. We’re closely monitoring the Center for Disease Control’s guidelines and recommendations on additional steps to take to help stop the spread of the virus.
         </div>
+        <hr>
       </div>
     </div>
   </div>
