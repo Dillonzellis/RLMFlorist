@@ -1,6 +1,8 @@
 .navbar {
     // position: relative;
     // z-index: 4;
+    position: absolute;
+    width: 100%;
     padding-left: 35px;
     padding-right: 35px;
     padding-top: 15px;
@@ -52,7 +54,6 @@
 // Body start
 // Hero img
 .home-hero-banner-top {
-    // position: absolute;
     height: 1080px;
     background-image: url("../img/a1.jpg");
     background-size: cover;
@@ -60,6 +61,12 @@
     background-repeat: no-repeat;
     background-color: rgba(0, 29, 53, 0.4);
     background-blend-mode: multiply;
+
+
+    .flex-end {
+        display: flex;
+        justify-content: flex-end;
+    }
 
     .headers {
         display: flex;
@@ -72,28 +79,37 @@
     .main-title {
         font-size: 94.5px;
         line-height: 113.4px;
-        padding-top: 170px;
-        padding-bottom: 83px;
+        padding-top: 350px;
+        padding-bottom: 95px;
     }
 
     .sub-title {
         font-size: 30px;
         line-height: 45px;
+        padding-bottom: 20px;
+    }
+
+    hr {
+        width: 70%;
+        padding-top: 15px;
+        padding-bottom: 18px;
+        border-top: 1.8px solid white;
     }
 
     .sub-2-title {
         font-size: 20px;
         font-style: italic;
         line-height: 20px;
+        padding-bottom: 25px;
     }
-
-
-    hr {
-        padding-top: 15px;
-        padding-bottom: 24px;
-        border-top: 1.8px solid white;
+    .sub-3-title {
+        font-size: 20px;
+        font-style: italic;
+        line-height: 20px;
+        padding-top: 20px;
     }
 }
+
 
 // shop card
 .shop-card-holder {
@@ -170,24 +186,44 @@
 // cta banner
 .cta-banner-holder {
     height: 700px;
-    background-color: $primary;
+    background-image: url("../img/cta.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
     color: white;
     display: flex;
     align-items: center;
+    justify-content: center;
     .cta-title {
         display: flex;
         justify-content: center;
         font-size: 70px;
         line-height: 91px;
+        padding-bottom: 15px;
     }
     .cta-sub-title {
         display: flex;
         justify-content: center;
         font-size: 24px;
         line-height: 36px;
-    }
-    .btn {
-        display: flex;
-        justify-content: center;
+        padding-bottom: 170px;
     }
 }
+
+// reviews
+.reviews-holder {
+    color: $primary;
+}
+
+// worked with carousel
+.worked-with-carousel {
+    color: $primary;
+}
+
+// covid banner
+.covid-holder {
+    color: $primary;
+}
+

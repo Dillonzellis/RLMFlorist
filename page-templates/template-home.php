@@ -29,22 +29,22 @@ $container = get_theme_mod( 'understrap_container_type' );
           42 Years of Award Winning Designs
         </h2>
         <hr>
-        <h3 class="headers sub-2-title p-2">
+        <h3 class="headers sub-2-title">
           24/7 Call or Email For All Your Floral Needs
         </h3>
       </div>
     </div>
-    <div class="row headers">
-      <div class="col ">
-        <button type="button" class="btn btn-outline-light btn1">770-536-7306</button>
+    <div class="row">
+      <div class="col flex-end">
+        <button type="button" class="btn btn-outline-light">770-536-7306</button>
       </div>
       <div class="col">
-        <button type="button" class="btn btn-outline-light btn2">Shop Now</button>
+        <button type="button" class="btn btn-outline-light">Shop Now</button>
       </div>
     </div>
     <div class="row">
       <div class="col">
-        <h4 class=" headers sub-2-title p-3">Same Day Delivery</h4>
+        <h4 class=" headers sub-3-title">Same Day Delivery</h4>
       </div>
     </div>
   </div>
@@ -156,15 +156,80 @@ $container = get_theme_mod( 'understrap_container_type' );
           <div class="cta-sub-title">
             Check out our Event Services
           </div>
-          <button type="button" class="btn btn-outline-light">RLM Venue & Event Services</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col text-center">
+          <button type="button" class="btn btn-lg btn-outline-light">RLM Venue & Event Services</button>
+        </div>
+      </div>
+  </div>
+</div>
+
+<div class="reviews-holder">
+  <div class="container">
+    <div class="reviews-card-titles-holder">
+      <div class="row">
+        <div class="col">
+          <div class="review-card-title">
+            our reviews
+          </div>
+          <div class="reviews-sub-title">
+            Personally selected and carefully delivered. Stunning flowers straight to your door.
+          </div>
         </div>
       </div>
     </div>
+
+    <div class="card-deck">
+      <div class="card">
+        <img class="card-img-top" src="//www.html.am/images/samples/remarkables_queenstown_new_zealand-300x225.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <button type="button" class="btn btn-light">add to cart</button>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="//www.html.am/images/samples/remarkables_queenstown_new_zealand-300x225.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <button type="button" class="btn btn-light">add to cart</button>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="//www.html.am/images/samples/remarkables_queenstown_new_zealand-300x225.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <button type="button" class="btn btn-light">add to cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
+<div class="worked-with-carousel">
+  <div class="container-fluid">
+    <h1>carousel</h1>
+    <hr>
+  </div>
+</div>
 
-
-
-
+<div class="covid-holder">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="covid-title">
+          Covid-19
+        </div>
+        <div class="covid-body">
+          <p>We are grateful for all of you and are open for phone or internet orders. They will be fulfilled with a no contact delivery left at your front door or a no contact pick up at our front door.</p>
+        </div>
+        <div class="covid-body">
+          We realize that this is a very stressful time, and we are here for your floral, event, BabyCakes &amp; venue needs. We are monitoring the situation closely and will update you with any changes as they arise. We’re closely monitoring the Center for Disease Control’s guidelines and recommendations on additional steps to take to help stop the spread of the virus.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 <?php get_footer(); ?>
