@@ -50,7 +50,7 @@ $container = get_theme_mod( 'understrap_container_type' );
   </div>
 </div>
 
-<div class="shop-card-1-holder">
+<div class="shop-card-holder">
   <div class="container">
     <div class="shop-card-titles-holder">
       <div class="row">
@@ -106,6 +106,64 @@ $container = get_theme_mod( 'understrap_container_type' );
     </div>
   </div>
 </div>
+
+<div class="shop-card-holder">
+  <div class="container">
+    <div class="shop-card-titles-holder">
+      <div class="row">
+        <div class="col">
+          <div class="sub-title">our</div>
+          <div class="shop-card-title">
+            best sellers
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-deck">
+      <div class="card">
+        <img class="card-img-top" src="//www.html.am/images/samples/remarkables_queenstown_new_zealand-300x225.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <button type="button" class="btn btn-light">add to cart</button>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="//www.html.am/images/samples/remarkables_queenstown_new_zealand-300x225.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <button type="button" class="btn btn-light">add to cart</button>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="//www.html.am/images/samples/remarkables_queenstown_new_zealand-300x225.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <button type="button" class="btn btn-light">add to cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="cta-banner-holder">
+  <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="cta-title">
+            Special Occasion?
+          </div>
+          <div class="cta-sub-title">
+            Check out our Event Services
+          </div>
+          <button type="button" class="btn btn-outline-light">RLM Venue & Event Services</button>
+        </div>
+      </div>
+    </div>
+</div>
+
+
+
 
 
 
