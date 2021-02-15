@@ -62,10 +62,12 @@
     background-color: rgba(0, 29, 53, 0.4);
     background-blend-mode: multiply;
     text-align: center;
+
     .flex-end {
         display: flex;
         justify-content: flex-end;
     }
+
     .headers {
         // display: flex;
         // justify-content: center;
@@ -100,6 +102,7 @@
         line-height: 20px;
         padding-bottom: 25px;
     }
+
     .sub-3-title {
         font-size: 20px;
         font-style: italic;
@@ -116,20 +119,24 @@
         text-transform: uppercase;
         letter-spacing: 4px;
         text-align: center;
+
         .sub-title {
             padding-top: 60px;
             padding-bottom: 10px;
             font-size: 30px;
             font-weight: 300;
         }
+
         .shop-card-title {
             padding-bottom: 60px;
             font-size: 50px;
             font-weight: 400;
         }
     }
+
     .card-deck {
         padding-bottom: 80px;
+
         .card-img-top {
             height: 405px;
             width: 405px;
@@ -146,17 +153,20 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+
     .video-title {
         padding-top: 250px;
         font-size: 80px;
         font-weight: 300;
         letter-spacing: 3.5;
     }
+
     .video-sub-title {
         font-size: 42px;
         padding-bottom: 200px;
         line-height: 54.6px;
     }
+
     .video-sub2-title {
         font-size: 20px;
         font-weight: 300;
@@ -180,11 +190,13 @@
     display: flex;
     align-items: center;
     text-align: center;
+
     .cta-title {
         font-size: 70px;
         line-height: 91px;
         padding-bottom: 15px;
     }
+
     .cta-sub-title {
         font-size: 24px;
         line-height: 36px;
@@ -196,6 +208,7 @@
 .reviews-holder {
     color: $primary;
     text-align: center;
+
     .review-card-title {
         padding-top: 65px;
         padding-bottom: 20px;
@@ -204,6 +217,7 @@
         line-height: 52.5px;
         text-transform: uppercase;
     }
+
     .reviews-sub-title {
         font-size: 18px;
         letter-spacing: 1px;
@@ -216,6 +230,7 @@
 .worked-with-carousel {
     color: $primary;
     text-align: center;
+
     .worked-with-title {
         font-size: 35px;
         padding: 45px 0;
@@ -226,14 +241,19 @@
 .covid-holder {
     color: $primary;
     text-align: center;
+
+    hr {
+        color: $primary;
+    }
+
     .covid-title {
         font-weight: 600;
         font-size: 29px;
         line-height: 1.5;
         padding-bottom: 25px;
     }
+
     .covid-body {
         font-size: 14px;
     }
 }
-

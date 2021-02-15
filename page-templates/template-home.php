@@ -180,29 +180,65 @@ $container = get_theme_mod( 'understrap_container_type' );
         </div>
       </div>
     </div>
-
     <div class="card-deck">
+
       <div class="card">
-        <img class="card-img-top" src="//www.html.am/images/samples/remarkables_queenstown_new_zealand-300x225.jpg" alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <button type="button" class="btn btn-light">add to cart</button>
+          <div class="card-review">
+            RLM did the flowers, decor for reception and the cake for my daughters wedding. They exceeding our expectation - the flowers were gorgeous, the venue decor was stunning and the cake not only was beautiful it tasted GREAT. They were very organized, responsive and the day off made things super easy! Thanks again.
+          </div>
+          <div class="review-customer-holder">
+            <div class="review-customer-img">
+                [img]
+              </div>
+              <div class="review-customer">
+                Colheen R
+              </div>
+              <div class="review-customer-sub-line">
+                Mother of the Bride
+              </div>
+          </div>
         </div>
       </div>
+
       <div class="card">
-        <img class="card-img-top" src="//www.html.am/images/samples/remarkables_queenstown_new_zealand-300x225.jpg" alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <button type="button" class="btn btn-light">add to cart</button>
+          <div class="card-review">
+            RLM did the flowers, decor for reception and the cake for my daughters wedding. They exceeding our expectation - the flowers were gorgeous, the venue decor was stunning and the cake not only was beautiful it tasted GREAT. They were very organized, responsive and the day off made things super easy! Thanks again.
+          </div>
+          <div class="review-customer-holder">
+            <div class="review-customer-img">
+                [img]
+              </div>
+              <div class="review-customer">
+                Colheen R
+              </div>
+              <div class="review-customer-sub-line">
+                Mother of the Bride
+              </div>
+          </div>
         </div>
       </div>
+      
       <div class="card">
-        <img class="card-img-top" src="//www.html.am/images/samples/remarkables_queenstown_new_zealand-300x225.jpg" alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <button type="button" class="btn btn-light">add to cart</button>
+          <div class="card-review">
+            RLM did the flowers, decor for reception and the cake for my daughters wedding. They exceeding our expectation - the flowers were gorgeous, the venue decor was stunning and the cake not only was beautiful it tasted GREAT. They were very organized, responsive and the day off made things super easy! Thanks again.
+          </div>
+          <div class="review-customer-holder">
+            <div class="review-customer-img">
+                [img]
+              </div>
+              <div class="review-customer">
+                Colheen R
+              </div>
+              <div class="review-customer-sub-line">
+                Mother of the Bride
+              </div>
+          </div>
         </div>
       </div>
+
     </div>
   </div>
 </div>
@@ -215,7 +251,6 @@ $container = get_theme_mod( 'understrap_container_type' );
     <div class="carousel">
       <p>carousel</p>
     </div>
-    <hr>
   </div>
 </div>
 
@@ -223,6 +258,7 @@ $container = get_theme_mod( 'understrap_container_type' );
   <div class="container">
     <div class="row">
       <div class="col">
+        <hr>
         <div class="covid-title">
           Covid-19
         </div>
