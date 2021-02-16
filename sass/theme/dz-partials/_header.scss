@@ -224,6 +224,28 @@
         line-height: 28.8px;
         padding-bottom: 60px;
     }
+
+    .card-body {
+        box-shadow: 3px 5px 10px 0 rgba(0, 0, 0, .5);
+        .card-review-holder {
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            .review-customer-holder {
+                display: flex;
+                flex-direction: row;
+                .review-customer {
+
+                }
+                .review-customer {
+
+                }
+                .review-customer-sub-line {
+
+              }
+            }
+        }
+    }
 }
 
 // worked with carousel
