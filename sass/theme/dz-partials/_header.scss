@@ -226,23 +226,35 @@
 
     .card-body {
         box-shadow: 3px 5px 10px 0 rgba(0, 0, 0, .5);
-        .card-review-holder {
+
+        .card-review {
+            margin-bottom: 20px;
+        }
+
+        .review-customer-holder {
             display: flex;
             justify-content: center;
-            align-content: center;
-            .review-customer-holder {
-                display: flex;
-                flex-direction: row;
-                .review-customer {
+            align-items: center;
 
+            .review-customer-img {
+                margin-right: 15px;
+                img {
+                    border-radius: 50%;
                 }
-                .review-customer {
-
-                }
-                .review-customer-sub-line {
-
-              }
             }
+
+            .review-customer {
+                .review-customer-name {
+                    line-height: 22.5px;
+                    font-size: 15px;
+                }
+
+                .review-customer-sub-line {
+                    font-size: 12.75px;
+                    line-height: 12.75px;
+                }
+            }
+
         }
     }
 }

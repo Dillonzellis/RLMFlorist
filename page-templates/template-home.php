@@ -188,17 +188,20 @@ $container = get_theme_mod( 'understrap_container_type' );
     </div>
     <div class="card-deck">
       <div class="card">
-          <div class="card-body">
-            <div class="card-review">
-              RLM did the flowers, decor for reception and the cake for my daughters wedding. They exceeding our expectation
-              - the flowers were gorgeous, the venue decor was stunning and the cake not only was beautiful it tasted GREAT.
-              They were very organized, responsive and the day off made things super easy! Thanks again.
+        <div class="card-body">
+          <div class="card-review">
+            RLM did the flowers, decor for reception and the cake for my daughters wedding. They exceeding our
+            expectation
+            - the flowers were gorgeous, the venue decor was stunning and the cake not only was beautiful it tasted
+            GREAT.
+            They were very organized, responsive and the day off made things super easy! Thanks again.
+          </div>
+          <div class="review-customer-holder">
+            <div class="review-customer-img">
+              <img src="https://picsum.photos/60/60" alt="" srcset="">
             </div>
-            <div class="review-customer-holder">
-              <div class="review-customer-img">
-                [img]
-              </div>
-              <div class="review-customer">
+            <div class="review-customer">
+              <div class="review-customer-name">
                 Colheen R
               </div>
               <div class="review-customer-sub-line">
@@ -207,22 +210,27 @@ $container = get_theme_mod( 'understrap_container_type' );
             </div>
           </div>
         </div>
+      </div>
       <div class="card">
         <div class="card-body">
           <div class="card-review">
-            RLM did the flowers, decor for reception and the cake for my daughters wedding. They exceeding our expectation
-            - the flowers were gorgeous, the venue decor was stunning and the cake not only was beautiful it tasted GREAT.
+            RLM did the flowers, decor for reception and the cake for my daughters wedding. They exceeding our
+            expectation
+            - the flowers were gorgeous, the venue decor was stunning and the cake not only was beautiful it tasted
+            GREAT.
             They were very organized, responsive and the day off made things super easy! Thanks again.
           </div>
           <div class="review-customer-holder">
             <div class="review-customer-img">
-              [img]
+              <img src="https://picsum.photos/60/60" alt="" srcset="">
             </div>
             <div class="review-customer">
-              Colheen R
-            </div>
-            <div class="review-customer-sub-line">
-              Mother of the Bride
+              <div class="review-customer-name">
+                Colheen R
+              </div>
+              <div class="review-customer-sub-line">
+                Mother of the Bride
+              </div>
             </div>
           </div>
         </div>
@@ -230,23 +238,28 @@ $container = get_theme_mod( 'understrap_container_type' );
       <div class="card">
         <div class="card-body">
           <div class="card-review">
-            RLM did the flowers, decor for reception and the cake for my daughters wedding. They exceeding our expectation
-            - the flowers were gorgeous, the venue decor was stunning and the cake not only was beautiful it tasted GREAT.
+            RLM did the flowers, decor for reception and the cake for my daughters wedding. They exceeding our
+            expectation
+            - the flowers were gorgeous, the venue decor was stunning and the cake not only was beautiful it tasted
+            GREAT.
             They were very organized, responsive and the day off made things super easy! Thanks again.
           </div>
           <div class="review-customer-holder">
             <div class="review-customer-img">
-              [img]
+              <img src="https://picsum.photos/60/60" alt="" srcset="">
             </div>
             <div class="review-customer">
-              Colheen R
-            </div>
-            <div class="review-customer-sub-line">
-              Mother of the Bride
+              <div class="review-customer-name">
+                Colheen R
+              </div>
+              <div class="review-customer-sub-line">
+                Mother of the Bride
+              </div>
             </div>
           </div>
         </div>
       </div>
+
     </div>
   </div>
 </div>
