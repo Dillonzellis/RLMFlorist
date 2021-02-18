@@ -19,100 +19,96 @@ $container = get_theme_mod( 'understrap_container_type' );
 <?php endif; ?>
 
 <div class="home-hero-banner-top">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col p-0">
-          <div id="dz-carousel" class="carousel slide carousel-fade" data-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img class="d-block w-100" src="<?php echo get_template_directory_uri(); ?>/img/a1.jpg" alt=""
-                  srcset="">
-                <div class="carousel-caption">
-                  <div class="cap-wrapper">
-                    <h1 class="headers main-title">
-                      Ethical Fresh Flowers
-                    </h1>
-                    <h2 class="headers sub-title">
-                      42 Years of Award Winning Designs
-                    </h2>
-                    <hr>
-                    <h3 class="headers sub-2-title">
-                      24/7 Call or Email For All Your Floral Needs
-                    </h3>
-                    <div class="row">
-                      <div class="col text-right">
-                        <button type="button" class="btn btn-outline-light">770-536-7306</button>
-                      </div>
-                      <div class="col text-left">
-                        <button type="button" class="btn btn-outline-light">Shop Now</button>
-                      </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col p-0">
+        <div id="dz-carousel" class="carousel slide carousel-fade" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="<?php echo get_template_directory_uri(); ?>/img/a1.jpg" alt="" srcset="">
+              <div class="carousel-caption">
+                <div class="cap-wrapper">
+                  <h1 class="main-title">
+                    Ethical Fresh Flowers
+                  </h1>
+                  <h2 class="sub-title">
+                    42 Years of Award Winning Designs
+                  </h2>
+                  <hr>
+                  <h3 class="sub-2-title">
+                    24/7 Call or Email For All Your Floral Needs
+                  </h3>
+                  <div class="row">
+                    <div class="col text-right">
+                      <button type="button" class="btn btn-outline-light">770-536-7306</button>
                     </div>
-                    <div class="row">
-                      <div class="col">
-                        <h4 class=" headers sub-3-title">Same Day Delivery</h4>
-                      </div>
+                    <div class="col text-left">
+                      <button type="button" class="btn btn-outline-light">Shop Now</button>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col">
+                      <h4 class="sub-3-title">Same Day Delivery</h4>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="<?php echo get_template_directory_uri(); ?>/img/a2.jpg" alt=""
-                  srcset="">
-                  <div class="carousel-caption">
-                  <div class="cap-wrapper">
-                    <h1 class="headers main-title">
-                      Ethical Fresh Flowers
-                    </h1>
-                    <h2 class="headers sub-title">
-                      42 Years of Award Winning Designs
-                    </h2>
-                    <hr>
-                    <h3 class="headers sub-2-title">
-                      24/7 Call or Email For All Your Floral Needs
-                    </h3>
-                    <div class="row">
-                      <div class="col text-right">
-                        <button type="button" class="btn btn-outline-light">770-536-7306</button>
-                      </div>
-                      <div class="col text-left">
-                        <button type="button" class="btn btn-outline-light">Shop Now</button>
-                      </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="<?php echo get_template_directory_uri(); ?>/img/a2.jpg" alt="" srcset="">
+              <div class="carousel-caption">
+                <div class="cap-wrapper">
+                  <h1 class="main-title">
+                    Ethical Fresh Flowers
+                  </h1>
+                  <h2 class="sub-title">
+                    42 Years of Award Winning Designs
+                  </h2>
+                  <hr>
+                  <h3 class="sub-2-title">
+                    24/7 Call or Email For All Your Floral Needs
+                  </h3>
+                  <div class="row">
+                    <div class="col text-right">
+                      <button type="button" class="btn btn-outline-light">770-536-7306</button>
                     </div>
-                    <div class="row">
-                      <div class="col">
-                        <h4 class=" headers sub-3-title">Same Day Delivery</h4>
-                      </div>
+                    <div class="col text-left">
+                      <button type="button" class="btn btn-outline-light">Shop Now</button>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col">
+                      <h4 class="sub-3-title">Same Day Delivery</h4>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="<?php echo get_template_directory_uri(); ?>/img/cta.jpg" alt=""
-                  srcset="">
-                  <div class="carousel-caption">
-                  <div class="cap-wrapper">
-                    <h1 class="headers main-title">
-                      Ethical Fresh Flowers
-                    </h1>
-                    <h2 class="headers sub-title">
-                      42 Years of Award Winning Designs
-                    </h2>
-                    <hr>
-                    <h3 class="headers sub-2-title">
-                      24/7 Call or Email For All Your Floral Needs
-                    </h3>
-                    <div class="row">
-                      <div class="col text-right">
-                        <button type="button" class="btn btn-outline-light">770-536-7306</button>
-                      </div>
-                      <div class="col text-left">
-                        <button type="button" class="btn btn-outline-light">Shop Now</button>
-                      </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="<?php echo get_template_directory_uri(); ?>/img/cta.jpg" alt="" srcset="">
+              <div class="carousel-caption">
+                <div class="cap-wrapper">
+                  <h1 class="main-title">
+                    Ethical Fresh Flowers
+                  </h1>
+                  <h2 class="sub-title">
+                    42 Years of Award Winning Designs
+                  </h2>
+                  <hr>
+                  <h3 class="sub-2-title">
+                    24/7 Call or Email For All Your Floral Needs
+                  </h3>
+                  <div class="row">
+                    <div class="col text-right">
+                      <button type="button" class="btn btn-outline-light">770-536-7306</button>
                     </div>
-                    <div class="row">
-                      <div class="col">
-                        <h4 class=" headers sub-3-title">Same Day Delivery</h4>
-                      </div>
+                    <div class="col text-left">
+                      <button type="button" class="btn btn-outline-light">Shop Now</button>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col">
+                      <h4 class="sub-3-title">Same Day Delivery</h4>
                     </div>
                   </div>
                 </div>
@@ -332,65 +328,42 @@ $container = get_theme_mod( 'understrap_container_type' );
   </div>
 </div>
 
-  <div class="worked-with-carousel">
-    <div class="container-fluid">
-      <div class="worked-with-title">
-        We Have Worked With
-      </div>
-      <div class="carousel">
-        <p>carousel</p>
-      </div>
+<div class="worked-with-carousel">
+  <div class="container-fluid">
+    <div class="worked-with-title">
+      We Have Worked With
+    </div>
+    <div class="carousel">
+      <p>carousel</p>
     </div>
   </div>
+</div>
 
-  <div class="covid-holder">
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <hr>
-          <div class="covid-title">
-            Covid-19
-          </div>
-          <div class="covid-body">
-            <p>We are grateful for all of you and are open for phone or internet orders. They will be fulfilled with a
-              no
-              contact delivery left at your front door or a no contact pick up at our front door.</p>
-          </div>
-          <div class="covid-body">
-            We realize that this is a very stressful time, and we are here for your floral, event, BabyCakes &amp; venue
-            needs. We are monitoring the situation closely and will update you with any changes as they arise. We’re
-            closely monitoring the Center for Disease Control’s guidelines and recommendations on additional steps to
-            take
-            to help stop the spread of the virus.
-          </div>
-          <hr>
+<div class="covid-holder">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <hr>
+        <div class="covid-title">
+          Covid-19
         </div>
+        <div class="covid-body">
+          <p>We are grateful for all of you and are open for phone or internet orders. They will be fulfilled with a
+            no
+            contact delivery left at your front door or a no contact pick up at our front door.</p>
+        </div>
+        <div class="covid-body">
+          We realize that this is a very stressful time, and we are here for your floral, event, BabyCakes &amp; venue
+          needs. We are monitoring the situation closely and will update you with any changes as they arise. We’re
+          closely monitoring the Center for Disease Control’s guidelines and recommendations on additional steps to
+          take
+          to help stop the spread of the virus.
+        </div>
+        <hr>
       </div>
     </div>
   </div>
-
-
-
-
-  <!-- <div id="dz-carousel" class="carousel slide carousel-fade" data-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img class="d-block w-100" src="<?php echo get_template_directory_uri(); ?>/img/a1.jpg" alt="" srcset="">
-      </div>
-      <div class="carousel-item">
-        <img class="d-block w-100" src="<?php echo get_template_directory_uri(); ?>/img/a2.jpg" alt="" srcset="">
-      </div>
-      <div class="carousel-item">
-        <img class="d-block w-100" src="<?php echo get_template_directory_uri(); ?>/img/cta.jpg" alt="" srcset="">
-      </div>
-    </div>
-  </div> -->
-
-
-
-
-
-
+</div>
 
 
 <?php get_footer(); ?>

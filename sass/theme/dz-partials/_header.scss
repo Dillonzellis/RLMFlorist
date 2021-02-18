@@ -56,6 +56,9 @@
 .home-hero-banner-top {
     height: 1080px;
     text-align: center;
+    color: $home-header-font-color;
+    letter-spacing: 1.5px;
+    font-weight: 300;
 
     #dz-carousel {
      background-color: rgb(34, 64, 88);
@@ -66,13 +69,6 @@
         .carousel-caption {
             bottom: 225px;
         }
-    }
-
-
-    .headers {
-        color: $home-header-font-color;
-        letter-spacing: 1.5px;
-        font-weight: 300;
     }
 
     .main-title {
@@ -108,7 +104,6 @@
         padding-top: 20px;
     }
 }
-
 
 // shop card
 .shop-card-holder {
@@ -271,7 +266,6 @@
         }
     }
 }
-
 
 // worked with carousel
 .worked-with-carousel {
