@@ -58,8 +58,13 @@
     text-align: center;
 
     #dz-carousel {
+     background-color: rgb(34, 64, 88);
+        img {
+            opacity: 0.7;
+            height: 1080px;
+        }
         .carousel-caption {
-            bottom: 200px;
+            bottom: 225px;
         }
     }
 
