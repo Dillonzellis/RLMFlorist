@@ -55,12 +55,12 @@
 // Hero img
 .home-hero-banner-top {
     height: 1080px;
-    background-image: url("../img/a1.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: rgba(0, 29, 53, 0.4);
-    background-blend-mode: multiply;
+    // background-image: url("../img/a1.jpg");
+    // background-size: cover;
+    // background-position: center;
+    // background-repeat: no-repeat;
+    // background-color: rgba(0, 29, 53, 0.4);
+    // background-blend-mode: multiply;
     text-align: center;
 
     .flex-end {
@@ -226,9 +226,18 @@
 
     .card-body {
         box-shadow: 3px 5px 10px 0 rgba(0, 0, 0, .5);
+        color: #333333;
 
         .card-review {
             margin-bottom: 20px;
+        }
+        .review-2 {
+            font-size: 26px;
+            line-height: 48.3px;
+        }
+        .review-3 {
+            font-size: 21px;
+            line-height: 35.3px;
         }
 
         .review-customer-holder {
@@ -237,6 +246,8 @@
             align-items: center;
 
             .review-customer-img {
+                height: 60px;
+                width: 60px;
                 margin-right: 15px;
                 img {
                     border-radius: 50%;
@@ -288,5 +299,14 @@
 
     .covid-body {
         font-size: 14px;
+    }
+}
+
+#dz-carousel {
+    .carousel-item {
+        background-color: black;
+    }
+    img {
+        opacity: 0.8;
     }
 }
