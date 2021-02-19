@@ -59,12 +59,39 @@
     color: $home-header-font-color;
     letter-spacing: 1.5px;
     font-weight: 300;
+    background-color: rgb(34, 64, 88);
+
 
     #dz-carousel {
-     background-color: rgb(34, 64, 88);
         img {
             opacity: 0.7;
             height: 1080px;
+            animation: move infinite ease;
+            -ms-animation: move 40s ease;
+            -webkit-animation: move 40s ease;
+            -o-animation: move 40s ease;
+            -moz-animation: move 40s ease;
+        }
+        @-webkit-keyframes move {
+            0% {
+              -webkit-transform-origin: bottom left;
+              -moz-transform-origin: bottom left;
+              -ms-transform-origin: bottom left;
+              -o-transform-origin: bottom left;
+              transform-origin: bottom left;
+              transform: scale(1.0);
+              -ms-transform: scale(1.0);
+              -webkit-transform: scale(1.0);
+              -o-transform: scale(1.0);
+              -moz-transform: scale(1.0);
+            }
+            100% {
+              transform: scale(1.2);
+              -ms-transform: scale(1.2);
+              -webkit-transform: scale(1.2);
+              -o-transform: scale(1.2);
+              -moz-transform: scale(1.2);
+            }
         }
         .carousel-caption {
             bottom: 225px;
@@ -298,3 +325,4 @@
         font-size: 14px;
     }
 }
+
