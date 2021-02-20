@@ -51,6 +51,13 @@ $container = get_theme_mod( 'understrap_container_type' );
                       <h4 class="sub-3-title">Same Day Delivery</h4>
                     </div>
                   </div>
+                  <div class="row">
+                    <div class="col">
+                      <div class="diamonds">
+                        ♦♦♦♦
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -81,6 +88,13 @@ $container = get_theme_mod( 'understrap_container_type' );
                       <h4 class="sub-3-title">Same Day Delivery</h4>
                     </div>
                   </div>
+                  <div class="row">
+                    <div class="col">
+                      <div class="diamonds">
+                        ♦♦♦♦
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -109,6 +123,13 @@ $container = get_theme_mod( 'understrap_container_type' );
                   <div class="row">
                     <div class="col">
                       <h4 class="sub-3-title">Same Day Delivery</h4>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col">
+                      <div class="diamonds">
+                        ♦♦♦♦
+                      </div>
                     </div>
                   </div>
                 </div>
