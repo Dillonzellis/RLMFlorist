@@ -312,6 +312,18 @@
         font-size: 35px;
         padding: 45px 0;
     }
+
+    .test-holder {
+        span {
+            color: black;
+        }
+        .carousel-caption {
+            .worked-with-logo {
+                border: 2px solid red;
+                margin: 10px;
+            }
+        }
+    }
 }
 
 // covid banner
