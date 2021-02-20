@@ -314,13 +314,21 @@
     }
 
     .test-holder {
-        span {
+        a {
             color: black;
         }
         .carousel-caption {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            left: 0;
+            right: 0;
+            bottom: 0;
             .worked-with-logo {
                 border: 2px solid red;
                 margin: 10px;
+                height: 160px;
+                width: 160px;
             }
         }
     }
