@@ -316,6 +316,7 @@
     .test-holder {
         a {
             color: black;
+            z-index: 100;
         }
         .carousel-caption {
             position: relative;
@@ -325,6 +326,10 @@
             right: 0;
             bottom: 0;
             .worked-with-logo {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: black;
                 border: 2px solid red;
                 margin: 10px;
                 height: 160px;

@@ -360,7 +360,7 @@ $container = get_theme_mod( 'understrap_container_type' );
   </div>
   <div class="container-fluid">
     <div class="test-holder">
-      <div id="carouseldz" class="carousel slide" data-ride="carousel" data-pause="true" data-interval="3000">
+      <div id="carousel-dz" class="carousel slide" data-ride="carousel" data-pause="true" data-interval="3000">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img class="" src="..." alt="">
@@ -429,11 +429,11 @@ $container = get_theme_mod( 'understrap_container_type' );
             </div>
           </div>
         </div>
-        <a class="carousel-control-prev" data-target="#carouseldz" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true">prev</span>
+        <a class="carousel-control-prev" data-target="#carousel-dz" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true">< prev</span>
         </a>
-        <a class="carousel-control-next" data-target="#carouseldz" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true">next</span>
+        <a class="carousel-control-next" data-target="#carousel-dz" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true">next ></span>
         </a>
       </div>
     </div>
