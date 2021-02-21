@@ -313,9 +313,9 @@
         padding: 45px 0;
     }
 
-    .test-holder {
+    #carousel-dz {
         a {
-            color: black;
+            color: $primary;
             z-index: 100;
         }
         .carousel-caption {

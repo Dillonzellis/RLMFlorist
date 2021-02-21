@@ -355,101 +355,119 @@ $container = get_theme_mod( 'understrap_container_type' );
       We Have Worked With
     </div>
   </div>
-  <div class="container-fluid">
-    <div class="test-holder">
-      <div id="carousel-dz" class="carousel slide" data-ride="carousel" data-pause="true" data-interval="3000">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="" src="..." alt="">
-            <div class="carousel-caption">
-              <div class="worked-with-logo">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/knot-review.png" alt="the knot logo" srcset="">
-              </div>
-              <div class="worked-with-logo">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/rd-atlanta.png" alt="road atlanta logo" srcset="">
-              </div>
-              <div class="worked-with-logo">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/elan.png" alt="chateau elan logo" srcset="">
-              </div>
-              <div class="worked-with-logo">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/coca-cola.png" alt="coca cola logo" srcset="">
-              </div>
-              <div class="worked-with-logo">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/porche.png" alt="porche logo" srcset="">
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img class="" src="..." alt="">
-            <div class="carousel-caption">
-              <div class="worked-with-logo">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/wea.png" alt="weathertech logo" srcset="">
-              </div>
-              <div class="worked-with-logo">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/best-knot.png" alt="best of knot 2020" srcset="">
-              </div>
-              <div class="worked-with-logo">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/best-knot-2021.png" alt="best of knot 2021" srcset="">
-              </div>
-              <div class="worked-with-logo">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/patron.png" alt="patron logo" srcset="">
-              </div>
-              <div class="worked-with-logo">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/IMS.png" alt="IMSA logo" srcset="">
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img class="" src="..." alt="">
-            <div class="carousel-caption">
 
-              <div class="worked-with-logo">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/sono.png" alt="Williams-Sonoma logo" srcset="">
-              </div>
-              <div class="worked-with-logo">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/pottery-barn.png" alt="pottery barn logo" srcset="">
-              </div>
-              <div class="worked-with-logo">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/belk.png" alt="belk logo" srcset="">
-              </div>
-              <div class="worked-with-logo">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/audi.png" alt="audi logo" srcset="">
-              </div>
-              <div class="worked-with-logo">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/rd-atlanta.png" alt="road atlanta logo" srcset="">
-              </div>
-            </div>
+  <div id="carousel-dz" class="carousel slide" data-ride="carousel" data-pause="true" data-interval="3000">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="" src="..." alt="">
+        <div class="carousel-caption">
+          <div class="worked-with-logo">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/knot-review.png" alt="the knot logo" srcset="">
           </div>
-          <div class="carousel-item">
-            <img class="" src="..." alt="">
-            <div class="carousel-caption">
-
-              <div class="worked-with-logo">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/gm.png" alt="GM logo" srcset="">
-              </div>
-              <div class="worked-with-logo">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/nas.png" alt="nascar logo" srcset="">
-              </div>
-              <div class="worked-with-logo">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/bmw-logo.png" alt="BMW logo" srcset="">
-              </div>
-              <div class="worked-with-logo">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/mercedes-logo.png" alt="mercedes logo" srcset="">
-              </div>
-              <div class="worked-with-logo">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/ung.png" alt="UNG logo" srcset="">
-              </div>
-            </div>
+          <div class="worked-with-logo">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/rd-atlanta.png"
+              alt="road atlanta logo" srcset="">
+          </div>
+          <div class="worked-with-logo">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/elan.png" alt="chateau elan logo"
+              srcset="">
+          </div>
+          <div class="worked-with-logo">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/coca-cola.png"
+              alt="coca cola logo" srcset="">
+          </div>
+          <div class="worked-with-logo">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/porche.png" alt="porche logo"
+              srcset="">
           </div>
         </div>
-        <a class="carousel-control-prev" data-target="#carousel-dz" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true">< prev</span>
-        </a>
-        <a class="carousel-control-next" data-target="#carousel-dz" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true">next ></span>
-        </a>
+      </div>
+      <div class="carousel-item">
+        <img class="" src="..." alt="">
+        <div class="carousel-caption">
+          <div class="worked-with-logo">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/wea.png" alt="weathertech logo"
+              srcset="">
+          </div>
+          <div class="worked-with-logo">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/best-knot.png"
+              alt="best of knot 2020" srcset="">
+          </div>
+          <div class="worked-with-logo">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/best-knot-2021.png"
+              alt="best of knot 2021" srcset="">
+          </div>
+          <div class="worked-with-logo">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/patron.png" alt="patron logo"
+              srcset="">
+          </div>
+          <div class="worked-with-logo">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/IMS.png" alt="IMSA logo"
+              srcset="">
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="" src="..." alt="">
+        <div class="carousel-caption">
+
+          <div class="worked-with-logo">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/sono.png"
+              alt="Williams-Sonoma logo" srcset="">
+          </div>
+          <div class="worked-with-logo">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/pottery-barn.png"
+              alt="pottery barn logo" srcset="">
+          </div>
+          <div class="worked-with-logo">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/belk.png" alt="belk logo"
+              srcset="">
+          </div>
+          <div class="worked-with-logo">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/audi.png" alt="audi logo"
+              srcset="">
+          </div>
+          <div class="worked-with-logo">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/rd-atlanta.png"
+              alt="road atlanta logo" srcset="">
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="" src="..." alt="">
+        <div class="carousel-caption">
+
+          <div class="worked-with-logo">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/gm.png" alt="GM logo" srcset="">
+          </div>
+          <div class="worked-with-logo">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/nas.png" alt="nascar logo"
+              srcset="">
+          </div>
+          <div class="worked-with-logo">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/bmw-logo.png" alt="BMW logo"
+              srcset="">
+          </div>
+          <div class="worked-with-logo">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/mercedes-logo.png"
+              alt="mercedes logo" srcset="">
+          </div>
+          <div class="worked-with-logo">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/ung.png" alt="UNG logo" srcset="">
+          </div>
+        </div>
       </div>
     </div>
+    <a class="carousel-control-prev" data-target="#carousel-dz" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true">
+        <i class="fas fa-arrow-left fa-2x"></i>
+      </span>
+    </a> 
+    <a class="carousel-control-next" data-target="#carousel-dz" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true">
+          <i class="fas fa-arrow-right  fa-2x"></i>
+        </span>
+    </a>
   </div>
 </div>
 
