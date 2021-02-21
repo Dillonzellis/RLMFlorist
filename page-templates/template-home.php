@@ -354,9 +354,6 @@ $container = get_theme_mod( 'understrap_container_type' );
     <div class="worked-with-title">
       We Have Worked With
     </div>
-    <div class="carousel">
-      <p>carousel</p>
-    </div>
   </div>
   <div class="container-fluid">
     <div class="test-holder">
@@ -392,7 +389,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                 <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/best-knot.png" alt="best of knot 2020" srcset="">
               </div>
               <div class="worked-with-logo">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/" alt="best of knot 2021" srcset="">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/best-knot-2021.png" alt="best of knot 2021" srcset="">
               </div>
               <div class="worked-with-logo">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/patron.png" alt="patron logo" srcset="">
