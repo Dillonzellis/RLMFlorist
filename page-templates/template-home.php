@@ -366,19 +366,39 @@ $container = get_theme_mod( 'understrap_container_type' );
             <img class="" src="..." alt="">
             <div class="carousel-caption">
               <div class="worked-with-logo">
-                logo 1
+                <img src="<?php echo get_template_directory_uri(); ?>/img/knot-review.png" alt="the knot logo" srcset="">
               </div>
               <div class="worked-with-logo">
-                logo 2
+                <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/rd-atlanta.png" alt="road atlanta logo" srcset="">
               </div>
               <div class="worked-with-logo">
-                logo 3
+                <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/elan.png" alt="chateau elan logo" srcset="">
               </div>
               <div class="worked-with-logo">
-                logo 4
+                <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/coca-cola.png" alt="coca cola logo" srcset="">
               </div>
               <div class="worked-with-logo">
-                logo 5
+                <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/porche.png" alt="porche logo" srcset="">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="" src="..." alt="">
+            <div class="carousel-caption">
+              <div class="worked-with-logo">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/wea.png" alt="weathertech logo" srcset="">
+              </div>
+              <div class="worked-with-logo">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/best-knot.png" alt="best of knot 2020" srcset="">
+              </div>
+              <div class="worked-with-logo">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/" alt="best of knot 2021" srcset="">
+              </div>
+              <div class="worked-with-logo">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/patron.png" alt="patron logo" srcset="">
+              </div>
+              <div class="worked-with-logo">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/IMS.png" alt="IMSA logo" srcset="">
               </div>
             </div>
           </div>
@@ -387,22 +407,20 @@ $container = get_theme_mod( 'understrap_container_type' );
             <div class="carousel-caption">
 
               <div class="worked-with-logo">
-                logo 1
+                <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/sono.png" alt="Williams-Sonoma logo" srcset="">
               </div>
               <div class="worked-with-logo">
-                logo 2
+                <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/pottery-barn.png" alt="pottery barn logo" srcset="">
               </div>
               <div class="worked-with-logo">
-                logo 3
+                <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/belk.png" alt="belk logo" srcset="">
               </div>
               <div class="worked-with-logo">
-                logo 4
+                <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/audi.png" alt="audi logo" srcset="">
               </div>
               <div class="worked-with-logo">
-                logo 5
+                <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/rd-atlanta.png" alt="road atlanta logo" srcset="">
               </div>
-
-
             </div>
           </div>
           <div class="carousel-item">
@@ -410,22 +428,20 @@ $container = get_theme_mod( 'understrap_container_type' );
             <div class="carousel-caption">
 
               <div class="worked-with-logo">
-                logo 1
+                <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/gm.png" alt="GM logo" srcset="">
               </div>
               <div class="worked-with-logo">
-                logo 2
+                <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/nas.png" alt="nascar logo" srcset="">
               </div>
               <div class="worked-with-logo">
-                logo 3
+                <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/bmw-logo.png" alt="BMW logo" srcset="">
               </div>
               <div class="worked-with-logo">
-                logo 4
+                <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/mercedes-logo.png" alt="mercedes logo" srcset="">
               </div>
               <div class="worked-with-logo">
-                logo 5
+                <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/ung.png" alt="UNG logo" srcset="">
               </div>
-
-
             </div>
           </div>
         </div>
