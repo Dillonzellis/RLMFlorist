@@ -140,7 +140,7 @@
     }
 }
 
-// shop card
+// shop cards
 .shop-card-holder {
     .shop-card-titles-holder {
         color: $primary;
@@ -162,14 +162,62 @@
         }
     }
 
-    .card-deck {
-        padding-bottom: 80px;
-
-        .card-img-top {
-            height: 405px;
-            width: 405px;
+    .wp-block-group{
+        .wc-block-grid__products{
+            padding-left: 120px;
+            padding-right: 120px;
+            .wc-block-grid__product{
+                span {
+                    font-size: 16px;
+                    color: black;
+                }
+                .wc-block-grid__product-link{
+                    &:hover {
+                        text-decoration: none;
+                    }
+                    .wc-block-grid__product-title{
+                        color: $primary;
+                        font-size: 20px;
+                    }
+                }
+                .btn {
+                    width: 100%;
+                    color: $primary;
+                    border: 2px solid $primary;
+                    padding: 16px 25px;
+                    margin-bottom: 20px;
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 19.5px;
+                    &:hover{
+                        background-color: $primary;
+                        color: white;
+                    }
+                }
+                .added_to_cart{
+                    color: $primary;
+                    font-size: 20px;
+                    &:hover {
+                        text-decoration: none;
+                    }
+                }
+            }
         }
     }
+
+
+
+
+
+
+    // .card-deck {
+    //     padding-bottom: 80px;
+
+    //     .card-img-top {
+    //         height: 405px;
+    //         width: 405px;
+    //     }
+    // }
 }
 
 // video card

@@ -142,47 +142,92 @@ $container = get_theme_mod( 'understrap_container_type' );
   </div>
 </div>
 
-<div class="shop-card-holder">
-  <div class="container">
-    <div class="shop-card-titles-holder">
-      <div class="row">
-        <div class="col">
-          <div class="sub-title">the</div>
-          <div class="shop-card-title">
-            valentine's collection
+<div class="featured-shop">
+  <div class="shop-card-holder">
+    <div class="container-fluid">
+      <div class="shop-card-titles-holder">
+        <div class="row">
+          <div class="col">
+            <div class="sub-title">the</div>
+            <div class="shop-card-title">
+              valentine's collection
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="card-deck">
-      <div class="card">
-        <img class="card-img-top" src="//www.html.am/images/samples/remarkables_queenstown_new_zealand-300x225.jpg"
-          alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <button type="button" class="btn btn-light">add to cart</button>
+      <div class="wp-block-group">
+        <div class="wp-block-group__inner-container">
+          <div
+            class="wc-block-grid wp-block-handpicked-products wc-block-handpicked-products has-3-columns has-multiple-rows has-aligned-buttons">
+            <ul class="wc-block-grid__products">
+              <li class="wc-block-grid__product">
+                <a href="http://rlmdzstrap.local/product/classic-bouquet/" class="wc-block-grid__product-link">
+                  <div class="wc-block-grid__product-image"><img width="228" height="228"
+                      src="http://rlmdzstrap.local/wp-content/uploads/2020/02/cbouquet-228x228-1.jpg"
+                      class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy"
+                      srcset="http://rlmdzstrap.local/wp-content/uploads/2020/02/cbouquet-228x228-1.jpg 228w, http://rlmdzstrap.local/wp-content/uploads/2020/02/cbouquet-228x228-1-150x150.jpg 150w, http://rlmdzstrap.local/wp-content/uploads/2020/02/cbouquet-228x228-1-100x100.jpg 100w"
+                      sizes="(max-width: 228px) 100vw, 228px" /></div>
+                  <div class="wc-block-grid__product-title">Classic Bouquet</div>
+                </a>
+
+                <div class="wc-block-grid__product-price price"><span class="woocommerce-Price-amount amount"><bdi><span
+                        class="woocommerce-Price-currencySymbol">$</span>44.99</bdi></span></div>
+
+                <div class="wp-block-button wc-block-grid__product-add-to-cart"><a href="?add-to-cart=1791"
+                    aria-label="Add &ldquo;Classic Bouquet&rdquo; to your cart" data-quantity="1" data-product_id="1791"
+                    data-product_sku="" rel="nofollow"
+                    class="btn wp-block-button__link add_to_cart_button ajax_add_to_cart">Add
+                    to cart</a></div>
+              </li>
+              <li class="wc-block-grid__product">
+                <a href="http://rlmdzstrap.local/product/precious-thoughts/" class="wc-block-grid__product-link">
+                  <div class="wc-block-grid__product-image"><img width="228" height="228"
+                      src="http://rlmdzstrap.local/wp-content/uploads/2020/02/pthoughts.jpg"
+                      class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy"
+                      srcset="http://rlmdzstrap.local/wp-content/uploads/2020/02/pthoughts.jpg 228w, http://rlmdzstrap.local/wp-content/uploads/2020/02/pthoughts-150x150.jpg 150w, http://rlmdzstrap.local/wp-content/uploads/2020/02/pthoughts-100x100.jpg 100w"
+                      sizes="(max-width: 228px) 100vw, 228px" /></div>
+                  <div class="wc-block-grid__product-title">Precious Thoughts</div>
+                </a>
+
+                <div class="wc-block-grid__product-price price"><span class="woocommerce-Price-amount amount"><bdi><span
+                        class="woocommerce-Price-currencySymbol">$</span>74.99</bdi></span></div>
+
+                <div class="wp-block-button wc-block-grid__product-add-to-cart"><a href="?add-to-cart=1965"
+                    aria-label="Add &ldquo;Precious Thoughts&rdquo; to your cart" data-quantity="1"
+                    data-product_id="1965" data-product_sku="" rel="nofollow"
+                    class="btn wp-block-button__link add_to_cart_button ajax_add_to_cart">Add
+                    to cart</a></div>
+              </li>
+              <li class="wc-block-grid__product">
+                <a href="http://rlmdzstrap.local/product/mixed-basket-arrangement/" class="wc-block-grid__product-link">
+                  <div class="wc-block-grid__product-image"><img width="300" height="300"
+                      src="http://rlmdzstrap.local/wp-content/uploads/2020/02/Mixed-Basket-Arrangement-300x300.jpg"
+                      class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy"
+                      srcset="http://rlmdzstrap.local/wp-content/uploads/2020/02/Mixed-Basket-Arrangement-300x300.jpg 300w, http://rlmdzstrap.local/wp-content/uploads/2020/02/Mixed-Basket-Arrangement-150x150.jpg 150w, http://rlmdzstrap.local/wp-content/uploads/2020/02/Mixed-Basket-Arrangement-100x100.jpg 100w"
+                      sizes="(max-width: 300px) 100vw, 300px" /></div>
+                  <div class="wc-block-grid__product-title">Mixed Basket Arrangement</div>
+                </a>
+
+                <div class="wc-block-grid__product-price price"><span class="woocommerce-Price-amount amount"><bdi><span
+                        class="woocommerce-Price-currencySymbol">$</span>69.99</bdi></span></div>
+
+                <div class="wp-block-button wc-block-grid__product-add-to-cart"><a href="?add-to-cart=1980"
+                    aria-label="Add &ldquo;Mixed Basket Arrangement&rdquo; to your cart" data-quantity="1"
+                    data-product_id="1980" data-product_sku="" rel="nofollow"
+                    class="btn wp-block-button__link add_to_cart_button ajax_add_to_cart">Add to cart</a></div>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-      <div class="card">
-        <img class="card-img-top" src="//www.html.am/images/samples/remarkables_queenstown_new_zealand-300x225.jpg"
-          alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <button type="button" class="btn btn-light">add to cart</button>
-        </div>
-      </div>
-      <div class="card">
-        <img class="card-img-top" src="//www.html.am/images/samples/remarkables_queenstown_new_zealand-300x225.jpg"
-          alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <button type="button" class="btn btn-light">add to cart</button>
-        </div>
-      </div>
+
+
     </div>
   </div>
+
 </div>
+
 
 <div class="video-banner-holder">
   <div class="container">
@@ -202,42 +247,85 @@ $container = get_theme_mod( 'understrap_container_type' );
   </div>
 </div>
 
-<div class="shop-card-holder">
-  <div class="container">
-    <div class="shop-card-titles-holder">
-      <div class="row">
-        <div class="col">
-          <div class="sub-title">our</div>
-          <div class="shop-card-title">
-            best sellers
+<div class="best-sellers-holder">
+  <div class="shop-card-holder">
+    <div class="container-fluid">
+      <div class="shop-card-titles-holder">
+        <div class="row">
+          <div class="col">
+            <div class="sub-title">our</div>
+            <div class="shop-card-title">
+              best sellers
+            </div>
           </div>
         </div>
       </div>
-    </div>
+      <div class="wp-block-group">
+        <div class="wp-block-group__inner-container">
+          <div
+            class="wc-block-grid wp-block-handpicked-products wc-block-handpicked-products has-3-columns has-multiple-rows has-aligned-buttons">
+            <ul class="wc-block-grid__products">
+              <li class="wc-block-grid__product">
+                <a href="http://rlmdzstrap.local/product/6-red-roses/" class="wc-block-grid__product-link">
+                  <div class="wc-block-grid__product-image"><img width="228" height="228"
+                      src="http://rlmdzstrap.local/wp-content/uploads/2020/02/6redrose.jpg"
+                      class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy"
+                      srcset="http://rlmdzstrap.local/wp-content/uploads/2020/02/6redrose.jpg 228w, http://rlmdzstrap.local/wp-content/uploads/2020/02/6redrose-150x150.jpg 150w, http://rlmdzstrap.local/wp-content/uploads/2020/02/6redrose-100x100.jpg 100w"
+                      sizes="(max-width: 228px) 100vw, 228px" /></div>
+                  <div class="wc-block-grid__product-title">Six Red Roses</div>
+                </a>
 
-    <div class="card-deck">
-      <div class="card">
-        <img class="card-img-top" src="//www.html.am/images/samples/remarkables_queenstown_new_zealand-300x225.jpg"
-          alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <button type="button" class="btn btn-light">add to cart</button>
-        </div>
-      </div>
-      <div class="card">
-        <img class="card-img-top" src="//www.html.am/images/samples/remarkables_queenstown_new_zealand-300x225.jpg"
-          alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <button type="button" class="btn btn-light">add to cart</button>
-        </div>
-      </div>
-      <div class="card">
-        <img class="card-img-top" src="//www.html.am/images/samples/remarkables_queenstown_new_zealand-300x225.jpg"
-          alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <button type="button" class="btn btn-light">add to cart</button>
+                <div class="wc-block-grid__product-price price"><span class="woocommerce-Price-amount amount"><bdi><span
+                        class="woocommerce-Price-currencySymbol">$</span>29.99</bdi></span></div>
+
+                <div class="wp-block-button wc-block-grid__product-add-to-cart">
+                  <a href="?add-to-cart=1399" aria-label="Add &ldquo;Six Red Roses&rdquo; to your cart"
+                    data-quantity="1" data-product_id="1399" data-product_sku="" rel="nofollow"
+                    class="btn wp-block-button__link add_to_cart_button ajax_add_to_cart">
+                    Add to cart
+                  </a>
+                </div>
+              </li>
+              <li class="wc-block-grid__product">
+                <a href="http://rlmdzstrap.local/product/assorted-dozen/" class="wc-block-grid__product-link">
+                  <div class="wc-block-grid__product-image"><img width="228" height="228"
+                      src="http://rlmdzstrap.local/wp-content/uploads/2020/02/bbycakes.jpg"
+                      class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy"
+                      srcset="http://rlmdzstrap.local/wp-content/uploads/2020/02/bbycakes.jpg 228w, http://rlmdzstrap.local/wp-content/uploads/2020/02/bbycakes-150x150.jpg 150w, http://rlmdzstrap.local/wp-content/uploads/2020/02/bbycakes-100x100.jpg 100w"
+                      sizes="(max-width: 228px) 100vw, 228px" /></div>
+                  <div class="wc-block-grid__product-title">Assorted Dozen</div>
+                </a>
+
+                <div class="wc-block-grid__product-price price"><span class="woocommerce-Price-amount amount"><bdi><span
+                        class="woocommerce-Price-currencySymbol">&pound;</span>10.50</bdi></span></div>
+
+                <div class="wp-block-button wc-block-grid__product-add-to-cart"><a href="?add-to-cart=1402"
+                    aria-label="Add &ldquo;Assorted Dozen&rdquo; to your cart" data-quantity="1" data-product_id="1402"
+                    data-product_sku="" rel="nofollow"
+                    class="btn wp-block-button__link add_to_cart_button ajax_add_to_cart">Add
+                    to cart</a></div>
+              </li>
+              <li class="wc-block-grid__product">
+                <a href="http://rlmdzstrap.local/product/12-roses/" class="wc-block-grid__product-link">
+                  <div class="wc-block-grid__product-image"><img width="300" height="300"
+                      src="http://rlmdzstrap.local/wp-content/uploads/2020/02/12-roses-RLM-90.00-300x300.jpg"
+                      class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy"
+                      srcset="http://rlmdzstrap.local/wp-content/uploads/2020/02/12-roses-RLM-90.00-300x300.jpg 300w, http://rlmdzstrap.local/wp-content/uploads/2020/02/12-roses-RLM-90.00-150x150.jpg 150w, http://rlmdzstrap.local/wp-content/uploads/2020/02/12-roses-RLM-90.00-768x767.jpg 768w, http://rlmdzstrap.local/wp-content/uploads/2020/02/12-roses-RLM-90.00-600x599.jpg 600w, http://rlmdzstrap.local/wp-content/uploads/2020/02/12-roses-RLM-90.00-100x100.jpg 100w, http://rlmdzstrap.local/wp-content/uploads/2020/02/12-roses-RLM-90.00.jpg 1006w"
+                      sizes="(max-width: 300px) 100vw, 300px" /></div>
+                  <div class="wc-block-grid__product-title">A Dozen Red Roses</div>
+                </a>
+
+                <div class="wc-block-grid__product-price price"><span class="woocommerce-Price-amount amount"><bdi><span
+                        class="woocommerce-Price-currencySymbol">&pound;</span>59.99</bdi></span></div>
+
+                <div class="wp-block-button wc-block-grid__product-add-to-cart"><a href="?add-to-cart=1759"
+                    aria-label="Add &ldquo;A Dozen Red Roses&rdquo; to your cart" data-quantity="1"
+                    data-product_id="1759" data-product_sku="" rel="nofollow"
+                    class="btn wp-block-button__link add_to_cart_button ajax_add_to_cart">Add
+                    to cart</a></div>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
@@ -290,7 +378,9 @@ $container = get_theme_mod( 'understrap_container_type' );
           </div>
           <div class="review-customer-holder">
             <div class="review-customer-img">
-              <a href="https://www.theknot.com/marketplace/rlm-affairs-estate-room-and-gardens-wysteria-room-gainesville-ga-2014225" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/knot-review.png" alt="" srcset=""></a>
+              <a href="https://www.theknot.com/marketplace/rlm-affairs-estate-room-and-gardens-wysteria-room-gainesville-ga-2014225"
+                target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/knot-review.png" alt=""
+                  srcset=""></a>
             </div>
             <div class="review-customer">
               <div class="review-customer-name">
@@ -331,7 +421,9 @@ $container = get_theme_mod( 'understrap_container_type' );
           </div>
           <div class="review-customer-holder">
             <div class="review-customer-img">
-              <a href="https://www.theknot.com/marketplace/rlm-affairs-estate-room-and-gardens-wysteria-room-gainesville-ga-2014225" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/knot-review.png" alt="" srcset=""></a>
+              <a href="https://www.theknot.com/marketplace/rlm-affairs-estate-room-and-gardens-wysteria-room-gainesville-ga-2014225"
+                target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/knot-review.png" alt=""
+                  srcset=""></a>
             </div>
             <div class="review-customer">
               <div class="review-customer-name">
@@ -462,15 +554,14 @@ $container = get_theme_mod( 'understrap_container_type' );
       <span class="carousel-control-prev-icon" aria-hidden="true">
         <i class="fas fa-arrow-left fa-2x"></i>
       </span>
-    </a> 
+    </a>
     <a class="carousel-control-next" data-target="#carousel-dz" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true">
-          <i class="fas fa-arrow-right  fa-2x"></i>
-        </span>
+      <span class="carousel-control-next-icon" aria-hidden="true">
+        <i class="fas fa-arrow-right  fa-2x"></i>
+      </span>
     </a>
   </div>
 </div>
-
 
 <div class="covid-holder">
   <div class="container">
@@ -497,6 +588,10 @@ $container = get_theme_mod( 'understrap_container_type' );
     </div>
   </div>
 </div>
+
+
+
+
 
 
 <?php get_footer(); ?>
