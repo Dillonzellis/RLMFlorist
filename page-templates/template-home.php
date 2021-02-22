@@ -290,7 +290,7 @@ $container = get_theme_mod( 'understrap_container_type' );
           </div>
           <div class="review-customer-holder">
             <div class="review-customer-img">
-              <img src="<?php echo get_template_directory_uri(); ?>/img/knot-review.png" alt="" srcset="">
+              <a href="https://www.theknot.com/marketplace/rlm-affairs-estate-room-and-gardens-wysteria-room-gainesville-ga-2014225" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/knot-review.png" alt="" srcset=""></a>
             </div>
             <div class="review-customer">
               <div class="review-customer-name">
@@ -331,7 +331,7 @@ $container = get_theme_mod( 'understrap_container_type' );
           </div>
           <div class="review-customer-holder">
             <div class="review-customer-img">
-              <img src="<?php echo get_template_directory_uri(); ?>/img/knot-review.png" alt="" srcset="">
+              <a href="https://www.theknot.com/marketplace/rlm-affairs-estate-room-and-gardens-wysteria-room-gainesville-ga-2014225" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/knot-review.png" alt="" srcset=""></a>
             </div>
             <div class="review-customer">
               <div class="review-customer-name">
