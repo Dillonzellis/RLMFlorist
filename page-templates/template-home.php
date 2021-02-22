@@ -552,12 +552,12 @@ $container = get_theme_mod( 'understrap_container_type' );
     </div>
     <a class="carousel-control-prev" data-target="#carousel-dz" role="button" data-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true">
-        <i class="fas fa-arrow-left fa-2x"></i>
+        <i class="fas fa-chevron-left fa-2x"></i>
       </span>
     </a>
     <a class="carousel-control-next" data-target="#carousel-dz" role="button" data-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true">
-        <i class="fas fa-arrow-right  fa-2x"></i>
+        <i class="fas fa-chevron-right fa-2x"></i>
       </span>
     </a>
   </div>
