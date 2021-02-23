@@ -1,6 +1,6 @@
 body {
     font-family: $primary-font;
-    background-color: #FAFAFA;
+    background-color: $body-background;
 }
 
 .btn {
@@ -65,4 +65,9 @@ body {
     to {
         opacity: 1;
     }
+}
+
+hr{
+    width: 70%;
+    border-top: 1.8px solid $primary;
 }
