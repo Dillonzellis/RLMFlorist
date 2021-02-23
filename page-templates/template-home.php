@@ -99,7 +99,7 @@ $container = get_theme_mod( 'understrap_container_type' );
               </div>
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="<?php echo get_template_directory_uri(); ?>/img/cta.jpg" alt="" srcset="">
+              <img loading=lazy class="d-block w-100" src="<?php echo get_template_directory_uri(); ?>/img/cta.jpg" alt="" srcset="">
               <div class="carousel-caption">
                 <div class="cap-wrapper">
                   <h1 class="main-title">
@@ -163,7 +163,7 @@ $container = get_theme_mod( 'understrap_container_type' );
             <ul class="wc-block-grid__products">
               <li class="wc-block-grid__product">
                 <a href="http://rlmdzstrap.local/product/classic-bouquet/" class="wc-block-grid__product-link">
-                  <div class="wc-block-grid__product-image"><img width="228" height="228"
+                  <div class="wc-block-grid__product-image"><img loading=lazy width="228" height="228"
                       src="http://rlmdzstrap.local/wp-content/uploads/2020/02/cbouquet-228x228-1.jpg"
                       class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy"
                       srcset="http://rlmdzstrap.local/wp-content/uploads/2020/02/cbouquet-228x228-1.jpg 228w, http://rlmdzstrap.local/wp-content/uploads/2020/02/cbouquet-228x228-1-150x150.jpg 150w, http://rlmdzstrap.local/wp-content/uploads/2020/02/cbouquet-228x228-1-100x100.jpg 100w"
@@ -182,7 +182,7 @@ $container = get_theme_mod( 'understrap_container_type' );
               </li>
               <li class="wc-block-grid__product">
                 <a href="http://rlmdzstrap.local/product/precious-thoughts/" class="wc-block-grid__product-link">
-                  <div class="wc-block-grid__product-image"><img width="228" height="228"
+                  <div class="wc-block-grid__product-image"><img loading=lazy width="228" height="228"
                       src="http://rlmdzstrap.local/wp-content/uploads/2020/02/pthoughts.jpg"
                       class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy"
                       srcset="http://rlmdzstrap.local/wp-content/uploads/2020/02/pthoughts.jpg 228w, http://rlmdzstrap.local/wp-content/uploads/2020/02/pthoughts-150x150.jpg 150w, http://rlmdzstrap.local/wp-content/uploads/2020/02/pthoughts-100x100.jpg 100w"
@@ -201,7 +201,7 @@ $container = get_theme_mod( 'understrap_container_type' );
               </li>
               <li class="wc-block-grid__product">
                 <a href="http://rlmdzstrap.local/product/mixed-basket-arrangement/" class="wc-block-grid__product-link">
-                  <div class="wc-block-grid__product-image"><img width="300" height="300"
+                  <div class="wc-block-grid__product-image"><img loading=lazy width="300" height="300"
                       src="http://rlmdzstrap.local/wp-content/uploads/2020/02/Mixed-Basket-Arrangement-300x300.jpg"
                       class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy"
                       srcset="http://rlmdzstrap.local/wp-content/uploads/2020/02/Mixed-Basket-Arrangement-300x300.jpg 300w, http://rlmdzstrap.local/wp-content/uploads/2020/02/Mixed-Basket-Arrangement-150x150.jpg 150w, http://rlmdzstrap.local/wp-content/uploads/2020/02/Mixed-Basket-Arrangement-100x100.jpg 100w"
@@ -228,21 +228,19 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 </div>
 
-
-<div class="video-banner-holder">
-  <div class="container">
-    <div class="row">
-      <div class="col">
-        <div class="video-title">
-          Farm to Table
-        </div>
-        <div class="video-sub-title">
-          Fair Trade Flowers
-        </div>
-        <div class="video-sub2-title">
-          42 Years of Award Winning Designs
-        </div>
-      </div>
+<div class="strap-video-holder">
+  <div class="embed-responsive embed-responsive-4by3 video-bg">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/oZwcrNL-CJ4?playlist=oZwcrNL-CJ4&loop=1&controls=0&modestbranding=1&showinfo=0&rel=0&playsinline=1&showinfo=0&rel=0&enablejsapi=1&mute=1&autoplay=1"></iframe>
+  </div>
+  <div class="video-foreground">
+    <div class="video-title">
+       Farm to Table
+    </div>
+    <div class="video-sub-title">
+      Fair Trade Flowers
+    </div>
+    <div class="video-sub2-title">
+      42 Years of Award Winning Designs
     </div>
   </div>
 </div>
@@ -267,7 +265,7 @@ $container = get_theme_mod( 'understrap_container_type' );
             <ul class="wc-block-grid__products">
               <li class="wc-block-grid__product">
                 <a href="http://rlmdzstrap.local/product/6-red-roses/" class="wc-block-grid__product-link">
-                  <div class="wc-block-grid__product-image"><img width="228" height="228"
+                  <div class="wc-block-grid__product-image"><img loading=lazy width="228" height="228"
                       src="http://rlmdzstrap.local/wp-content/uploads/2020/02/6redrose.jpg"
                       class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy"
                       srcset="http://rlmdzstrap.local/wp-content/uploads/2020/02/6redrose.jpg 228w, http://rlmdzstrap.local/wp-content/uploads/2020/02/6redrose-150x150.jpg 150w, http://rlmdzstrap.local/wp-content/uploads/2020/02/6redrose-100x100.jpg 100w"
@@ -288,7 +286,7 @@ $container = get_theme_mod( 'understrap_container_type' );
               </li>
               <li class="wc-block-grid__product">
                 <a href="http://rlmdzstrap.local/product/assorted-dozen/" class="wc-block-grid__product-link">
-                  <div class="wc-block-grid__product-image"><img width="228" height="228"
+                  <div class="wc-block-grid__product-image"><img loading=lazy width="228" height="228"
                       src="http://rlmdzstrap.local/wp-content/uploads/2020/02/bbycakes.jpg"
                       class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy"
                       srcset="http://rlmdzstrap.local/wp-content/uploads/2020/02/bbycakes.jpg 228w, http://rlmdzstrap.local/wp-content/uploads/2020/02/bbycakes-150x150.jpg 150w, http://rlmdzstrap.local/wp-content/uploads/2020/02/bbycakes-100x100.jpg 100w"
@@ -307,7 +305,7 @@ $container = get_theme_mod( 'understrap_container_type' );
               </li>
               <li class="wc-block-grid__product">
                 <a href="http://rlmdzstrap.local/product/12-roses/" class="wc-block-grid__product-link">
-                  <div class="wc-block-grid__product-image"><img width="300" height="300"
+                  <div class="wc-block-grid__product-image"><img loading=lazy width="300" height="300"
                       src="http://rlmdzstrap.local/wp-content/uploads/2020/02/12-roses-RLM-90.00-300x300.jpg"
                       class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy"
                       srcset="http://rlmdzstrap.local/wp-content/uploads/2020/02/12-roses-RLM-90.00-300x300.jpg 300w, http://rlmdzstrap.local/wp-content/uploads/2020/02/12-roses-RLM-90.00-150x150.jpg 150w, http://rlmdzstrap.local/wp-content/uploads/2020/02/12-roses-RLM-90.00-768x767.jpg 768w, http://rlmdzstrap.local/wp-content/uploads/2020/02/12-roses-RLM-90.00-600x599.jpg 600w, http://rlmdzstrap.local/wp-content/uploads/2020/02/12-roses-RLM-90.00-100x100.jpg 100w, http://rlmdzstrap.local/wp-content/uploads/2020/02/12-roses-RLM-90.00.jpg 1006w"
@@ -379,7 +377,7 @@ $container = get_theme_mod( 'understrap_container_type' );
           <div class="review-customer-holder">
             <div class="review-customer-img">
               <a href="https://www.theknot.com/marketplace/rlm-affairs-estate-room-and-gardens-wysteria-room-gainesville-ga-2014225"
-                target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/knot-review.png" alt=""
+                target="_blank"><img loading=lazy src="<?php echo get_template_directory_uri(); ?>/img/knot-review.png" alt=""
                   srcset=""></a>
             </div>
             <div class="review-customer">
@@ -400,7 +398,7 @@ $container = get_theme_mod( 'understrap_container_type' );
           </div>
           <div class="review-customer-holder">
             <div class="review-customer-img">
-              <img src="<?php echo get_template_directory_uri(); ?>/img/g.png" alt="" srcset="">
+              <img loading=lazy src="<?php echo get_template_directory_uri(); ?>/img/g.png" alt="" srcset="">
             </div>
             <div class="review-customer">
               <div class="review-customer-name">
@@ -422,7 +420,7 @@ $container = get_theme_mod( 'understrap_container_type' );
           <div class="review-customer-holder">
             <div class="review-customer-img">
               <a href="https://www.theknot.com/marketplace/rlm-affairs-estate-room-and-gardens-wysteria-room-gainesville-ga-2014225"
-                target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/knot-review.png" alt=""
+                target="_blank"><img loading=lazy src="<?php echo get_template_directory_uri(); ?>/img/knot-review.png" alt=""
                   srcset=""></a>
             </div>
             <div class="review-customer">
@@ -454,22 +452,22 @@ $container = get_theme_mod( 'understrap_container_type' );
         <img class="" src="..." alt="">
         <div class="carousel-caption">
           <div class="worked-with-logo">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/knot-review.png" alt="the knot logo" srcset="">
+            <img loading=lazy src="<?php echo get_template_directory_uri(); ?>/img/knot-review.png" alt="the knot logo" srcset="">
           </div>
           <div class="worked-with-logo">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/rd-atlanta.png"
+            <img loading=lazy src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/rd-atlanta.png"
               alt="road atlanta logo" srcset="">
           </div>
           <div class="worked-with-logo">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/elan.png" alt="chateau elan logo"
+            <img loading=lazy src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/elan.png" alt="chateau elan logo"
               srcset="">
           </div>
           <div class="worked-with-logo">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/coca-cola.png"
+            <img loading=lazy src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/coca-cola.png"
               alt="coca cola logo" srcset="">
           </div>
           <div class="worked-with-logo">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/porche.png" alt="porche logo"
+            <img loading=lazy src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/porche.png" alt="porche logo"
               srcset="">
           </div>
         </div>
@@ -478,23 +476,23 @@ $container = get_theme_mod( 'understrap_container_type' );
         <img class="" src="..." alt="">
         <div class="carousel-caption">
           <div class="worked-with-logo">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/wea.png" alt="weathertech logo"
+            <img loading=lazy src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/wea.png" alt="weathertech logo"
               srcset="">
           </div>
           <div class="worked-with-logo">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/best-knot.png"
+            <img loading=lazy src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/best-knot.png"
               alt="best of knot 2020" srcset="">
           </div>
           <div class="worked-with-logo">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/best-knot-2021.png"
+            <img loading=lazy src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/best-knot-2021.png"
               alt="best of knot 2021" srcset="">
           </div>
           <div class="worked-with-logo">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/patron.png" alt="patron logo"
+            <img loading=lazy src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/patron.png" alt="patron logo"
               srcset="">
           </div>
           <div class="worked-with-logo">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/IMS.png" alt="IMSA logo"
+            <img loading=lazy src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/IMS.png" alt="IMSA logo"
               srcset="">
           </div>
         </div>
@@ -504,23 +502,23 @@ $container = get_theme_mod( 'understrap_container_type' );
         <div class="carousel-caption">
 
           <div class="worked-with-logo">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/sono.png"
+            <img loading=lazy src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/sono.png"
               alt="Williams-Sonoma logo" srcset="">
           </div>
           <div class="worked-with-logo">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/pottery-barn.png"
+            <img loading=lazy src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/pottery-barn.png"
               alt="pottery barn logo" srcset="">
           </div>
           <div class="worked-with-logo">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/belk.png" alt="belk logo"
+            <img loading=lazy src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/belk.png" alt="belk logo"
               srcset="">
           </div>
           <div class="worked-with-logo">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/audi.png" alt="audi logo"
+            <img loading=lazy src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/audi.png" alt="audi logo"
               srcset="">
           </div>
           <div class="worked-with-logo">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/rd-atlanta.png"
+            <img loading=lazy src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/rd-atlanta.png"
               alt="road atlanta logo" srcset="">
           </div>
         </div>
@@ -530,22 +528,22 @@ $container = get_theme_mod( 'understrap_container_type' );
         <div class="carousel-caption">
 
           <div class="worked-with-logo">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/gm.png" alt="GM logo" srcset="">
+            <img loading=lazy src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/gm.png" alt="GM logo" srcset="">
           </div>
           <div class="worked-with-logo">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/nas.png" alt="nascar logo"
+            <img loading=lazy src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/nas.png" alt="nascar logo"
               srcset="">
           </div>
           <div class="worked-with-logo">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/bmw-logo.png" alt="BMW logo"
+            <img loading=lazy src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/bmw-logo.png" alt="BMW logo"
               srcset="">
           </div>
           <div class="worked-with-logo">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/mercedes-logo.png"
+            <img loading=lazy src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/mercedes-logo.png"
               alt="mercedes logo" srcset="">
           </div>
           <div class="worked-with-logo">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/ung.png" alt="UNG logo" srcset="">
+            <img loading=lazy src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/ung.png" alt="UNG logo" srcset="">
           </div>
         </div>
       </div>
@@ -591,12 +589,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 
 
-<!-- 16:9 aspect ratio -->
-<div class="strap-video-holder">
-  <div class="embed-responsive embed-responsive-4by3 video-bg">
-    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/oZwcrNL-CJ4?start=5&end=10&playlist=oZwcrNL-CJ4&loop=1&controls=0&modestbranding=1&showinfo=0&rel=0&playsinline=1&showinfo=0&rel=0&enablejsapi=1&mute=1&autoplay=1"></iframe>
-  </div>
-</div>
+
+
 
 
 
