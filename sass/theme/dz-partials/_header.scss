@@ -162,24 +162,28 @@
         }
     }
 
-    .wp-block-group{
-        .wc-block-grid__products{
+    .wp-block-group {
+        .wc-block-grid__products {
             padding-left: 120px;
             padding-right: 120px;
-            .wc-block-grid__product{
+
+            .wc-block-grid__product {
                 span {
                     font-size: 16px;
                     color: black;
                 }
-                .wc-block-grid__product-link{
+
+                .wc-block-grid__product-link {
                     &:hover {
                         text-decoration: none;
                     }
-                    .wc-block-grid__product-title{
+
+                    .wc-block-grid__product-title {
                         color: $primary;
                         font-size: 20px;
                     }
                 }
+
                 .btn {
                     width: 100%;
                     color: $primary;
@@ -189,14 +193,17 @@
                     font-weight: 700;
                     font-size: 20px;
                     line-height: 19.5px;
-                    &:hover{
+
+                    &:hover {
                         background-color: $primary;
                         color: white;
                     }
                 }
-                .added_to_cart{
+
+                .added_to_cart {
                     color: $primary;
                     font-size: 20px;
+
                     &:hover {
                         text-decoration: none;
                     }
@@ -367,6 +374,7 @@
             color: $primary;
             z-index: 100;
         }
+
         .carousel-caption {
             position: relative;
             display: flex;
@@ -374,6 +382,7 @@
             left: 0;
             right: 0;
             bottom: 0;
+
             .worked-with-logo {
                 display: flex;
                 align-items: center;
@@ -409,3 +418,69 @@
         font-size: 14px;
     }
 }
+
+
+// background color : black
+// opacity 0.6
+
+
+.test-video-holder {
+    background-color: black;
+    position: relative;
+    color: white;
+    height: 762px;
+    .video-bg {
+        pointer-events: none;
+        z-index: -99;
+        opacity: 0.6;
+        iframe {
+            width: 100%;
+            height: 762px;
+            position: absolute; 
+            border: none;
+            overflow: hidden;
+        }
+    }
+    .video-foreground {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        .video-title {
+            padding-top: 250px;
+            font-size: 80px;
+            font-weight: 300;
+            letter-spacing: 3.5;
+        }
+        .video-sub-title {
+            font-size: 42px;
+            padding-bottom: 200px;
+            line-height: 54.6px;
+        }
+        .video-sub2-title {
+            font-size: 20px;
+            font-weight: 300;
+            font-style: italic;
+            letter-spacing: 1.5;
+            line-height: 30px;
+            padding-top: 80px;
+        }
+    }
+}
+
+.strap-video-holder {
+    background-color: black;
+    position: relative;
+    color: white;
+    height: 762px !important;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    pointer-events: none;
+}
+

@@ -297,7 +297,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                 </a>
 
                 <div class="wc-block-grid__product-price price"><span class="woocommerce-Price-amount amount"><bdi><span
-                        class="woocommerce-Price-currencySymbol">&pound;</span>10.50</bdi></span></div>
+                        class="woocommerce-Price-currencySymbol">$</span>10.50</bdi></span></div>
 
                 <div class="wp-block-button wc-block-grid__product-add-to-cart"><a href="?add-to-cart=1402"
                     aria-label="Add &ldquo;Assorted Dozen&rdquo; to your cart" data-quantity="1" data-product_id="1402"
@@ -316,7 +316,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                 </a>
 
                 <div class="wc-block-grid__product-price price"><span class="woocommerce-Price-amount amount"><bdi><span
-                        class="woocommerce-Price-currencySymbol">&pound;</span>59.99</bdi></span></div>
+                        class="woocommerce-Price-currencySymbol">$</span>59.99</bdi></span></div>
 
                 <div class="wp-block-button wc-block-grid__product-add-to-cart"><a href="?add-to-cart=1759"
                     aria-label="Add &ldquo;A Dozen Red Roses&rdquo; to your cart" data-quantity="1"
@@ -591,7 +591,41 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 
 
+<!-- 16:9 aspect ratio -->
+<div class="strap-video-holder">
+  <div class="embed-responsive embed-responsive-4by3 video-bg">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/oZwcrNL-CJ4?start=5&end=10&playlist=oZwcrNL-CJ4&loop=1&controls=0&modestbranding=1&showinfo=0&rel=0&playsinline=1&showinfo=0&rel=0&enablejsapi=1&mute=1&autoplay=1"></iframe>
+  </div>
+</div>
 
 
+
+<!-- <div class="test-video-holder">
+  <div class="container-fluid p-0">
+    <div class="video-bg">
+      <iframe src="https://www.youtube.com/embed/oZwcrNL-CJ4?playlist=oZwcrNL-CJ4&loop=1&controls=0&modestbranding=1&showinfo=0&rel=0&playsinline=1&showinfo=0&rel=0&enablejsapi=1&mute=1&autoplay=1"
+        frameborder="0"
+        allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+      <!-- <iframe width="100%" height="762" src="https://www.youtube.com/embed/oZwcrNL-CJ4?playlist=oZwcrNL-CJ4&loop=1&mute=1&showinfo=0&rel=0&controls=0&autoplay=1" 
+        frameborder="0"
+        allowfullscreen>
+      </iframe> 
+    </div>
+    <div class="video-foreground">
+        <div class="video-title">
+          Farm to Table
+        </div>
+        <div class="video-sub-title">
+          Fair Trade Flowers
+        </div>
+        <div class="video-sub2-title">
+          42 Years of Award Winning Designs
+        </div>
+      </div>
+    </div>
+  </div>
+</div> -->
 
 <?php get_footer(); ?>
