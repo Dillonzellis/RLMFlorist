@@ -11,5 +11,7 @@
 @import "theme/theme_variables";  // <-------- Add your variables into this file. Also add variables to overwrite Bootstrap or UnderStrap variables here
 @import "theme/dz-partials/utility";
 @import "theme/dz-partials/header";
+@import "theme/dz-partials/home-body";
+@import "theme/dz-partials/footer";
 // @import "theme/theme";            // <-------- That's where you can add your own design. Thats your part!
 // @import "theme/contact-form7";    // <-------- Contact Form 7 - Bootstrap 4 support
