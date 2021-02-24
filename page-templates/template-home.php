@@ -9,8 +9,15 @@
 
 // Exit if accessed directly.
 defined( 'ABSPATH' ) || exit;
+
 get_header();
+$container = get_theme_mod( 'understrap_container_type' );
 ?>
+
+<?php if ( is_front_page() ) : ?>
+<?php get_template_part( 'global-templates/hero' ); ?>
+<?php endif; ?>
+
 
 <div class="home-hero-banner-top">
   <div class="container-fluid">
