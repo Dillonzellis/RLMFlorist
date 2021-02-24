@@ -56,53 +56,52 @@ $container = get_theme_mod( 'understrap_container_type' );
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
 							aria-haspopup="true" aria-expanded="false">
-							occasion
+							OCCASION
 						</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-							<a class="dropdown-item" href="#">Action</a>
-							<a class="dropdown-item" href="#">Another action</a>
-							<a class="dropdown-item" href="#">Something else here</a>
-							<a class="dropdown-item" href="#">Action</a>
-							<a class="dropdown-item" href="#">Another action</a>
-							<a class="dropdown-item" href="#">Something else here</a>
+							<a class="dropdown-item" href="#">THINKING OF YOU</a>
+							<a class="dropdown-item" href="#">THANK YOU</a>
+							<a class="dropdown-item" href="#">LOVE & ROMANCE</a>
+							<a class="dropdown-item" href="#">BIRTHDAY</a>
+							<a class="dropdown-item" href="#">ANNIVERSARY</a>
+							<a class="dropdown-item" href="#">NEW BABY</a>
+							<a class="dropdown-item" href="#">CORSAGES & BOUTINEERS</a>
+							<a class="dropdown-item" href="#">GET WELL</a>
+							<a class="dropdown-item" href="#">SYMPATHY & FUNERAL</a>
 						</div>
 					</li>
 
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
 							aria-haspopup="true" aria-expanded="false">
-							holidays
+							HOLIDAYS
 						</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-							<a class="dropdown-item" href="#">Action</a>
-							<a class="dropdown-item" href="#">Another action</a>
-							<a class="dropdown-item" href="#">Something else here</a>
-							<a class="dropdown-item" href="#">Action</a>
-							<a class="dropdown-item" href="#">Another action</a>
-							<a class="dropdown-item" href="#">Something else here</a>
+							<a class="dropdown-item" href="#">EASTER</a>
+							<a class="dropdown-item" href="#">MOTHER'S DAY</a>
 						</div>
 					</li>
 
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
 							aria-haspopup="true" aria-expanded="false">
-							babycakes
+							BABYCAKES
 						</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-							<a class="dropdown-item" href="#">Action</a>
-							<a class="dropdown-item" href="#">Another action</a>
+							<a class="dropdown-item" href="#">BABYCAKES CUPCAKES</a>
+							<a class="dropdown-item" href="#">GIFTS</a>
 						</div>
 					</li>
 
 
 					<li class="nav-item">
-						<a class="nav-link" href="#">all products</a>
+						<a class="nav-link" href="#">ALL PRODUCTS</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">venue & event services</a>
+						<a class="nav-link" href="#">VENUE & EVENT SERVICES</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">my account</a>
+						<a class="nav-link" href="#">MY ACCOUNT</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#">
