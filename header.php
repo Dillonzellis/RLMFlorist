@@ -30,7 +30,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
+<body <?php body_class(); ?>>	
 	<?php do_action( 'wp_body_open' ); ?>
 	<div class="site" id="page">
 
@@ -103,11 +103,22 @@ $container = get_theme_mod( 'understrap_container_type' );
 					<li class="nav-item">
 						<a class="nav-link" href="#">MY ACCOUNT</a>
 					</li>
-					<li class="nav-item">
+					<!-- <li class="nav-item">
 						<a class="nav-link" href="#">
 							<i class="fas fa-shopping-cart"></i>
 						</a>
+					</li> -->
+					<li class="nav-item cart">
+						<a class="cart-customlocation nav-link nav-cart" href="<?php echo wc_get_cart_url(); ?>" title="<?php _e( 'View your shopping cart' ); ?>"><?php echo sprintf ( _n( '%d item', '%d items', WC()->cart->get_cart_contents_count() ), WC()->cart->get_cart_contents_count() ); ?> – <?php echo WC()->cart->get_cart_total(); ?></a>
+						<div class="cart-hover-holder">
+						test
+						</div>
 					</li>
+
+					
+
+
+					
 				</ul>
 			</div>
 		</nav>
