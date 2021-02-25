@@ -28,26 +28,6 @@
         }
     }
 
-    .cart:hover {
-        .cart-hover-holder {
-            visibility: visible;
-        }
-    }
-    
-    .cart-hover-holder:hover {
-        visibility: visible;
-    }
-
-
-    .cart-hover-holder {
-        visibility: hidden;
-        background-color: white;
-        position: absolute;
-        right: 0;
-        top: 19px;
-        border: 17px solid rgba(255, 255, 255, 0.383);
-    }
-
     .dropdown:hover .dropdown-menu{
         display: block;
     }    
@@ -71,5 +51,27 @@
         }
     }
 }
+
+    .cart:hover {
+        .cart-hover-holder {
+            visibility: visible;
+        }
+    }
+    
+    .cart-hover-holder:hover {
+        visibility: visible;
+    }
+
+
+    .cart-hover-holder {
+        visibility: hidden;
+        background-color: white;
+        position: absolute;
+        right: 0;
+        top: 19px;
+        border: 17px solid rgba(255, 255, 255, 0.383);
+    }
+
+
 
 
