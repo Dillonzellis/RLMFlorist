@@ -103,9 +103,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 						<a class="nav-link" href="#">MY ACCOUNT</a>
 					</li>
 					<li class="nav-item cart">
-						<a class="cart-customlocation" href="<?php echo wc_get_cart_url(); ?>" title="<?php _e( 'View your shopping cart' ); ?>"><?php echo sprintf ( _n( '%d item', '%d items', WC()->cart->get_cart_contents_count() ), WC()->cart->get_cart_contents_count() ); ?> – <?php echo WC()->cart->get_cart_total(); ?></a>
+						<a class="cart-customlocation" href="<?php echo wc_get_cart_url(); ?>" title="<?php _e( 'View your shopping cart' ); ?>">
+<?php echo sprintf ( _n( '%d item', '%d items', WC()->cart->get_cart_contents_count() ), WC()->cart->get_cart_contents_count() ); ?> – <?php echo WC()->cart->get_cart_total(); ?></a>
 						<div class="cart-hover-holder">
-							test
+							<div class="widget_shopping_cart_content"><?php woocommerce_mini_cart(); ?></div>
 						</div>
 					</li>
 				</ul>
