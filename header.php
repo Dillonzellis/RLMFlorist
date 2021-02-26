@@ -102,18 +102,15 @@ $container = get_theme_mod( 'understrap_container_type' );
 					<li class="nav-item">
 						<a class="nav-link" href="#">MY ACCOUNT</a>
 					</li>
-					<li class="nav-item cart">
-
-						<i class="fas fa-shopping-cart"></i>
-	
-						<a class="cart-icon" href="<?php echo wc_get_cart_url();?>">
-							<?php echo WC()->cart->get_cart_contents_count();?>
-						</a>
-						
-						<div class="cart-hover-holder">
-							<div class="widget_shopping_cart_content"><?php woocommerce_mini_cart(); ?></div>
-						</div>
-					</li>
+					<a href="<?php echo esc_url(wc_get_cart_url()); ?>">
+						<li class="nav-item cart">
+							<i class="fas fa-shopping-cart fa-2x"></i>
+							<a class="cart-icon-number"></a>
+							<div class="cart-hover-holder">
+								<div class="widget_shopping_cart_content"><?php woocommerce_mini_cart(); ?></div>
+							</div>
+						</li>
+					</a>
 				</ul>
 			</div>
 

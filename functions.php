@@ -45,8 +45,8 @@ function woocommerce_header_add_to_cart_fragment( $fragments ) {
 	ob_start();
 
 	?>
-	<a class="cart-icon" href="<?php echo esc_url(wc_get_cart_url()); ?>"><?php echo WC()->cart->get_cart_contents_count();?></a>
+	<a class="cart-icon-number" href="<?php echo esc_url(wc_get_cart_url()); ?>"><?php echo WC()->cart->get_cart_contents_count();?></a>
 	<?php
-	$fragments['a.cart-icon'] = ob_get_clean();
+	$fragments['a.cart-icon-number'] = ob_get_clean();
 	return $fragments;
 }

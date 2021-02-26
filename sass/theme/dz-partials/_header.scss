@@ -51,26 +51,56 @@
         }
     }
 }
-
-    .cart:hover {
+.cart {
+    height: 42px;
+    width: 53px;
+    &:hover {
         .cart-hover-holder {
             visibility: visible;
         }
     }
-    
-    .cart-hover-holder:hover {
-        visibility: visible;
+
+    .fa-shopping-cart{
+        color: $primary;
+        padding-top: 5px;
     }
 
+    .cart-icon-number{
+        position: absolute;
+        top: 0;
+        right: 6px;
+        border-radius: 50%;
+        border: 2px solid $header-bg;
+        font-size: 15px;
+        font-weight: 600;
+        text-decoration: none;
+        height: 22px;
+        width: 23px;
+        color: $white;
+        background-color: $primary;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+
+    }
 
     .cart-hover-holder {
         visibility: hidden;
         background-color: white;
         position: absolute;
         right: 0;
-        top: 19px;
-        border: 17px solid rgba(255, 255, 255, 0.383);
+        top: 40px;
+        border: 5px solid $primary;
+        padding: 30px;
+        &:hover {
+            visibility: visible;
+        }
     }
+}
+
+
+
 
 
 
