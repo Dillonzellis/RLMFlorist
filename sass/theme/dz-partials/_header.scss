@@ -23,14 +23,15 @@
         color: $header-link-color;
         letter-spacing: 1.5px;
         padding: 0 15px;
+
         &:hover {
             color: $header-link-hover;
         }
     }
 
-    .dropdown:hover .dropdown-menu{
+    .dropdown:hover .dropdown-menu {
         display: block;
-    }    
+    }
 
     .dropdown-menu {
         background-color: $header-bg;
@@ -40,6 +41,7 @@
             border-style: solid;
             border-color: #eaeaea;
             padding: .9em 1em;
+
             &:hover {
                 color: $header-link-hover;
                 background-color: #ffffff00;
@@ -50,58 +52,66 @@
             }
         }
     }
-}
-.cart {
-    height: 42px;
-    width: 53px;
-    &:hover {
-        .cart-hover-holder {
-            visibility: visible;
-        }
-    }
 
-    .fa-shopping-cart{
-        color: $primary;
-        padding-top: 5px;
-    }
-
-    .cart-icon-number{
-        position: absolute;
-        top: 0;
-        right: 6px;
-        border-radius: 50%;
-        border: 2px solid $header-bg;
-        font-size: 15px;
-        font-weight: 600;
-        text-decoration: none;
-        height: 22px;
-        width: 23px;
-        color: $white;
-        background-color: $primary;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
-
-    }
-
-    .cart-hover-holder {
-        visibility: hidden;
-        background-color: white;
-        position: absolute;
-        right: 0;
-        top: 40px;
-        border: 5px solid $primary;
-        padding: 30px;
+    .cart {
+        height: 42px;
+        width: 53px;
         &:hover {
-            visibility: visible;
+            .cart-hover-holder {
+                visibility: visible;
+            }
+        }
+        .fa-shopping-cart {
+            color: $primary;
+            padding-top: 5px;
+        }
+        .cart-icon-number {
+            position: absolute;
+            top: 0;
+            right: 6px;
+            border-radius: 50%;
+            border: 2px solid $header-bg;
+            font-size: 15px;
+            font-weight: 600;
+            text-decoration: none;
+            height: 22px;
+            width: 23px;
+            color: white;
+            background-color: $primary;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+        }
+        .cart-hover-holder {
+            visibility: hidden;
+            background-color: white;
+            position: absolute;
+            right: 0;
+            top: 40px;
+            border: 5px solid $primary;
+            padding: 30px;
+            &:hover {
+                visibility: visible;
+            }
+            .widget_shopping_cart_content{
+                .woocommerce-mini-cart {
+                    padding-left: 0;
+                    list-style: none;
+                    .woocommerce-mini-cart-item{
+                        img {
+                            height: 52.5px;
+                            width: 52.5px;
+                            padding: 10px;
+                        }
+                        .remove_from_cart_button{
+                            padding-left: 10px;
+                        }
+                    }
+
+                }
+            }
         }
     }
 }
-
-
-
-
-
-
-
