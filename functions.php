@@ -50,3 +50,16 @@ function woocommerce_header_add_to_cart_fragment( $fragments ) {
 	$fragments['a.cart-icon-number'] = ob_get_clean();
 	return $fragments;
 }
+
+
+// adds class view-cart to btn in mini-cart template
+remove_action( 'woocommerce_widget_shopping_cart_buttons', 'woocommerce_widget_shopping_cart_button_view_cart', 10 );
+
+function my_woocommerce_widget_shopping_cart_button_view_cart() {
+    echo '<a href="' . esc_url( wc_get_cart_url() ) . '" class="button wc-forward view-cart">' . esc_html__( 'View Cart', 'woocommerce' ) . '</a>';
+}
+
+add_action( 'woocommerce_widget_shopping_cart_buttons', 'my_woocommerce_widget_shopping_cart_button_view_cart', 10 );
+
+
+

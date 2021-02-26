@@ -78,11 +78,11 @@ do_action( 'woocommerce_before_mini_cart' ); ?>
 
 <?php do_action( 'woocommerce_widget_shopping_cart_before_buttons' ); ?>
 
-<p class="woocommerce-mini-cart__buttons buttons"><?php do_action( 'woocommerce_widget_shopping_cart_buttons' ); ?></p>
+<p class="woocommerce-mini-cart__buttons buttons btn btn-lg btn-block"><?php do_action( 'woocommerce_widget_shopping_cart_buttons' ); ?></p>
 
 <?php else : ?>
 
-<p class="woocommerce-mini-cart__empty-message"><?php _e( 'No products in the cart.', 'understrap' ); ?></p>
+<p class="woocommerce-mini-cart__empty-message"><?php _e( 'No Products in the Cart.', 'understrap' ); ?></p>
 
 <?php endif; ?>
 
