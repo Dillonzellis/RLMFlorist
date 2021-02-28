@@ -40,10 +40,10 @@ $container = get_theme_mod( 'understrap_container_type' );
                     24/7 Call or Email For All Your Floral Needs
                   </h3>
                   <div class="row">
-                    <div class="col text-right">
+                    <div class="col-sm text-sm-right mb-2 mb-sm-0">
                       <button type="button" class="btn btn-outline-light">770-536-7306</button>
                     </div>
-                    <div class="col text-left">
+                    <div class="col-sm text-sm-left">
                       <button type="button" class="btn btn-outline-light">Shop Now</button>
                     </div>
                   </div>
@@ -62,7 +62,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                 </div>
               </div>
             </div>
-            <div class="carousel-item">
+            <!-- <div class="carousel-item">
               <img class="d-block w-100" src="<?php echo get_template_directory_uri(); ?>/img/a2.jpg" alt="" srcset="">
               <div class="carousel-caption">
                 <div class="cap-wrapper">
@@ -77,10 +77,10 @@ $container = get_theme_mod( 'understrap_container_type' );
                     24/7 Call or Email For All Your Floral Needs
                   </h3>
                   <div class="row">
-                    <div class="col text-right">
+                    <div class="col-lg text-right">
                       <button type="button" class="btn btn-outline-light">770-536-7306</button>
                     </div>
-                    <div class="col text-left">
+                    <div class="col-lg text-left">
                       <button type="button" class="btn btn-outline-light">Shop Now</button>
                     </div>
                   </div>
@@ -114,10 +114,10 @@ $container = get_theme_mod( 'understrap_container_type' );
                     24/7 Call or Email For All Your Floral Needs
                   </h3>
                   <div class="row">
-                    <div class="col text-right">
+                    <div class="col-lg text-right">
                       <button type="button" class="btn btn-outline-light">770-536-7306</button>
                     </div>
-                    <div class="col text-left">
+                    <div class="col-lg text-left">
                       <button type="button" class="btn btn-outline-light">Shop Now</button>
                     </div>
                   </div>
@@ -135,7 +135,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                   </div>
                 </div>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
