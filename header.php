@@ -93,7 +93,6 @@ $container = get_theme_mod( 'understrap_container_type' );
 						</div>
 					</li>
 
-
 					<li class="nav-item">
 						<a class="nav-link" href="#">ALL PRODUCTS</a>
 					</li>
@@ -103,22 +102,18 @@ $container = get_theme_mod( 'understrap_container_type' );
 					<li class="nav-item">
 						<a class="nav-link" href="#">MY ACCOUNT</a>
 					</li>
-					<!-- <li class="nav-item">
-						<a class="nav-link" href="#">
-							<i class="fas fa-shopping-cart"></i>
-						</a>
-					</li> -->
-					<li class="nav-item cart">
-						<a class="cart-customlocation nav-link nav-cart" href="<?php echo wc_get_cart_url(); ?>" title="<?php _e( 'View your shopping cart' ); ?>"><?php echo sprintf ( _n( '%d item', '%d items', WC()->cart->get_cart_contents_count() ), WC()->cart->get_cart_contents_count() ); ?> – <?php echo WC()->cart->get_cart_total(); ?></a>
-						<div class="cart-hover-holder">
-						test
-						</div>
-					</li>
-
-					
-
-
-					
+					<a href="<?php echo esc_url(wc_get_cart_url()); ?>">
+						<li class="nav-item cart">
+							<i class="fas fa-shopping-cart fa-2x"></i>
+							<a class="cart-icon-number"></a>
+							<div class="cart-hover-holder">
+								<div class="widget_shopping_cart_content"><?php woocommerce_mini_cart(); ?></div>
+							</div>
+						</li>
+					</a>
 				</ul>
 			</div>
+
 		</nav>
+
+

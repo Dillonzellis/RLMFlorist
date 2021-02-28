@@ -45,8 +45,21 @@ function woocommerce_header_add_to_cart_fragment( $fragments ) {
 	ob_start();
 
 	?>
-	<a class="cart-customlocation" href="<?php echo esc_url(wc_get_cart_url()); ?>" title="<?php _e('View your shopping cart', 'woothemes'); ?>"><?php echo sprintf(_n('%d item', '%d items', $woocommerce->cart->cart_contents_count, 'woothemes'), $woocommerce->cart->cart_contents_count);?> - <?php echo $woocommerce->cart->get_cart_total(); ?></a>
+	<a class="cart-icon-number" href="<?php echo esc_url(wc_get_cart_url()); ?>"><?php echo WC()->cart->get_cart_contents_count();?></a>
 	<?php
-	$fragments['a.cart-customlocation'] = ob_get_clean();
+	$fragments['a.cart-icon-number'] = ob_get_clean();
 	return $fragments;
 }
+
+
+// adds class view-cart to btn in mini-cart template
+remove_action( 'woocommerce_widget_shopping_cart_buttons', 'woocommerce_widget_shopping_cart_button_view_cart', 10 );
+
+function my_woocommerce_widget_shopping_cart_button_view_cart() {
+    echo '<a href="' . esc_url( wc_get_cart_url() ) . '" class="button wc-forward view-cart">' . esc_html__( 'View Cart', 'woocommerce' ) . '</a>';
+}
+
+add_action( 'woocommerce_widget_shopping_cart_buttons', 'my_woocommerce_widget_shopping_cart_button_view_cart', 10 );
+
+
+
