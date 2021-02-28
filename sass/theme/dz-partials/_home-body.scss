@@ -7,7 +7,10 @@
     letter-spacing: 1.5px;
     font-weight: 300;
     background-color: rgb(34, 64, 88);
-
+    position: relative;
+    // @media() {
+        
+    // }
 
     #dz-carousel {
         img {
@@ -48,41 +51,45 @@
         }
     }
 
-    .main-title {
-        font-size: 94.5px;
-        line-height: 113.4px;
-        padding-bottom: 95px;
-    }
-
-    .sub-title {
-        font-size: 30px;
-        line-height: 45px;
-        padding-bottom: 20px;
-    }
-
-    hr {
-        padding-top: 15px;
-        padding-bottom: 18px;
-        border-color: white;
-    }
-
-    .sub-2-title {
-        font-size: 20px;
-        font-style: italic;
-        line-height: 20px;
-        padding-bottom: 25px;
-    }
-
-    .sub-3-title {
-        font-size: 20px;
-        font-style: italic;
-        line-height: 20px;
-        padding-top: 20px;
-    }
-
-    .diamonds {
-        color: white;
-        font-size: 2rem;
+    .hero-captions-holder {
+        position: absolute;
+        top: 400px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        z-index: 999;
+        .main-title {
+            font-size: 94.5px;
+            line-height: 113.4px;
+            padding-bottom: 95px;
+        }
+        .sub-title {
+            font-size: 30px;
+            line-height: 45px;
+            padding-bottom: 20px;
+        }
+        hr {
+            padding-top: 15px;
+            padding-bottom: 18px;
+            border-color: white;
+        }
+        .sub-2-title {
+            font-size: 20px;
+            font-style: italic;
+            line-height: 20px;
+            padding-bottom: 25px;
+        }
+        .sub-3-title {
+            font-size: 20px;
+            font-style: italic;
+            line-height: 20px;
+            padding-top: 20px;
+        }
+    
+        .diamonds {
+            color: white;
+            font-size: 2rem;
+        }
     }
 }
 

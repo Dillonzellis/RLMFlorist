@@ -26,114 +26,47 @@ $container = get_theme_mod( 'understrap_container_type' );
         <div id="dz-carousel" class="carousel slide carousel-fade" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img class="d-block w-100" src="<?php echo get_template_directory_uri(); ?>/img/a1.jpg" alt="" srcset="">
-              <div class="carousel-caption">
-                <div class="cap-wrapper">
-                  <h1 class="main-title">
-                    Ethical Fresh Flowers
-                  </h1>
-                  <h2 class="sub-title">
-                    42 Years of Award Winning Designs
-                  </h2>
-                  <hr>
-                  <h3 class="sub-2-title">
-                    24/7 Call or Email For All Your Floral Needs
-                  </h3>
-                  <div class="row">
-                    <div class="col text-right">
-                      <button type="button" class="btn btn-outline-light">770-536-7306</button>
-                    </div>
-                    <div class="col text-left">
-                      <button type="button" class="btn btn-outline-light">Shop Now</button>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col">
-                      <h4 class="sub-3-title">Same Day Delivery</h4>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col">
-                      <div class="diamonds">
-                        ♦♦♦♦
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <img loading=lazy class="d-block w-100" src="<?php echo get_template_directory_uri(); ?>/img/a1.jpg"
+                alt="" srcset="">
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="<?php echo get_template_directory_uri(); ?>/img/a2.jpg" alt="" srcset="">
-              <div class="carousel-caption">
-                <div class="cap-wrapper">
-                  <h1 class="main-title">
-                    Ethical Fresh Flowers
-                  </h1>
-                  <h2 class="sub-title">
-                    42 Years of Award Winning Designs
-                  </h2>
-                  <hr>
-                  <h3 class="sub-2-title">
-                    24/7 Call or Email For All Your Floral Needs
-                  </h3>
-                  <div class="row">
-                    <div class="col text-right">
-                      <button type="button" class="btn btn-outline-light">770-536-7306</button>
-                    </div>
-                    <div class="col text-left">
-                      <button type="button" class="btn btn-outline-light">Shop Now</button>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col">
-                      <h4 class="sub-3-title">Same Day Delivery</h4>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col">
-                      <div class="diamonds">
-                        ♦♦♦♦
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <img loading=lazy class="d-block w-100" src="<?php echo get_template_directory_uri(); ?>/img/a2.jpg"
+                alt="" srcset="">
             </div>
             <div class="carousel-item">
-              <img loading=lazy class="d-block w-100" src="<?php echo get_template_directory_uri(); ?>/img/cta.jpg" alt="" srcset="">
-              <div class="carousel-caption">
-                <div class="cap-wrapper">
-                  <h1 class="main-title">
-                    Ethical Fresh Flowers
-                  </h1>
-                  <h2 class="sub-title">
-                    42 Years of Award Winning Designs
-                  </h2>
-                  <hr>
-                  <h3 class="sub-2-title">
-                    24/7 Call or Email For All Your Floral Needs
-                  </h3>
-                  <div class="row">
-                    <div class="col text-right">
-                      <button type="button" class="btn btn-outline-light">770-536-7306</button>
-                    </div>
-                    <div class="col text-left">
-                      <button type="button" class="btn btn-outline-light">Shop Now</button>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col">
-                      <h4 class="sub-3-title">Same Day Delivery</h4>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col">
-                      <div class="diamonds">
-                        ♦♦♦♦
-                      </div>
-                    </div>
-                  </div>
-                </div>
+              <img loading=lazy class="d-block w-100" src="<?php echo get_template_directory_uri(); ?>/img/cta.jpg"
+                alt="" srcset="">
+            </div>
+          </div>
+        </div>
+        <div class="hero-captions-holder">
+          <h1 class="main-title">
+            Ethical Fresh Flowers
+          </h1>
+          <h2 class="sub-title">
+            42 Years of Award Winning Designs
+          </h2>
+          <hr>
+          <h3 class="sub-2-title">
+            24/7 Call or Email For All Your Floral Needs
+          </h3>
+          <div class="row">
+            <div class="col text-right">
+              <button type="button" class="btn btn-outline-light">770-536-7306</button>
+            </div>
+            <div class="col text-left">
+              <button type="button" class="btn btn-outline-light">Shop Now</button>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <h4 class="sub-3-title">Same Day Delivery</h4>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="diamonds">
+                ♦♦♦♦
               </div>
             </div>
           </div>
@@ -142,6 +75,49 @@ $container = get_theme_mod( 'understrap_container_type' );
     </div>
   </div>
 </div>
+
+
+
+
+<!-- <div class="carousel-caption">
+  <div class="cap-wrapper">
+    <h1 class="main-title">
+      Ethical Fresh Flowers
+    </h1>
+    <h2 class="sub-title">
+      42 Years of Award Winning Designs
+    </h2>
+    <hr>
+    <h3 class="sub-2-title">
+      24/7 Call or Email For All Your Floral Needs
+    </h3>
+    <div class="row">
+      <div class="col text-right">
+        <button type="button" class="btn btn-outline-light">770-536-7306</button>
+      </div>
+      <div class="col text-left">
+        <button type="button" class="btn btn-outline-light">Shop Now</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <h4 class="sub-3-title">Same Day Delivery</h4>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="diamonds">
+          ♦♦♦♦
+        </div>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+
+
+
+
 
 <div class="featured-shop">
   <div class="shop-card-holder">
@@ -231,11 +207,12 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <div class="strap-video-holder">
   <div class="embed-responsive embed-responsive-4by3 video-bg">
-    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/oZwcrNL-CJ4?playlist=oZwcrNL-CJ4&loop=1&controls=0&modestbranding=1&showinfo=0&rel=0&playsinline=1&showinfo=0&rel=0&enablejsapi=1&mute=1&autoplay=1"></iframe>
+    <iframe class="embed-responsive-item"
+      src="https://www.youtube.com/embed/oZwcrNL-CJ4?playlist=oZwcrNL-CJ4&loop=1&controls=0&modestbranding=1&showinfo=0&rel=0&playsinline=1&showinfo=0&rel=0&enablejsapi=1&mute=1&autoplay=1"></iframe>
   </div>
   <div class="video-foreground">
     <div class="video-title">
-       Farm to Table
+      Farm to Table
     </div>
     <div class="video-sub-title">
       Fair Trade Flowers
@@ -378,8 +355,8 @@ $container = get_theme_mod( 'understrap_container_type' );
           <div class="review-customer-holder">
             <div class="review-customer-img">
               <a href="https://www.theknot.com/marketplace/rlm-affairs-estate-room-and-gardens-wysteria-room-gainesville-ga-2014225"
-                target="_blank"><img loading=lazy src="<?php echo get_template_directory_uri(); ?>/img/knot-review.png" alt=""
-                  srcset=""></a>
+                target="_blank"><img loading=lazy src="<?php echo get_template_directory_uri(); ?>/img/knot-review.png"
+                  alt="" srcset=""></a>
             </div>
             <div class="review-customer">
               <div class="review-customer-name">
@@ -421,8 +398,8 @@ $container = get_theme_mod( 'understrap_container_type' );
           <div class="review-customer-holder">
             <div class="review-customer-img">
               <a href="https://www.theknot.com/marketplace/rlm-affairs-estate-room-and-gardens-wysteria-room-gainesville-ga-2014225"
-                target="_blank"><img loading=lazy src="<?php echo get_template_directory_uri(); ?>/img/knot-review.png" alt=""
-                  srcset=""></a>
+                target="_blank"><img loading=lazy src="<?php echo get_template_directory_uri(); ?>/img/knot-review.png"
+                  alt="" srcset=""></a>
             </div>
             <div class="review-customer">
               <div class="review-customer-name">
@@ -453,23 +430,24 @@ $container = get_theme_mod( 'understrap_container_type' );
         <img class="" src="..." alt="">
         <div class="carousel-caption">
           <div class="worked-with-logo">
-            <img loading=lazy src="<?php echo get_template_directory_uri(); ?>/img/knot-review.png" alt="the knot logo" srcset="">
+            <img loading=lazy src="<?php echo get_template_directory_uri(); ?>/img/knot-review.png" alt="the knot logo"
+              srcset="">
           </div>
           <div class="worked-with-logo">
             <img loading=lazy src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/rd-atlanta.png"
               alt="road atlanta logo" srcset="">
           </div>
           <div class="worked-with-logo">
-            <img loading=lazy src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/elan.png" alt="chateau elan logo"
-              srcset="">
+            <img loading=lazy src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/elan.png"
+              alt="chateau elan logo" srcset="">
           </div>
           <div class="worked-with-logo">
             <img loading=lazy src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/coca-cola.png"
               alt="coca cola logo" srcset="">
           </div>
           <div class="worked-with-logo">
-            <img loading=lazy src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/porche.png" alt="porche logo"
-              srcset="">
+            <img loading=lazy src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/porche.png"
+              alt="porche logo" srcset="">
           </div>
         </div>
       </div>
@@ -477,8 +455,8 @@ $container = get_theme_mod( 'understrap_container_type' );
         <img class="" src="..." alt="">
         <div class="carousel-caption">
           <div class="worked-with-logo">
-            <img loading=lazy src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/wea.png" alt="weathertech logo"
-              srcset="">
+            <img loading=lazy src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/wea.png"
+              alt="weathertech logo" srcset="">
           </div>
           <div class="worked-with-logo">
             <img loading=lazy src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/best-knot.png"
@@ -489,12 +467,12 @@ $container = get_theme_mod( 'understrap_container_type' );
               alt="best of knot 2021" srcset="">
           </div>
           <div class="worked-with-logo">
-            <img loading=lazy src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/patron.png" alt="patron logo"
-              srcset="">
+            <img loading=lazy src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/patron.png"
+              alt="patron logo" srcset="">
           </div>
           <div class="worked-with-logo">
-            <img loading=lazy src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/IMS.png" alt="IMSA logo"
-              srcset="">
+            <img loading=lazy src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/IMS.png"
+              alt="IMSA logo" srcset="">
           </div>
         </div>
       </div>
@@ -511,12 +489,12 @@ $container = get_theme_mod( 'understrap_container_type' );
               alt="pottery barn logo" srcset="">
           </div>
           <div class="worked-with-logo">
-            <img loading=lazy src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/belk.png" alt="belk logo"
-              srcset="">
+            <img loading=lazy src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/belk.png"
+              alt="belk logo" srcset="">
           </div>
           <div class="worked-with-logo">
-            <img loading=lazy src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/audi.png" alt="audi logo"
-              srcset="">
+            <img loading=lazy src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/audi.png"
+              alt="audi logo" srcset="">
           </div>
           <div class="worked-with-logo">
             <img loading=lazy src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/rd-atlanta.png"
@@ -529,22 +507,24 @@ $container = get_theme_mod( 'understrap_container_type' );
         <div class="carousel-caption">
 
           <div class="worked-with-logo">
-            <img loading=lazy src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/gm.png" alt="GM logo" srcset="">
-          </div>
-          <div class="worked-with-logo">
-            <img loading=lazy src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/nas.png" alt="nascar logo"
+            <img loading=lazy src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/gm.png" alt="GM logo"
               srcset="">
           </div>
           <div class="worked-with-logo">
-            <img loading=lazy src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/bmw-logo.png" alt="BMW logo"
-              srcset="">
+            <img loading=lazy src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/nas.png"
+              alt="nascar logo" srcset="">
+          </div>
+          <div class="worked-with-logo">
+            <img loading=lazy src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/bmw-logo.png"
+              alt="BMW logo" srcset="">
           </div>
           <div class="worked-with-logo">
             <img loading=lazy src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/mercedes-logo.png"
               alt="mercedes logo" srcset="">
           </div>
           <div class="worked-with-logo">
-            <img loading=lazy src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/ung.png" alt="UNG logo" srcset="">
+            <img loading=lazy src="<?php echo get_template_directory_uri(); ?>/img/worked-carousel/ung.png"
+              alt="UNG logo" srcset="">
           </div>
         </div>
       </div>
