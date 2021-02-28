@@ -1,63 +1,76 @@
 
 // Hero img
 .home-hero-banner-top {
-    height: 1080px;
+    height: 760px;
     text-align: center;
     color: $home-header-font-color;
     letter-spacing: 1.5px;
     font-weight: 300;
     background-color: rgb(34, 64, 88);
     position: relative;
-    // @media() {
-        
-    // }
+    @media(min-width:$xl) {
+        height: 1080px;
+    }
 
     #dz-carousel {
-        img {
+        .carousel-item {
+            min-height: 760px;
             opacity: 0.7;
-            height: 1080px;
-            animation: move infinite ease;
-            -ms-animation: move 40s ease;
-            -webkit-animation: move 40s ease;
-            -o-animation: move 40s ease;
-            -moz-animation: move 40s ease;
-        }
+            // height: auto;
+            width: 100%;
 
-        @-webkit-keyframes move {
-            0% {
-                -webkit-transform-origin: bottom left;
-                -moz-transform-origin: bottom left;
-                -ms-transform-origin: bottom left;
-                -o-transform-origin: bottom left;
-                transform-origin: bottom left;
-                transform: scale(1.0);
-                -ms-transform: scale(1.0);
-                -webkit-transform: scale(1.0);
-                -o-transform: scale(1.0);
-                -moz-transform: scale(1.0);
+            // animation: move infinite ease;
+            // -ms-animation: move 40s ease;
+            // -webkit-animation: move 40s ease;
+            // -o-animation: move 40s ease;
+            // -moz-animation: move 40s ease;
+
+            @media(min-width:$xl) {
+                height: 1080px;
             }
-
-            100% {
-                transform: scale(1.2);
-                -ms-transform: scale(1.2);
-                -webkit-transform: scale(1.2);
-                -o-transform: scale(1.2);
-                -moz-transform: scale(1.2);
+            .slide1 {
+                background: url('../img/a1.jpg') no-repeat center fixed;     
+                background-size: cover;
+                background-repeat: no-repeat;
             }
         }
 
-        .carousel-caption {
-            bottom: 225px;
-        }
+
+        // @-webkit-keyframes move {
+        //     0% {
+        //         -webkit-transform-origin: bottom left;
+        //         -moz-transform-origin: bottom left;
+        //         -ms-transform-origin: bottom left;
+        //         -o-transform-origin: bottom left;
+        //         transform-origin: bottom left;
+        //         transform: scale(1.0);
+        //         -ms-transform: scale(1.0);
+        //         -webkit-transform: scale(1.0);
+        //         -o-transform: scale(1.0);
+        //         -moz-transform: scale(1.0);
+        //     }
+
+        //     100% {
+        //         transform: scale(1.2);
+        //         -ms-transform: scale(1.2);
+        //         -webkit-transform: scale(1.2);
+        //         -o-transform: scale(1.2);
+        //         -moz-transform: scale(1.2);
+        //     }
+        // }
     }
 
     .hero-captions-holder {
+        display: none;
         position: absolute;
-        top: 400px;
-        left: 0;
-        right: 0;
-        margin: auto;
-        z-index: 999;
+        @media(min-width:$xl) {
+            top: 400px;
+            left: 0;
+            right: 0;
+            margin: auto;
+            z-index: 999;
+        }
+
         .main-title {
             font-size: 94.5px;
             line-height: 113.4px;
@@ -378,4 +391,11 @@
     .covid-body {
         font-size: 14px;
     }
+}
+
+
+.testing {
+    height: 800px;
+    background: url('../img/a1.jpg') no-repeat center fixed;     
+    background-size: cover;
 }

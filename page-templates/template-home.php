@@ -25,18 +25,18 @@ $container = get_theme_mod( 'understrap_container_type' );
       <div class="col p-0">
         <div id="dz-carousel" class="carousel slide carousel-fade" data-ride="carousel">
           <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img loading=lazy class="d-block w-100" src="<?php echo get_template_directory_uri(); ?>/img/a1.jpg"
+            <div class="carousel-item active slide1">
+              <!-- <img loading=lazy class="" src="<?php echo get_template_directory_uri(); ?>/img/a1.jpg"
+                alt="" srcset=""> -->
+            </div>
+            <!-- <div class="carousel-item">
+              <img loading=lazy class="" src="<?php echo get_template_directory_uri(); ?>/img/a2.jpg"
                 alt="" srcset="">
             </div>
             <div class="carousel-item">
-              <img loading=lazy class="d-block w-100" src="<?php echo get_template_directory_uri(); ?>/img/a2.jpg"
+              <img loading=lazy class="" src="<?php echo get_template_directory_uri(); ?>/img/cta.jpg"
                 alt="" srcset="">
-            </div>
-            <div class="carousel-item">
-              <img loading=lazy class="d-block w-100" src="<?php echo get_template_directory_uri(); ?>/img/cta.jpg"
-                alt="" srcset="">
-            </div>
+            </div> -->
           </div>
         </div>
         <div class="hero-captions-holder">
@@ -75,49 +75,6 @@ $container = get_theme_mod( 'understrap_container_type' );
     </div>
   </div>
 </div>
-
-
-
-
-<!-- <div class="carousel-caption">
-  <div class="cap-wrapper">
-    <h1 class="main-title">
-      Ethical Fresh Flowers
-    </h1>
-    <h2 class="sub-title">
-      42 Years of Award Winning Designs
-    </h2>
-    <hr>
-    <h3 class="sub-2-title">
-      24/7 Call or Email For All Your Floral Needs
-    </h3>
-    <div class="row">
-      <div class="col text-right">
-        <button type="button" class="btn btn-outline-light">770-536-7306</button>
-      </div>
-      <div class="col text-left">
-        <button type="button" class="btn btn-outline-light">Shop Now</button>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col">
-        <h4 class="sub-3-title">Same Day Delivery</h4>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col">
-        <div class="diamonds">
-          ♦♦♦♦
-        </div>
-      </div>
-    </div>
-  </div>
-</div> -->
-
-
-
-
-
 
 <div class="featured-shop">
   <div class="shop-card-holder">
@@ -198,8 +155,6 @@ $container = get_theme_mod( 'understrap_container_type' );
           </div>
         </div>
       </div>
-
-
     </div>
   </div>
 
@@ -567,5 +522,15 @@ $container = get_theme_mod( 'understrap_container_type' );
     </div>
   </div>
 </div>
+
+
+<br>
+
+
+
+<div class="testing"></div>
+
+
+
 
 <?php get_footer(); ?>
