@@ -1,49 +1,64 @@
 
 // Hero img
 .home-hero-banner-top {
-    height: 760px;
+    height: 625px;
     text-align: center;
     color: $home-header-font-color;
     letter-spacing: 1.5px;
     font-weight: 300;
-    background-color: rgb(34, 64, 88);
+    background-color: rgb(0, 0, 0);
+    // background-color: rgb(34, 64, 88);
     position: relative;
+    @media(min-width:$sm) {
+        height: 760px;
+    }
     @media(min-width:$xl) {
         height: 1080px;
     }
     #dz-carousel {
         .carousel-item {
-            opacity: 0.7;
-            height: 760px;
+            opacity: 0.6;
             animation: move infinite ease;
             -ms-animation: move 40s ease;
             -webkit-animation: move 40s ease;
             -o-animation: move 40s ease;
             -moz-animation: move 40s ease;
+            @media(min-width:$sm) {
+                height: 760px;
+            }
             @media(min-width:$xl) {
                 height: 1080px;
             }
         }
         .slide-1 {
-            height: 760px;
+            height: 625px;
             background: url('../img/a1.jpg') no-repeat center fixed;     
             background-size: cover;
+            @media(min-width:$sm) {
+                height: 760px;
+            }
             @media(min-width:$xl) {
                 height: 1080px;
             }
         }
         .slide-2 {
-            height: 760px;
+            height: 625px;
             background: url('../img/a2.jpg') no-repeat center fixed;     
             background-size: cover;
+            @media(min-width:$sm) {
+                height: 760px;
+            }
             @media(min-width:$xl) {
                 height: 1080px;
             }
         }
         .slide-3 {
-            height: 760px;
+            height: 625px;
             background: url('../img/cta.jpg') no-repeat center fixed;     
             background-size: cover;
+            @media(min-width:$sm) {
+                height: 760px;
+            }
             @media(min-width:$xl) {
                 height: 1080px;
             }
@@ -71,58 +86,92 @@
                 -moz-transform: scale(1.2);
             }
         }
-
-        .carousel-caption {
-            bottom: 225px;
-        }
     }
 
     .hero-captions-holder {
         position: absolute;
-        top: 300px;
+        top: 200px;
         left: 0;
         right: 0;
         margin: auto;
         z-index: 999;
+        @media(min-width:$sm) {
+            top: 300px;
+        }
         @media(min-width:$xl) {
             top: 400px;
-            left: 0;
-            right: 0;
-            margin: auto;
-            z-index: 999;
         }
 
         .main-title {
-            font-size: 94.5px;
-            line-height: 113.4px;
-            padding-bottom: 95px;
+            font-size: 42px;
+            font-weight: 600;
+            @media(min-width:$lg) {
+                font-size: 60px;
+            }
+            @media(min-width:$xl) {
+                font-size: 94.5px;
+                line-height: 113.4px;
+                padding-bottom: 95px;
+            }
+
         }
         .sub-title {
-            font-size: 30px;
-            line-height: 45px;
-            padding-bottom: 20px;
+            font-size: 20px;
+            font-weight: 500;
+            @media(min-width:$lg) {
+                font-size: 25px;
+            }
+            @media(min-width:$xl) {
+                font-size: 30px;
+                line-height: 45px;
+                padding-bottom: 20px;
+            }
         }
         hr {
-            padding-top: 15px;
-            padding-bottom: 18px;
             border-color: white;
+            @media(min-width:460px) {
+                padding-top: 15px;
+                padding-bottom: 18px;
+            }
         }
         .sub-2-title {
-            font-size: 20px;
+            font-size: 18.24px;
+            font-weight: 500;
+            padding-bottom: 15px;
             font-style: italic;
-            line-height: 20px;
-            padding-bottom: 25px;
+            @media(min-width:$lg) {
+                font-size: 20px;
+            }
+            @media(min-width:$xl) {
+                line-height: 20px;
+                padding-bottom: 25px;
+            }
         }
+
+        .btn {
+            width: 175px;
+        }
+
         .sub-3-title {
-            font-size: 20px;
-            font-style: italic;
-            line-height: 20px;
+            font-size: 18.24px;
+            font-weight: 500;
             padding-top: 20px;
+            font-style: italic;
+            @media(min-width:$lg) {
+                font-size: 20px;
+            }
+            @media(min-width:$xl) {
+                line-height: 20px;
+            }
         }
     
         .diamonds {
+            visibility: hidden;
             color: white;
             font-size: 2rem;
+            @media(min-width: 480px){
+                visibility: visible;
+            }
         }
     }
 }
