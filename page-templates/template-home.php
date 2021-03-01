@@ -25,18 +25,15 @@ $container = get_theme_mod( 'understrap_container_type' );
       <div class="col p-0">
         <div id="dz-carousel" class="carousel slide carousel-fade" data-ride="carousel">
           <div class="carousel-inner">
-            <div class="carousel-item active slide1">
-              <!-- <img loading=lazy class="" src="<?php echo get_template_directory_uri(); ?>/img/a1.jpg"
-                alt="" srcset=""> -->
-            </div>
-            <!-- <div class="carousel-item">
-              <img loading=lazy class="" src="<?php echo get_template_directory_uri(); ?>/img/a2.jpg"
-                alt="" srcset="">
+            <div class="carousel-item active">
+              <div class="slide-1"></div>
             </div>
             <div class="carousel-item">
-              <img loading=lazy class="" src="<?php echo get_template_directory_uri(); ?>/img/cta.jpg"
-                alt="" srcset="">
-            </div> -->
+              <div class="slide-2"></div>
+            </div>
+            <div class="carousel-item">
+              <div class="slide-3"></div>
+            </div>
           </div>
         </div>
         <div class="hero-captions-holder">
@@ -522,15 +519,5 @@ $container = get_theme_mod( 'understrap_container_type' );
     </div>
   </div>
 </div>
-
-
-<br>
-
-
-
-<div class="testing"></div>
-
-
-
 
 <?php get_footer(); ?>
