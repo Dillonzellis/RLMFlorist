@@ -8,12 +8,33 @@
     }
     .mobile-cart {
         // visibility: hidden;
+        position: relative;
+
         @media(min-width: $sm) {
             visibility: visible;
         }
         @media(min-width: $xl) {
             visibility: hidden;
         }
+
+        .cart-icon-number {
+            position: absolute;
+            top: 0;
+            right: 6px;
+            border-radius: 50%;
+            border: 2px solid $header-bg;
+            font-size: 15px;
+            font-weight: 600;
+            text-decoration: none;
+            height: 22px;
+            width: 23px;
+            color: white;
+            background-color: $primary;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            }
+
     }
 
     .navbar-toggler-icon {
