@@ -12,46 +12,54 @@
     }
 
     .navbar-nav {
-        align-items: center;
         position: relative;
-        .nav-link {
-            // line-height: 42px;
-            font-size: 15px;
-            color: $header-link-color;
-            letter-spacing: 1.5px;
-            padding: 0 15px;
-            @media(min-width:$xl) {
-                &:hover {
-                    color: $header-link-hover;
-                }
-            }
+        @media (min-width: $xl) {
+            .nav-item .dropdown-menu {display: none;}
+            .nav-item:hover .dropdown-menu{ display: block; }
+            .nav-item .dropdown-menu{ margin-top:0}
         }
-
-        .dropdown-menu {
-            padding: 0;
-            background-color: green;
-            @media(min-width:$xl) {
-                background-color: $header-bg;
-            }
-    
-            .dropdown-item {
+        .nav-item {
+            .nav-link {
+                font-size: 16px;
+                color: $header-link-color;
+                letter-spacing: 1.5px;
                 @media(min-width:$xl) {
-                    border-bottom-width: 0.1px;
-                    border-style: solid;
-                    border-color: #eaeaea;
-                    padding: .9em 1em;
                     &:hover {
                         color: $header-link-hover;
-                        background-color: #ffffff00;
-                    }
-                    &:focus {
-                        background-color: #ffffff00;
                     }
                 }
             }
-        }
+            .dropdown-menu {
+                padding: 0;
+                background-color: green;
+                @media(min-width:$xl) {
+                    background-color: $header-bg;
+                }
+                .dropdown-item {
+                    @media(min-width:$xl) {
+                        border-bottom-width: 0.1px;
+                        border-style: solid;
+                        border-color: #eaeaea;
+                        padding: .9em 1em;
+                        &:hover {
+                            color: $header-link-hover;
+                            background-color: #ffffff00;
+                        }
+                        &:focus {
+                            background-color: #ffffff00;
+                        }
+                    }
+                }
+            }
 
+        }
         .cart {
+            @media(min-width: $xl) {
+                // visibility: visible;
+                display: block;
+            }
+            // visibility: hidden;
+            display: none;
             height: 42px;
             width: 53px;
             &:hover {
@@ -176,9 +184,5 @@
     }
 }
 
-@media (min-width: $lg) {
-	.navbar .nav-item .dropdown-menu{ display: none; }
-	.navbar .nav-item:hover .dropdown-menu{ display: block; }
-	.navbar .nav-item .dropdown-menu{ margin-top:0; }
-}
+
 
