@@ -185,16 +185,21 @@
         text-align: center;
 
         .sub-title {
+            font-size: 21px;
             padding-top: 60px;
             padding-bottom: 10px;
-            font-size: 30px;
             font-weight: 300;
+            @media(min-width: $md) {
+                font-size: 30px;
+            }
         }
 
         .shop-card-title {
+            font-size: 29px;
             padding-bottom: 60px;
-            font-size: 50px;
-            font-weight: 400;
+            @media(min-width: $md) {
+                font-size: 50px;
+            }
         }
     }
 
