@@ -6,40 +6,53 @@
     @media(min-width:$xl) {
         background-color: $header-bg;
     }
-    .mobile-cart {
-        // visibility: hidden;
-        position: relative;
 
-        @media(min-width: $sm) {
-            visibility: visible;
-        }
+    .cart-toggler-holder {
+        display: flex;
         @media(min-width: $xl) {
-            visibility: hidden;
+            display: none;
         }
-
-        .cart-icon-number {
-            position: absolute;
-            top: 0;
-            right: 6px;
-            border-radius: 50%;
-            border: 2px solid $header-bg;
-            font-size: 15px;
-            font-weight: 600;
-            text-decoration: none;
-            height: 22px;
-            width: 23px;
-            color: white;
-            background-color: $primary;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+        .mobile-cart {
+            position: relative;
+            padding-right: 10px;
+            height: 42px;
+            width: 53px;
+            padding: 0 8px;
+            .fa-shopping-cart {
+                color: $primary;
+                padding-top: 5px;
             }
 
+            .cart-icon-number {
+                position: absolute;
+                top: 0;
+                right: 0;
+                border-radius: 50%;
+                border: 2px solid $header-bg;
+                font-size: 15px;
+                font-weight: 600;
+                text-decoration: none;
+                height: 22px;
+                width: 23px;
+                color: white;
+                background-color: $primary;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                }
+        }
+
+        .navbar-toggler{
+            padding-top: 0;
+            .navbar-toggler-icon {
+                margin-top: -7px;
+                color: $primary;
+                font-size: 20px;
+            }
+        }
     }
 
-    .navbar-toggler-icon {
-        color: $primary;
-    }
+
 
     .navbar-nav {
         position: relative;
@@ -85,10 +98,8 @@
         }
         .cart {
             @media(min-width: $xl) {
-                // visibility: visible;
                 display: block;
             }
-            // visibility: hidden;
             display: none;
             height: 42px;
             width: 53px;
@@ -102,9 +113,6 @@
                 padding-top: 5px;
             }
             .cart-icon-number {
-                position: absolute;
-                top: 0;
-                right: 6px;
                 border-radius: 50%;
                 border: 2px solid $header-bg;
                 font-size: 15px;
@@ -117,6 +125,9 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                position: absolute;
+                top: 0;
+                right: 0;
             }
             .cart-hover-holder {
                 visibility: hidden;

@@ -40,22 +40,25 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="logo" srcset="">
 			</a>
 
-			<div class="mobile-cart">
-				<a href="<?php echo esc_url(wc_get_cart_url()); ?>">		
-					<i class="fas fa-shopping-cart fa-2x"></i>
-					<a class="cart-icon-number"></a>	
-				</a>
+			<div class="cart-toggler-holder">
+				<div class="mobile-cart">
+					<a href="<?php echo esc_url(wc_get_cart_url()); ?>">		
+						<i class="fas fa-shopping-cart fa-2x"></i>
+						<a class="cart-icon-number"></a>	
+					</a>
+				</div>
+				
+
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+					aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+
+					<span class="navbar-toggler-icon">
+						<i class="fas fa-bars fa-2x"></i>
+					</span>
+
+				</button>
 			</div>
-			
 
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
-				aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-
-				<span class="navbar-toggler-icon">
-					<i class="fas fa-bars fa-2x"></i>
-				</span>
-
-			</button>
 
 			<div class="collapse navbar-collapse" id="navbarToggler">
 
@@ -111,7 +114,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 						<a class="nav-link" href="#">MY ACCOUNT</a>
 					</li>
 					<li class="nav-item cart">
-						<a  class="nav-link" href="<?php echo esc_url(wc_get_cart_url()); ?>">		
+						<a  class="nav-link pt-0" href="<?php echo esc_url(wc_get_cart_url()); ?>">		
 							<i class="fas fa-shopping-cart fa-2x"></i>
 							<a class="cart-icon-number"></a>
 							<div class="cart-hover-holder">
