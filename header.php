@@ -70,15 +70,15 @@ $container = get_theme_mod( 'understrap_container_type' );
 							OCCASION
 						</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-							<a class="dropdown-item" href="#">THINKING OF YOU</a>
-							<a class="dropdown-item" href="#">THANK YOU</a>
-							<a class="dropdown-item" href="#">LOVE & ROMANCE</a>
-							<a class="dropdown-item" href="#">BIRTHDAY</a>
-							<a class="dropdown-item" href="#">ANNIVERSARY</a>
-							<a class="dropdown-item" href="#">NEW BABY</a>
-							<a class="dropdown-item" href="#">CORSAGES & BOUTINEERS</a>
-							<a class="dropdown-item" href="#">GET WELL</a>
-							<a class="dropdown-item" href="#">SYMPATHY & FUNERAL</a>
+							<a class="dropdown-item" href="#"><i class="fas fa-chevron-right fa-xs"></i>THINKING OF YOU</a>
+							<a class="dropdown-item" href="#"><i class="fas fa-chevron-right fa-xs"></i>THANK YOU</a>
+							<a class="dropdown-item" href="#"><i class="fas fa-chevron-right fa-xs"></i>LOVE & ROMANCE</a>
+							<a class="dropdown-item" href="#"><i class="fas fa-chevron-right fa-xs"></i>BIRTHDAY</a>
+							<a class="dropdown-item" href="#"><i class="fas fa-chevron-right fa-xs"></i>ANNIVERSARY</a>
+							<a class="dropdown-item" href="#"><i class="fas fa-chevron-right fa-xs"></i>NEW BABY</a>
+							<a class="dropdown-item" href="#"><i class="fas fa-chevron-right fa-xs"></i>CORSAGES & BOUTINEERS</a>
+							<a class="dropdown-item" href="#"><i class="fas fa-chevron-right fa-xs"></i>GET WELL</a>
+							<a class="dropdown-item" href="#"><i class="fas fa-chevron-right fa-xs"></i>SYMPATHY & FUNERAL</a>
 						</div>
 					</li>
 
@@ -88,8 +88,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 							HOLIDAYS
 						</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-							<a class="dropdown-item" href="#">EASTER</a>
-							<a class="dropdown-item" href="#">MOTHER'S DAY</a>
+							<a class="dropdown-item" href="#"><i class="fas fa-chevron-right fa-xs"></i>EASTER</a>
+							<a class="dropdown-item" href="#"><i class="fas fa-chevron-right fa-xs"></i>MOTHER'S DAY</a>
 						</div>
 					</li>
 
@@ -99,8 +99,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 							BABYCAKES
 						</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-							<a class="dropdown-item" href="#">BABYCAKES CUPCAKES</a>
-							<a class="dropdown-item" href="#">GIFTS</a>
+							<a class="dropdown-item" href="#"><i class="fas fa-chevron-right fa-xs"></i>BABYCAKES CUPCAKES</a>
+							<a class="dropdown-item" href="#"><i class="fas fa-chevron-right fa-xs"></i>GIFTS</a>
 						</div>
 					</li>
 

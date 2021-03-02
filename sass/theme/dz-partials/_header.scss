@@ -78,11 +78,10 @@
                 .dropdown-menu {
                     border: none;
                     padding: 0;
-                    background-color: white;
+                    
                     .dropdown-item {
                         border-bottom: 0.1px solid #eaeaea;
                         @media(min-width:$xl) {
-                            // border-bottom: 0.1px solid #eaeaea;
                             padding: .9em 1em;
                             &:hover {
                                 color: $header-link-hover;
@@ -90,6 +89,13 @@
                             }
                             &:focus {
                                 background-color: #ffffff00;
+                            }
+                        }
+                        i {
+                            padding-right: 8px;
+                            color: #979797;
+                            @media(min-width: $xl) {
+                                display: none;
                             }
                         }
                     }
