@@ -40,6 +40,14 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="logo" srcset="">
 			</a>
 
+			<div class="mobile-cart">
+				<a href="<?php echo esc_url(wc_get_cart_url()); ?>">		
+					<i class="fas fa-shopping-cart fa-2x"></i>
+					<a class="cart-icon-number"></a>	
+				</a>
+			</div>
+			
+
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
 				aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
 
@@ -102,15 +110,16 @@ $container = get_theme_mod( 'understrap_container_type' );
 					<li class="nav-item">
 						<a class="nav-link" href="#">MY ACCOUNT</a>
 					</li>
-					<a href="<?php echo esc_url(wc_get_cart_url()); ?>">
-						<li class="nav-item cart">
+					<li class="nav-item cart">
+						<a  class="nav-link" href="<?php echo esc_url(wc_get_cart_url()); ?>">		
 							<i class="fas fa-shopping-cart fa-2x"></i>
 							<a class="cart-icon-number"></a>
 							<div class="cart-hover-holder">
 								<div class="widget_shopping_cart_content"><?php woocommerce_mini_cart(); ?></div>
-							</div>
-						</li>
-					</a>
+							</div>		
+						</a>
+					</li>
+
 				</ul>
 			</div>
 

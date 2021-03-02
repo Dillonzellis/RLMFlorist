@@ -6,6 +6,15 @@
     @media(min-width:$xl) {
         background-color: $header-bg;
     }
+    .mobile-cart {
+        // visibility: hidden;
+        @media(min-width: $sm) {
+            visibility: visible;
+        }
+        @media(min-width: $xl) {
+            visibility: hidden;
+        }
+    }
 
     .navbar-toggler-icon {
         color: $primary;
@@ -31,7 +40,7 @@
             }
             .dropdown-menu {
                 padding: 0;
-                background-color: green;
+                background-color: #F4F4F4;;
                 @media(min-width:$xl) {
                     background-color: $header-bg;
                 }
