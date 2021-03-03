@@ -1,28 +1,37 @@
 
 #wrapper-footer {
-    height: 374px;
+    // height: 374px;
     padding-bottom: 0;
     background-color: $primary;
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
+
     a {
-        transition: all .2s ease-in-out;  
         color: white;
-        &:hover {
-            text-decoration: none;
-            transform: scale(1.1); 
+        @media(min-width: $xl){
+            transition: all .2s ease-in-out;
+            &:hover {
+                text-decoration: none;
+                transform: scale(1.1); 
+            }
         }
+
     }
+
     hr {
         border-color: white;
-        margin-top: -30px;
     }
+
     .footer-contact-holder{
         margin-top: 10px;
         display: flex;
         justify-content: center;
+        flex-direction: column;
+        @media(min-width: $lg) {
+            flex-direction: row; 
+        }
         .contact {
             display: flex;
             justify-content: center;
