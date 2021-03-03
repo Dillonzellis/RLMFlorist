@@ -1,4 +1,7 @@
 
+/// use bootstrap row resp col
+
+
 #wrapper-footer {
     // height: 374px;
     padding-bottom: 0;
@@ -28,10 +31,10 @@
         margin-top: 10px;
         display: flex;
         justify-content: center;
-        flex-direction: column;
-        @media(min-width: $lg) {
-            flex-direction: row; 
-        }
+        // flex-direction: column;
+        // @media(min-width: $lg) {
+        //     flex-direction: row; 
+        // }
         .contact {
             display: flex;
             justify-content: center;

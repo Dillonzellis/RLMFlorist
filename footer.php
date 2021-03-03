@@ -15,6 +15,11 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <?php get_template_part( 'sidebar-templates/sidebar', 'footerfull' ); ?>
 
+
+<!-- /// use bootstrap row resp col -->
+
+
+
 <div class="wrapper" id="wrapper-footer">
 
     <hr>
