@@ -439,7 +439,8 @@
 // worked with carousel
 .worked-with-carousel {
     display: none;
-    color: $primary;
+    background-color: $primary;
+    color: white;
     text-align: center;
     @media(min-width: $md) {
         display: block;
@@ -451,31 +452,37 @@
     }
 
     #carousel-dz {
-        a {
-            color: $primary;
-            z-index: 100;
-        }
-
-        .carousel-caption {
-            position: relative;
-            display: flex;
-            justify-content: center;
-            left: 0;
-            right: 0;
-            bottom: 0;
-
-            .worked-with-logo {
+        .carousel-inner {
+            background-color: whitesmoke;
+            a {
+                color: $primary;
+                z-index: 100;
+            }
+    
+            .carousel-caption {
+                position: relative;
                 display: flex;
-                align-items: center;
                 justify-content: center;
-                margin: 10px;
-                height: 160px;
-                width: 160px;
-                margin-left: 40px;
-                margin-right: 40px;
+                left: 0;
+                right: 0;
+                bottom: 0;
+    
+                .worked-with-logo {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin: 10px;
+                    height: 160px;
+                    width: 160px;
+                    margin-left: 40px;
+                    margin-right: 40px;
+                }
             }
         }
+
     }
+
+
 }
 
 // covid banner
@@ -483,7 +490,13 @@
     color: $primary;
     text-align: center;
 
+    .green-bar {
+        height: 50px;
+        background-color: $primary;
+    }
+
     .covid-title {
+        margin-top: 25px;
         font-weight: 600;
         font-size: 29px;
         line-height: 1.5;
@@ -492,5 +505,6 @@
 
     .covid-body {
         font-size: 14px;
+        margin-bottom: 25px;
     }
 }

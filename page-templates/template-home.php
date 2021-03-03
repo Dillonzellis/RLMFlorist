@@ -363,7 +363,6 @@ $container = get_theme_mod( 'understrap_container_type' );
             </div>
           </div>
         </div>
-
       </div>
     </div>
   </div>
@@ -495,10 +494,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 </div>
 
 <div class="covid-holder">
+  <div class="green-bar"></div>
   <div class="container">
     <div class="row">
       <div class="col">
-        <hr class="mb-4">
         <div class="covid-title">
           Covid-19
         </div>
@@ -514,7 +513,6 @@ $container = get_theme_mod( 'understrap_container_type' );
           take
           to help stop the spread of the virus.
         </div>
-        <hr class="mt-4">
       </div>
     </div>
   </div>
