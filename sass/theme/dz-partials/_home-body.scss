@@ -297,29 +297,32 @@
 
 // video card
 .strap-video-holder {
+    display: none !important;
     position: relative;
     background-color: black;
     position: relative;
     color: white;
-    height: 762px !important;
+    height: 762px;
     overflow: hidden;
     display: flex;
     align-items: center;
     pointer-events: none;
+    @media(min-width: $xl) {
+        display: flex !important;
+    }
 
-    .video-bg {
+    .embed-responsive{
         opacity: 0.6;
     }
 
     .video-foreground {
         position: absolute;
-        top: 0;
         left: 0;
         right: 0;
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
+        z-index: 5;
 
         .video-title {
             padding-top: 250px;
@@ -342,6 +345,16 @@
             line-height: 30px;
             padding-top: 80px;
         }
+    }
+}
+
+.main-green {
+    height: 40px;
+    background-color: $primary;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    @media(min-width: $xl) {
+        display:none;
     }
 }
 

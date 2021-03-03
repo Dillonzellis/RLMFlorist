@@ -73,6 +73,8 @@ $container = get_theme_mod( 'understrap_container_type' );
   </div>
 </div>
 
+<div class="main-green"></div>
+
 <div class="featured-shop">
   <div class="shop-card-holder">
     <div class="container-fluid">
@@ -158,7 +160,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 </div>
 
 <div class="strap-video-holder">
-  <div class="embed-responsive embed-responsive-4by3 video-bg">
+  <div class="embed-responsive embed-responsive-4by3">
     <iframe class="embed-responsive-item"
       src="https://www.youtube.com/embed/oZwcrNL-CJ4?playlist=oZwcrNL-CJ4&loop=1&controls=0&modestbranding=1&showinfo=0&rel=0&playsinline=1&showinfo=0&rel=0&enablejsapi=1&mute=1&autoplay=1"></iframe>
   </div>
@@ -174,6 +176,8 @@ $container = get_theme_mod( 'understrap_container_type' );
     </div>
   </div>
 </div>
+
+<div class="main-green"></div>
 
 <div class="best-sellers-holder">
   <div class="shop-card-holder">
@@ -260,6 +264,8 @@ $container = get_theme_mod( 'understrap_container_type' );
   </div>
 </div>
 
+<div class="main-green"></div>
+
 <div class="cta-banner-holder">
   <div class="container">
     <div class="row">
@@ -279,6 +285,8 @@ $container = get_theme_mod( 'understrap_container_type' );
     </div>
   </div>
 </div>
+
+<div class="main-green"></div>
 
 <div class="reviews-holder">
   <div class="container">
