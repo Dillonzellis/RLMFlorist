@@ -1,4 +1,3 @@
-
 // Hero img
 .home-hero-banner-top {
     height: 625px;
@@ -9,12 +8,15 @@
     background-color: rgb(0, 0, 0);
     // background-color: rgb(34, 64, 88);
     position: relative;
+
     @media(min-width:$sm) {
         height: 760px;
     }
+
     @media(min-width:$xl) {
         height: 1080px;
     }
+
     #dz-carousel {
         .carousel-item {
             opacity: 0.6;
@@ -23,42 +25,53 @@
             -webkit-animation: move 40s ease;
             -o-animation: move 40s ease;
             -moz-animation: move 40s ease;
+
             @media(min-width:$sm) {
                 height: 760px;
             }
+
             @media(min-width:$xl) {
                 height: 1080px;
             }
         }
+
         .slide-1 {
             height: 625px;
-            background: url('../img/a1.jpg') no-repeat center fixed;     
+            background: url('../img/a1.jpg') no-repeat center fixed;
             background-size: cover;
+
             @media(min-width:$sm) {
                 height: 760px;
             }
+
             @media(min-width:$xl) {
                 height: 1080px;
             }
         }
+
         .slide-2 {
             height: 625px;
-            background: url('../img/a2.jpg') no-repeat center fixed;     
+            background: url('../img/a2.jpg') no-repeat center fixed;
             background-size: cover;
+
             @media(min-width:$sm) {
                 height: 760px;
             }
+
             @media(min-width:$xl) {
                 height: 1080px;
             }
         }
+
         .slide-3 {
             height: 625px;
-            background: url('../img/cta.jpg') no-repeat center fixed;     
+            background: url('../img/cta.jpg') no-repeat center fixed;
             background-size: cover;
+
             @media(min-width:$sm) {
                 height: 760px;
             }
+
             @media(min-width:$xl) {
                 height: 1080px;
             }
@@ -95,9 +108,11 @@
         right: 0;
         margin: auto;
         z-index: 3;
+
         @media(min-width:$sm) {
             top: 300px;
         }
+
         @media(min-width:$xl) {
             top: 400px;
         }
@@ -105,9 +120,11 @@
         .main-title {
             font-size: 42px;
             font-weight: 600;
+
             @media(min-width:$lg) {
                 font-size: 60px;
             }
+
             @media(min-width:$xl) {
                 font-size: 94.5px;
                 line-height: 113.4px;
@@ -115,33 +132,41 @@
             }
 
         }
+
         .sub-title {
             font-size: 20px;
             font-weight: 500;
+
             @media(min-width:$lg) {
                 font-size: 25px;
             }
+
             @media(min-width:$xl) {
                 font-size: 30px;
                 line-height: 45px;
                 padding-bottom: 20px;
             }
         }
+
         hr {
             border-color: white;
+
             @media(min-width:460px) {
                 padding-top: 15px;
                 padding-bottom: 18px;
             }
         }
+
         .sub-2-title {
             font-size: 18.24px;
             font-weight: 500;
             padding-bottom: 15px;
             font-style: italic;
+
             @media(min-width:$lg) {
                 font-size: 20px;
             }
+
             @media(min-width:$xl) {
                 line-height: 20px;
                 padding-bottom: 25px;
@@ -157,19 +182,22 @@
             font-weight: 500;
             padding-top: 20px;
             font-style: italic;
+
             @media(min-width:$lg) {
                 font-size: 20px;
             }
+
             @media(min-width:$xl) {
                 line-height: 20px;
             }
         }
-    
+
         .diamonds {
             visibility: hidden;
             color: white;
             font-size: 2rem;
-            @media(min-width: 480px){
+
+            @media(min-width: 480px) {
                 visibility: visible;
             }
         }
@@ -195,20 +223,33 @@
         }
 
         .shop-card-title {
-            font-size: 29px;
-            padding-bottom: 60px;
+            font-size: 35px;
+            margin-bottom: 30px;
             @media(min-width: $md) {
                 font-size: 50px;
+                padding-bottom: 60px;
             }
         }
     }
 
     .wp-block-group {
         .wc-block-grid__products {
-            padding-left: 120px;
-            padding-right: 120px;
+            flex-direction: column;
+
+            @media(min-width: 600px) {
+                flex-direction: row;
+            }
+            @media(min-width: $xl) {
+                padding-left: 120px;
+                padding-right: 120px;
+            }
 
             .wc-block-grid__product {
+                @media (min-width: 481px) and (max-width: 600px) {
+                    max-width: 100%;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
                 span {
                     font-size: 16px;
                     color: black;
@@ -252,20 +293,6 @@
             }
         }
     }
-
-
-
-
-
-
-    // .card-deck {
-    //     padding-bottom: 80px;
-
-    //     .card-img-top {
-    //         height: 405px;
-    //         width: 405px;
-    //     }
-    // }
 }
 
 // video card
@@ -279,9 +306,11 @@
     display: flex;
     align-items: center;
     pointer-events: none;
+
     .video-bg {
         opacity: 0.6;
     }
+
     .video-foreground {
         position: absolute;
         top: 0;
@@ -291,18 +320,20 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        
+
         .video-title {
             padding-top: 250px;
             font-size: 80px;
             font-weight: 300;
             letter-spacing: 3.5;
         }
+
         .video-sub-title {
             font-size: 42px;
             padding-bottom: 200px;
             line-height: 54.6px;
         }
+
         .video-sub2-title {
             font-size: 20px;
             font-weight: 300;
@@ -334,6 +365,7 @@
         font-size: 50px;
         padding-bottom: 15px;
         font-weight: 600;
+
         @media(min-width: $lg) {
             font-size: 70px;
         }
@@ -342,6 +374,7 @@
     .cta-sub-title {
         font-size: 18px;
         padding-bottom: 60px;
+
         @media(min-width: $lg) {
             font-size: 24px;
             line-height: 36px;
@@ -349,7 +382,7 @@
         }
     }
 
-    button{
+    button {
         font-size: 18px;
         margin-bottom: 80px;
     }
@@ -376,54 +409,57 @@
         padding-bottom: 60px;
     }
 
-    .card-deck{
+    .card-deck {
         display: flex;
         flex-direction: column;
+
         @media(min-width: $xl) {
             flex-direction: row;
         }
+
         .card-body {
             box-shadow: 3px 5px 10px 0 rgba(0, 0, 0, .5);
             color: #333333;
+
             @media(min-width: $sm) {
                 margin-bottom: 15px;
             }
-    
+
             .card-review {
                 margin-bottom: 20px;
             }
-    
+
             .review-2 {
                 font-size: 26px;
                 line-height: 48.3px;
             }
-    
+
             .review-3 {
                 font-size: 21px;
                 line-height: 35.3px;
             }
-    
+
             .review-customer-holder {
                 display: flex;
                 justify-content: center;
                 align-items: center;
-    
+
                 .review-customer-img {
                     height: 60px;
                     width: 60px;
                     margin-right: 15px;
-    
+
                     img {
                         border-radius: 50%;
                     }
                 }
-    
+
                 .review-customer {
                     .review-customer-name {
                         line-height: 22.5px;
                         font-size: 15px;
                     }
-    
+
                     .review-customer-sub-line {
                         font-size: 12.75px;
                         line-height: 12.75px;
@@ -442,6 +478,7 @@
     background-color: $primary;
     color: white;
     text-align: center;
+
     @media(min-width: $md) {
         display: block;
     }
@@ -454,11 +491,12 @@
     #carousel-dz {
         .carousel-inner {
             background-color: whitesmoke;
+
             a {
                 color: $primary;
                 z-index: 100;
             }
-    
+
             .carousel-caption {
                 position: relative;
                 display: flex;
@@ -466,7 +504,7 @@
                 left: 0;
                 right: 0;
                 bottom: 0;
-    
+
                 .worked-with-logo {
                     display: flex;
                     align-items: center;
