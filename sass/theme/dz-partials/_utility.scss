@@ -20,6 +20,18 @@ body {
     }
 }
 
+
+@media(min-width: $lg){
+    .grow { 
+        transition: all .2s ease-in-out; 
+        &:hover { 
+        transform: scale(1.1); 
+        }
+    }
+}
+
+
+
 .fade-in {
     animation: fadein 2s;
     -moz-animation: fadein 2s;

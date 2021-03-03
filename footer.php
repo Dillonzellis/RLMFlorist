@@ -27,16 +27,16 @@ $container = get_theme_mod( 'understrap_container_type' );
 
     <div class="contact-holder container">
         <div class="row justify-content-center align-items-center">
-            <div class="col-lg-2">
-                <a href="<?php echo esc_url( home_url( '/' ) ); ?>">
+            <div class="col-lg-2 grow">
+                <a class="grow" href="<?php echo esc_url( home_url( '/' ) ); ?>">
                     <img loading=lazy src="<?php echo get_template_directory_uri(); ?>/img/rlmfooterwhite.png" alt="logo">
                 </a>
             </div>
-            <div class="col-lg-2">
-                <a href="tel:770-536-7306" class="contact">(770) 536-7306</a>
+            <div class="col-lg-2 grow">
+                <a class="contact grow" href="tel:770-536-7306">(770) 536-7306</a>
             </div>
-            <div class="col-lg-2">
-                <a class="contact" href="mailto:resia@rlmaffairs.com">EMAIL US</a> 
+            <div class="col-lg-2 grow">
+                <a class="contact grow" href="mailto:resia@rlmaffairs.com">EMAIL US</a> 
             </div>
         </div>
     </div>
@@ -44,32 +44,32 @@ $container = get_theme_mod( 'understrap_container_type' );
     <div class="footer-nav-holder container-fluid">
         <div class="row align-items-center mt-3 mb-4">
             <div class="col-lg-2">
-                <div class="nav-link">
+                <div class="nav-link grow">
                     <a href="">OCCASION</a>
                 </div>
             </div>
             <div class="col-lg-2">
-                <div class="nav-link">
+                <div class="nav-link grow">
                     <a href="">HOLIDAY</a>
                 </div>
             </div>
             <div class="col-lg-2">
-                <div class="nav-link">
+                <div class="nav-link grow">
                     <a href="">BABYCAKES</a>
                 </div>
             </div>
             <div class="col-lg-2">
-                <div class="nav-link">
+                <div class="nav-link grow">
                     <a href="">ALL PRODUCTS</a>
                 </div>
             </div>
             <div class="col-lg-2">
-                <div class="nav-link">
+                <div class="nav-link grow">
                     <a href="">VENUE & EVENT SERVICES</a>
                 </div>
             </div>
             <div class="col-lg-2">
-                <div class="nav-link">
+                <div class="nav-link grow">
                     <a href="">ABOUT US</a>
                 </div>
             </div>
@@ -78,13 +78,13 @@ $container = get_theme_mod( 'understrap_container_type' );
 
     <div class="socials-holder container">
       <div class="row justify-content-center">
-        <div class="col-2">
+        <div class="col-2 grow">
             <div class="social"><a href="#"><i class="fab fa-facebook-f fa-lg"></i></a></div>
         </div>
-        <div class="col-2">
+        <div class="col-2 grow">
             <div class="social"><a href="#"><i class="fab fa-instagram fa-lg"></i></a></div>
         </div>
-        <div class="col-2">
+        <div class="col-2 grow">
             <div class="social"><a href="mailto:resia@rlmaffairs.com"><i class="far fa-envelope fa-lg"></i></a></div>
         </div>
       </div>
