@@ -24,7 +24,25 @@ $container = get_theme_mod( 'understrap_container_type' );
 
     <hr>
 
-    <div class="footer-contact-holder container">
+    <div class="contact-holder container">
+        <div class="row">
+            <div class="col col-lg-4">
+                <a class="contact" href="<?php echo esc_url( home_url( '/' ) ); ?>">
+                    <img loading=lazy src="<?php echo get_template_directory_uri(); ?>/img/rlmfooterwhite.png" alt="logo">
+                </a>
+            </div>
+        </div>
+            <div class="col col-lg-4">
+                (770) 536-7306
+            </div>
+        </div>
+            <div class="col col-lg-4">
+                RESIA@RLMAFFAIRS.COM
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="footer-contact-holder container">
         <div class="contact">
             <a class="contact" href="<?php echo esc_url( home_url( '/' ) ); ?>">
                 <img loading=lazy src="<?php echo get_template_directory_uri(); ?>/img/rlmfooterwhite.png" alt="logo"
@@ -33,7 +51,7 @@ $container = get_theme_mod( 'understrap_container_type' );
         </div>
         <div class="contact">(770) 536-7306</div>
         <div class="contact justify-content-start">RESIA@RLMAFFAIRS.COM</div>
-    </div>
+    </div> -->
 
     <div class="footer-nav-holder container-fluid">
         <div class="link"><a href="">OCCASION</a></div>
