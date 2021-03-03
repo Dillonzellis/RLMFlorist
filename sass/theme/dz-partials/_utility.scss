@@ -1,5 +1,90 @@
+html, body {
+    position:relative;
+    overflow-x:hidden 
+  } 
+
 body {
     font-family: $primary-font;
-    background-color: $primary;
-    height: 8000px;
+    background-color: $body-background;
+}
+
+.btn {
+    font-size: 18px;
+    border-radius: 0;
+    line-height: 18px;
+    padding: 16px 25px;
+
+    &:hover {
+        background-color: rgba(255, 255, 255, 0.3);
+        color: white;
+    }
+}
+
+
+@media(min-width: $lg){
+    .grow { 
+        transition: all .2s ease-in-out; 
+        &:hover { 
+        transform: scale(1.1); 
+        }
+    }
+}
+
+
+
+.fade-in {
+    animation: fadein 2s;
+    -moz-animation: fadein 2s;
+    /* Firefox */
+    -webkit-animation: fadein 2s;
+    /* Safari and Chrome */
+    -o-animation: fadein 2s;
+    /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+@-moz-keyframes fadein {
+
+    /* Firefox */
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes fadein {
+
+    /* Safari and Chrome */
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+@-o-keyframes fadein {
+
+    /* Opera */
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+hr{
+    width: 70%;
+    border-top: 1.8px solid $primary;
 }

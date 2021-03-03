@@ -1,0 +1,42 @@
+
+#wrapper-footer {
+    background-color: $primary;
+    text-align: center;
+    color: white;
+
+    a{
+        color: white;
+        text-decoration: none;
+    }
+
+    hr {
+        border-top-color: white;
+    }
+
+    .contact-holder {
+        img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            padding-bottom: 8px;
+        }
+
+        .contact {
+            padding-top: 8px;
+            padding-bottom: 8px;
+            @media(min-width: $lg) {
+                line-height: 120px;
+            }
+        }
+    }
+
+    .socials-holder {
+        .social {
+            font-size: 25px;
+        }
+    }
+
+    .legal-holder {
+        margin-top: 50px;
+    }
+}

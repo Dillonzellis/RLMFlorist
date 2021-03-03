@@ -20,50 +20,112 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,300;1,400&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+		integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
 	<?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
+<body <?php body_class(); ?>>	
 	<?php do_action( 'wp_body_open' ); ?>
 	<div class="site" id="page">
 
-		<!-- ******************* The Navbar Area ******************* -->
+		<nav class="navbar navbar-expand-xl">
 
-			<nav id="main-nav" class="navbar navbar-expand-xl bg-header-bg">
+			<a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>">
+				<img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="logo" srcset="">
+			</a>
 
-				<div class="container-fluid">
-
-					<!-- Your site title as branding in the menu -->
-
-					<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/rlmcrop-150x150.png" alt="logo" srcset="">
+			<div class="cart-toggler-holder">
+				<div class="mobile-cart">
+					<a href="<?php echo esc_url(wc_get_cart_url()); ?>">		
+						<i class="fas fa-shopping-cart fa-2x"></i>
+						<a class="cart-icon-number"></a>	
 					</a>
+				</div>
+				
 
-					<!-- end custom logo -->
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+					aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
 
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'understrap' ); ?>">
-						<span class="navbar-toggler-icon "></span>
-					</button>
+					<span class="navbar-toggler-icon">
+						<i class="fas fa-bars fa-2x"></i>
+					</span>
 
-					<!-- The WordPress Menu goes here -->
-					<?php wp_nav_menu(
-					array(
-						'theme_location'  => 'primary',
-						'container_class' => 'collapse navbar-collapse',
-						'container_id'    => 'navbarNavDropdown',
-						'menu_class'      => 'navbar-nav ml-auto',
-						'fallback_cb'     => '',
-						'menu_id'         => 'main-menu',
-						'depth'           => 2,
-						'walker'          => new Understrap_WP_Bootstrap_Navwalker(),
-					)
-				); ?>
+				</button>
+			</div>
 
-				<a href="#"><i class="fas fa-shopping-cart fa-lg cart-icon"></i></a>
 
-				</div><!-- .container -->
-			</nav><!-- .site-navigation -->
+			<div class="collapse navbar-collapse" id="navbarToggler">
 
-		<!-- </div>#wrapper-navbar end -->
+				<ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+							aria-haspopup="true" aria-expanded="false">
+							OCCASION
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item" href="#"><i class="fas fa-chevron-right fa-xs"></i>THINKING OF YOU</a>
+							<a class="dropdown-item" href="#"><i class="fas fa-chevron-right fa-xs"></i>THANK YOU</a>
+							<a class="dropdown-item" href="#"><i class="fas fa-chevron-right fa-xs"></i>LOVE & ROMANCE</a>
+							<a class="dropdown-item" href="#"><i class="fas fa-chevron-right fa-xs"></i>BIRTHDAY</a>
+							<a class="dropdown-item" href="#"><i class="fas fa-chevron-right fa-xs"></i>ANNIVERSARY</a>
+							<a class="dropdown-item" href="#"><i class="fas fa-chevron-right fa-xs"></i>NEW BABY</a>
+							<a class="dropdown-item" href="#"><i class="fas fa-chevron-right fa-xs"></i>CORSAGES & BOUTINEERS</a>
+							<a class="dropdown-item" href="#"><i class="fas fa-chevron-right fa-xs"></i>GET WELL</a>
+							<a class="dropdown-item" href="#"><i class="fas fa-chevron-right fa-xs"></i>SYMPATHY & FUNERAL</a>
+						</div>
+					</li>
+
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+							aria-haspopup="true" aria-expanded="false">
+							HOLIDAYS
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item" href="#"><i class="fas fa-chevron-right fa-xs"></i>EASTER</a>
+							<a class="dropdown-item" href="#"><i class="fas fa-chevron-right fa-xs"></i>MOTHER'S DAY</a>
+						</div>
+					</li>
+
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+							aria-haspopup="true" aria-expanded="false">
+							BABYCAKES
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item" href="#"><i class="fas fa-chevron-right fa-xs"></i>BABYCAKES CUPCAKES</a>
+							<a class="dropdown-item" href="#"><i class="fas fa-chevron-right fa-xs"></i>GIFTS</a>
+						</div>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="#">ALL PRODUCTS</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">VENUE & EVENT SERVICES</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">MY ACCOUNT</a>
+					</li>
+					<li class="nav-item cart">
+						<a  class="nav-link pt-0" href="<?php echo esc_url(wc_get_cart_url()); ?>">		
+							<i class="fas fa-shopping-cart fa-2x"></i>
+							<a class="cart-icon-number"></a>
+							<div class="cart-hover-holder">
+								<div class="widget_shopping_cart_content"><?php woocommerce_mini_cart(); ?></div>
+							</div>		
+						</a>
+					</li>
+
+				</ul>
+			</div>
+
+		</nav>
+
+

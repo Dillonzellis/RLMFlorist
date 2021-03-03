@@ -33,3 +33,33 @@ foreach ( $understrap_includes as $file ) {
 	}
 	require_once $filepath;
 }
+
+/**
+ * Show cart contents / total Ajax
+ */
+add_filter( 'woocommerce_add_to_cart_fragments', 'woocommerce_header_add_to_cart_fragment' );
+
+function woocommerce_header_add_to_cart_fragment( $fragments ) {
+	global $woocommerce;
+
+	ob_start();
+
+	?>
+	<a class="cart-icon-number" href="<?php echo esc_url(wc_get_cart_url()); ?>"><?php echo WC()->cart->get_cart_contents_count();?></a>
+	<?php
+	$fragments['a.cart-icon-number'] = ob_get_clean();
+	return $fragments;
+}
+
+
+// adds class view-cart to btn in mini-cart template
+remove_action( 'woocommerce_widget_shopping_cart_buttons', 'woocommerce_widget_shopping_cart_button_view_cart', 10 );
+
+function my_woocommerce_widget_shopping_cart_button_view_cart() {
+    echo '<a href="' . esc_url( wc_get_cart_url() ) . '" class="button wc-forward view-cart">' . esc_html__( 'View Cart', 'woocommerce' ) . '</a>';
+}
+
+add_action( 'woocommerce_widget_shopping_cart_buttons', 'my_woocommerce_widget_shopping_cart_button_view_cart', 10 );
+
+
+
