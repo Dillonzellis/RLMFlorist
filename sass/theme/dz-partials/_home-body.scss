@@ -427,8 +427,12 @@
 
 // worked with carousel
 .worked-with-carousel {
+    display: none;
     color: $primary;
     text-align: center;
+    @media(min-width: $md) {
+        display: block;
+    }
 
     .worked-with-title {
         font-size: 35px;
