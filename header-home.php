@@ -34,7 +34,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<?php do_action( 'wp_body_open' ); ?>
 	<div class="site" id="page">
 
-		<!-- <nav class="navbar navbar-expand-xl">
+		<nav class="navbar navbar-expand-xl">
 
 			<a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>">
 				<img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="logo" srcset="">
@@ -65,12 +65,12 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<ul class="navbar-nav ml-auto mt-2 mt-lg-0">
 
 					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+						<a class="nav-link dropdown-toggle" href="<?php echo esc_url( home_url( '/shop/occasion' ) ); ?>" id="navbarDropdownMenuLink" data-toggle="dropdown"
 							aria-haspopup="true" aria-expanded="false">
 							OCCASION
 						</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-							<a class="dropdown-item" href="#"><i class="fas fa-chevron-right fa-xs"></i>THINKING OF YOU</a>
+							<a class="dropdown-item" href="<?php echo esc_url( home_url( '/shop/occasion/thinking-of-you' ) ); ?>"><i class="fas fa-chevron-right fa-xs"></i>THINKING OF YOU</a>
 							<a class="dropdown-item" href="#"><i class="fas fa-chevron-right fa-xs"></i>THANK YOU</a>
 							<a class="dropdown-item" href="#"><i class="fas fa-chevron-right fa-xs"></i>LOVE & ROMANCE</a>
 							<a class="dropdown-item" href="#"><i class="fas fa-chevron-right fa-xs"></i>BIRTHDAY</a>
@@ -126,6 +126,6 @@ $container = get_theme_mod( 'understrap_container_type' );
 				</ul>
 			</div>
 
-		</nav> -->
+		</nav>
 
 
