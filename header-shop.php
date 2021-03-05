@@ -34,7 +34,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<?php do_action( 'wp_body_open' ); ?>
 	<div class="site" id="page">
 
-		<nav class="navbar navbar-expand-xl home-navbar">
+		<nav class="navbar navbar-expand-xl shop-navbar">
 
 			<a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>">
 				<img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="logo" srcset="">
