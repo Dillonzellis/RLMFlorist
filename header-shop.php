@@ -106,7 +106,6 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 					<li class="nav-item">
 						<a class="nav-link" href="<?php echo esc_url( home_url( '/store/' ) ); ?>">ALL PRODUCTS</a>
-						
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="https://www.rlmaffairs.com/">VENUE & EVENT SERVICES</a>
@@ -123,10 +122,6 @@ $container = get_theme_mod( 'understrap_container_type' );
 							</div>		
 						</a>
 					</li>
-
 				</ul>
 			</div>
-
 		</nav>
-
-
