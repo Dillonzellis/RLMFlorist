@@ -371,6 +371,7 @@
                 }
                 .cart-hover-holder {
                     // visibility: hidden;
+                    width: 280px;
                     background-color: white;
                     position: absolute;
                     right: 0;
@@ -381,6 +382,12 @@
                         visibility: visible;
                     }
                     .widget_shopping_cart_content {
+
+                        .product_list_widget {
+                            max-height: 50vh;
+                            overflow-y: auto;
+                        }
+
                         .woocommerce-mini-cart {
                             padding-left: 0;
                             list-style: none;
