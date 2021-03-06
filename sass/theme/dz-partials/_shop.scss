@@ -1,8 +1,104 @@
 #woocommerce-wrapper {
     background-color: #f4f4f4;
     padding-top: 60px;
+    padding-left: 45px;
+    padding-right: 45px;
 
-    // .woocommerce-breadcrumb {
-    //     visibility:hidden;
-    // }
+    #left-sidebar {
+        padding-right: 30px;
+        border-right: 1px solid rgb(230, 230, 230);
+
+        //     @media (min-width: 769px) {
+        //     border-right: 1px solid #eee;
+        //     margin-right: -1px;
+        // }
+        #woocommerce_product_search-4 {
+            margin-bottom: 42px;
+
+            .btn {
+                font-size: 15px;
+                background-color: transparent;
+                color: $primary;
+                
+                padding: 0 10px;
+                border: none;
+
+                &:hover {
+                    background-color: $primary;
+                    color: white;
+                }
+            }
+        }
+
+        #woocommerce_product_categories-4 {
+            margin-bottom: 42px;
+
+            .widget-title {
+                margin-bottom: 17px;
+                font-size: 24px;
+            }
+        }
+
+        #woocommerce_price_filter-8 {
+            .price_slider {
+                .ui-slider-range {
+                    background-color: $primary;
+                }
+            }
+        }
+
+
+
+        // .woocommerce-breadcrumb {
+        //     visibility:hidden;
+        // }
+    }
+
+    #primary {
+        padding-left: 40px;
+        border-left: 1px solid rgb(230, 230, 230);
+
+        .products {
+            h2 {
+                color: black;
+            }
+            .price {
+                color: black;
+            }
+            .add-to-cart-container {
+                a {
+                    color: white;
+                    background-color: $primary;
+                    border-color: $primary;
+                    font-weight: 600;
+                    border-width: 2px;
+
+                    &:hover {
+                        color: $primary;
+                        background-color: white;
+                    }
+                }
+            }
+        }
+
+        .woocommerce-pagination {
+            text-align: left;
+            .page-numbers{
+                li {
+                    .current, a {
+                        color: $primary;
+                    }  
+                }
+            }
+        }
+
+
+        // @media (min-width: 769px) .ast-left-sidebar #primary {
+        //     border-left: 1px solid #eee;
+        // }
+
+        // @media (min-width: 993px) .ast-left-sidebar #primary {
+        //     padding-left: 60px;
+        // }
+    }
 }
