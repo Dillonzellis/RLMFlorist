@@ -12,7 +12,7 @@
         //     border-right: 1px solid #eee;
         //     margin-right: -1px;
         // }
-        #woocommerce_product_search-4 {
+        .widget_product_search {
             margin-bottom: 42px;
 
             .btn {
@@ -30,7 +30,7 @@
             }
         }
 
-        #woocommerce_product_categories-4 {
+        .widget_product_categories {
             margin-bottom: 42px;
 
             .widget-title {
@@ -39,7 +39,8 @@
             }
         }
 
-        #woocommerce_price_filter-8 {
+        .widget_price_filter {
+            visibility: hidden;
             .price_slider {
                 .ui-slider-range {
                     background-color: $primary;
