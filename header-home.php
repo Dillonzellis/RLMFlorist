@@ -105,8 +105,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 					</li>
 
 					<li class="nav-item">
-						<a class="nav-link" href="<?php echo esc_url( home_url( '/store/' ) ); ?>">ALL PRODUCTS</a>
-						
+						<a class="nav-link" href="<?php echo get_permalink( woocommerce_get_page_id( 'shop' ) ); ?>">ALL PRODUCTS</a>	
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="https://www.rlmaffairs.com/">VENUE & EVENT SERVICES</a>

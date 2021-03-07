@@ -1,17 +1,21 @@
 #woocommerce-wrapper {
-    background-color: #f4f4f4;
-    padding-top: 60px;
-    padding-left: 45px;
-    padding-right: 45px;
+    background-color: #eeeeee;
+
+    @media(min-width: $lg) {
+        padding-top: 60px;
+        padding-left: 45px;
+        padding-right: 45px;
+    }
 
     #left-sidebar {
-        padding-right: 30px;
+        display: none;
         border-right: 1px solid rgb(230, 230, 230);
 
-        //     @media (min-width: 769px) {
-        //     border-right: 1px solid #eee;
-        //     margin-right: -1px;
-        // }
+        @media(min-width: $xl) {
+            padding-right: 30px;
+            display: block;
+        }
+
         .widget_product_search {
             margin-bottom: 42px;
 
@@ -19,7 +23,7 @@
                 font-size: 15px;
                 background-color: transparent;
                 color: $primary;
-                
+
                 padding: 0 10px;
                 border: none;
 
@@ -41,31 +45,38 @@
 
         .widget_price_filter {
             visibility: hidden;
+
             .price_slider {
                 .ui-slider-range {
                     background-color: $primary;
                 }
             }
         }
-
-
-
-        // .woocommerce-breadcrumb {
-        //     visibility:hidden;
-        // }
     }
 
     #primary {
-        padding-left: 40px;
-        border-left: 1px solid rgb(230, 230, 230);
+        @media(min-width: $xl) {
+            padding-left: 40px;
+            border-left: 1px solid rgb(230, 230, 230);
+        }
+
+        .woocommerce-ordering {
+            float: none;
+
+            @media(min-width: $xl) {
+                float: right;
+            }
+        }
 
         .products {
             h2 {
                 color: black;
             }
+
             .price {
                 color: black;
             }
+
             .add-to-cart-container {
                 a {
                     color: white;
@@ -84,22 +95,16 @@
 
         .woocommerce-pagination {
             text-align: left;
-            .page-numbers{
+
+            .page-numbers {
                 li {
-                    .current, a {
+
+                    .current,
+                    a {
                         color: $primary;
-                    }  
+                    }
                 }
             }
         }
-
-
-        // @media (min-width: 769px) .ast-left-sidebar #primary {
-        //     border-left: 1px solid #eee;
-        // }
-
-        // @media (min-width: 993px) .ast-left-sidebar #primary {
-        //     padding-left: 60px;
-        // }
     }
 }

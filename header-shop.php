@@ -61,7 +61,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 
 			<div class="collapse navbar-collapse" id="navbarToggler">
-
+		
 				<ul class="navbar-nav ml-auto mt-2 mt-lg-0">
 
 					<li class="nav-item dropdown">
@@ -105,7 +105,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 					</li>
 
 					<li class="nav-item">
-						<a class="nav-link" href="<?php echo esc_url( home_url( '/store/' ) ); ?>">ALL PRODUCTS</a>
+						<a class="nav-link" href="<?php echo get_permalink( woocommerce_get_page_id( 'shop' ) ); ?>">ALL PRODUCTS</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="https://www.rlmaffairs.com/">VENUE & EVENT SERVICES</a>
