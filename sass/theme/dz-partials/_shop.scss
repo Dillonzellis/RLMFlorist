@@ -55,6 +55,9 @@
     }
 
     #primary {
+        :focus {
+            box-shadow: none;
+        }
         @media(min-width: $xl) {
             padding-left: 40px;
             border-left: 1px solid rgb(230, 230, 230);
@@ -78,7 +81,9 @@
             }
 
             .add-to-cart-container {
-                a {
+                text-align: center;
+
+                .add_to_cart_button {
                     color: white;
                     background-color: $primary;
                     border-color: $primary;
@@ -89,6 +94,10 @@
                         color: $primary;
                         background-color: white;
                     }
+                }
+
+                .added_to_cart {
+                    color: $primary;
                 }
             }
         }
