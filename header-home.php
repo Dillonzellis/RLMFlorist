@@ -65,7 +65,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<ul class="navbar-nav ml-auto mt-2 mt-lg-0">
 
 					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="<?php echo esc_url( home_url( '/product-category/occasion/' ) ); ?>" id="navbarDropdownMenuLink" data-toggle="dropdown"
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
 							aria-haspopup="true" aria-expanded="false">
 							OCCASION
 						</a>

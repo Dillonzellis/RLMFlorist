@@ -43,34 +43,39 @@ $container = get_theme_mod( 'understrap_container_type' );
 
     <div class="footer-nav-holder container-fluid">
         <div class="row align-items-center mt-3 mb-4">
-            <div class="col-lg-2">
+            <div class="col-lg">
                 <div class="nav-link grow">
-                    <a href="">OCCASION</a>
+                    <a href="<?php echo esc_url( home_url( '/product-category/occasion/' ) ); ?>">OCCASION</a>
                 </div>
             </div>
-            <div class="col-lg-2">
+            <div class="col-lg">
                 <div class="nav-link grow">
-                    <a href="">HOLIDAY</a>
+                    <a href="<?php echo esc_url( home_url( '/product-category/holidays/' ) ); ?>">HOLIDAYS</a>
                 </div>
             </div>
-            <div class="col-lg-2">
+            <div class="col-lg">
                 <div class="nav-link grow">
-                    <a href="">BABYCAKES</a>
+                    <a href="<?php echo esc_url( home_url( '/product-category/babycakes/' ) ); ?>">BABYCAKES</a>
                 </div>
             </div>
-            <div class="col-lg-2">
+            <div class="col-lg">
                 <div class="nav-link grow">
-                    <a href="">ALL PRODUCTS</a>
+                    <a href="<?php echo get_permalink( woocommerce_get_page_id( 'shop' ) ); ?>">ALL PRODUCTS</a>
                 </div>
             </div>
-            <div class="col-lg-2">
+            <div class="col-lg">
                 <div class="nav-link grow">
-                    <a href="">VENUE & EVENT SERVICES</a>
+                    <a href="https://www.rlmaffairs.com/">VENUE & EVENT SERVICES</a>
                 </div>
             </div>
-            <div class="col-lg-2">
+            <div class="col-lg">
                 <div class="nav-link grow">
-                    <a href="">ABOUT US</a>
+                    <a href="#">ABOUT US</a>
+                </div>
+            </div>
+            <div class="col-lg">
+                <div class="nav-link grow">
+                    <a href="<?php echo get_permalink( woocommerce_get_page_id( 'myaccount' ) ); ?>">MY ACCOUNT</a>
                 </div>
             </div>
         </div>
