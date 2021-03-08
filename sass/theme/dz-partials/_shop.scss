@@ -1,6 +1,5 @@
 #woocommerce-wrapper {
     background-color: #eeeeee;
-
     @media(min-width: $lg) {
         padding-top: 60px;
         padding-left: 45px;
@@ -117,3 +116,16 @@
         }
     }
 }
+
+// temp widget remover
+.single-product {
+    .widget-area {
+        display: none !important;
+    }
+
+    .woocommerce-breadcrumb{
+        visibility: hidden;
+    }    
+}
+
+
