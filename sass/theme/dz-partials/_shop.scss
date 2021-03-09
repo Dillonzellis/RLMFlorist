@@ -1,5 +1,7 @@
+// base store page
 #woocommerce-wrapper {
     background-color: #eeeeee;
+
     @media(min-width: $lg) {
         padding-top: 60px;
         padding-left: 45px;
@@ -57,6 +59,7 @@
         :focus {
             box-shadow: none;
         }
+
         @media(min-width: $xl) {
             padding-left: 40px;
             border-left: 1px solid rgb(230, 230, 230);
@@ -117,29 +120,33 @@
     }
 }
 
-// temp single product
+// temp single product page
 .single-product {
     .site {
         background-color: #eeeeee;
+
         .wrapper {
             margin-left: auto;
             margin-right: auto;
             padding-left: 20px;
             padding-right: 20px;
- 
+
             .widget-area {
                 display: none !important;
             }
 
             #primary {
                 margin-left: auto;
+
                 @media(min-width: $sm) {
                     max-width: 100%;
                 }
+
                 @media(min-width: $md) {
                     max-width: 1440px;
                 }
-                .woocommerce-breadcrumb{
+
+                .woocommerce-breadcrumb {
                     display: none;
                 }
 
@@ -153,10 +160,11 @@
                     .qty {
                         height: 36px;
                     }
- 
+
                     .single_add_to_cart_button {
                         background-color: $primary;
                         color: white;
+
                         &:hover {
                             color: $primary;
                             background-color: white;
@@ -166,16 +174,16 @@
 
                 .up-sells {
                     h2 {
-                        clear:both;
+                        clear: both;
                         font-size: 22.5px;
-                        margin-bottom: 16px; 
+                        margin-bottom: 16px;
                     }
                 }
 
                 .related {
                     h2 {
                         font-size: 22.5px;
-                        margin-bottom: 16px; 
+                        margin-bottom: 16px;
                     }
                 }
             }
@@ -183,4 +191,72 @@
     }
 }
 
+// cart page 
+.page-id-19 {
+    background-color: #eeeeee;
 
+    #primary {
+        .entry-header {
+            text-align: center;
+        }
+
+        .entry-content {
+
+            .woocommerce-message {
+                border-top-color: $primary;
+
+                &::before {
+                    color: $primary;
+                }
+            }
+
+            .woocommerce-info {
+                border-top-color: $primary;
+
+                &::before {
+                    color: $primary;
+                }
+            }
+
+
+
+            .return-to-shop {
+                .btn {
+                    color: $primary;
+                    border-color: $primary;
+                    &:active {
+                        background-color: $primary;
+                        color: white;
+                    }
+                    &:focus {
+                        box-shadow: 0 0 0 0.2rem #274d3578;
+                    }
+                }
+            }
+
+            .product-name {
+                a {
+                    color: $primary;
+
+                    &:hover {
+                        text-decoration: none;
+                    }
+                }
+            }
+
+            .cart_totals {
+                .btn {
+                    background-color: $primary;
+                    border: none;
+                    font-weight: 600;
+                    text-transform: capitalize;
+
+                    &:hover {
+                        background-color: white;
+                        color: $primary;
+                    }
+                }
+            }
+        }
+    }
+}
