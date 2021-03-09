@@ -117,15 +117,70 @@
     }
 }
 
-// temp widget remover
+// temp single product
 .single-product {
-    .widget-area {
-        display: none !important;
-    }
+    .site {
+        background-color: #eeeeee;
+        .wrapper {
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 20px;
+            padding-right: 20px;
+ 
+            .widget-area {
+                display: none !important;
+            }
 
-    .woocommerce-breadcrumb{
-        visibility: hidden;
-    }    
+            #primary {
+                margin-left: auto;
+                @media(min-width: $sm) {
+                    max-width: 100%;
+                }
+                @media(min-width: $md) {
+                    max-width: 1440px;
+                }
+                .woocommerce-breadcrumb{
+                    display: none;
+                }
+
+                .summary {
+                    margin-top: 150px;
+
+                    bdi {
+                        color: black;
+                    }
+
+                    .qty {
+                        height: 36px;
+                    }
+ 
+                    .single_add_to_cart_button {
+                        background-color: $primary;
+                        color: white;
+                        &:hover {
+                            color: $primary;
+                            background-color: white;
+                        }
+                    }
+                }
+
+                .up-sells {
+                    h2 {
+                        clear:both;
+                        font-size: 22.5px;
+                        margin-bottom: 16px; 
+                    }
+                }
+
+                .related {
+                    h2 {
+                        font-size: 22.5px;
+                        margin-bottom: 16px; 
+                    }
+                }
+            }
+        }
+    }
 }
 
 
