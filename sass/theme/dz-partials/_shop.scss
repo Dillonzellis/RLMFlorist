@@ -351,3 +351,25 @@
         }
     }
 }
+
+//checkout page
+.page-id-20 {
+
+    .checkout-header-wrapper {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        img {
+            height: 300px;
+            width: 300px;
+        }
+    }
+
+    .entry-header {
+        text-align: center;
+        margin-bottom: 20px;
+        h1 {
+            font-size: 66px;
+        }
+    }
+}
