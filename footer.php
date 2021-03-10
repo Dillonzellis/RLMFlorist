@@ -70,7 +70,7 @@ $container = get_theme_mod( 'understrap_container_type' );
             </div>
             <div class="col-lg">
                 <div class="nav-link grow">
-                    <a href="#">ABOUT US</a>
+                    <a href="<?php echo esc_url( home_url( '/about-us/' ) ); ?>">ABOUT US</a>
                 </div>
             </div>
             <div class="col-lg">
