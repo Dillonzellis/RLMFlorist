@@ -355,21 +355,77 @@
 //checkout page
 .page-id-20 {
 
+    .navbar {
+        display: none;
+    }
+
+
     .checkout-header-wrapper {
         display: flex;
         justify-content: center;
+        align-items: center;
         flex-direction: column;
+
         img {
             height: 300px;
             width: 300px;
+            margin-bottom: 20px;
+        }
+
+        .title {
+            font-size: 18px;
+            text-align: center;
+            margin-bottom: 20px;
+            @media(min-width: $md) {
+                font-size: 20px;
+                line-height: 40px;
+        }
+        }
+
+
+        .subtitle {
+            font-size: 18px;
+            line-height: 28.8px;
+            text-align: center;
+        }
+
+        .hours-title {
+            font-size: 30px;
+            font-weight: 500;
+            line-height: 24px;
+            letter-spacing: 0.8px;
+            margin-bottom: 20px;
+        }
+
+        .hours {
+            font-size: 19px;
+            line-height: 22.8px;
+            text-align: center;
+        }
+
+        .post-hours {
+            margin-top: 20px;
+            font-size: 18px;
+            line-height: 28.8px;
+            text-align: center;
+        }
+
+        .store-phone {
+            font-size: 20px;
+            font-weight: 700;
+            font-style: italic;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            text-align: center;
+            @media(min-width: $md) {
+                font-size: 66px;
+                line-height: 79.2px;
+            }
         }
     }
 
-    .entry-header {
-        text-align: center;
-        margin-bottom: 20px;
-        h1 {
-            font-size: 66px;
-        }
-    }
+
 }
