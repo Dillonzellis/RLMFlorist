@@ -37,9 +37,9 @@ $container = get_theme_mod( 'understrap_container_type' );
                             src="<?php echo get_template_directory_uri(); ?>/img/about-us-logo.png" alt="">
                     </a>
 
-                    <div class="who-holder">
+                    <div class="who-holder container">
                         <h1>Who We Are</h1>
-                        <p>No matter what the occasion, RLM Florist, your local Gainesville florist, is your one-stop
+                        <p class="mb-xl-4">No matter what the occasion, RLM Florist, your local Gainesville florist, is your one-stop
                             shop for all your floral needs. Browse our wide online selection or call us for a custom
                             bouquet to fit your needs and budget. Family owned and operated for 42 years.</p>
                         <p>In a rush? Same day flower delivery is available at no additional cost. The professional
@@ -47,57 +47,62 @@ $container = get_theme_mod( 'understrap_container_type' );
                     </div>
 
                     <div class="hours-holder fluid-container">
-                        <div class="row">
+                        <div class="row align-items-center">
                             <div class="col-lg-6">
 
-                                <img class="hours-img full-width" loading=lazy
+                                <img class="hours-img" loading=lazy
                                     src="<?php echo get_template_directory_uri(); ?>/img/about-store-front.jpg" alt="">
 
                             </div>
                             <div class="col-lg-6">
-                                <div class="header">
-                                    Your Local Premier Florist
-                                </div>
-                                <div class="sub-header">
-                                    Our shop serves the following areas in Georgia: Flowery Branch, Gainesville, Buford,
-                                    Hoschton, Braselton, Winder and Oakwood.
-                                </div>
-                                <div class="hours-title">
-                                    Store Hours
-                                </div>
-                                <div class="hours">
-                                    Monday: Call in only, showroom closed.
-                                </div>
-                                <div class="hours">
-                                    Tuesday: 10:00am - 4:00pm
-                                </div>
-                                <div class="hours">
-                                    Wednesday: 10:00am - 4:00pm
-                                </div>
-                                <div class="hours">
-                                    Thursday: 10:00am - 4:00pm
-                                </div>
-                                <div class="hours">
-                                    Friday: 10:00am - 4:00pm
-                                </div>
-                                <div class="hours">
-                                    Saturday: 10:00am - 12:00pm
+                                <div class="sub-hours-holder">
+                                    <div class="header">
+                                        Your Local Premier Florist
+                                    </div>
+                                    <div class="sub-header">
+                                        Our shop serves the following areas in Georgia: Flowery Branch, Gainesville,
+                                        Buford,
+                                        Hoschton, Braselton, Winder and Oakwood.
+                                    </div>
+                                    <div class="hours-title">
+                                        Store Hours
+                                    </div>
+                                    <div class="hours">
+                                        Monday: Call in only, showroom closed.
+                                    </div>
+                                    <div class="hours">
+                                        Tuesday: 10:00am - 4:00pm
+                                    </div>
+                                    <div class="hours">
+                                        Wednesday: 10:00am - 4:00pm
+                                    </div>
+                                    <div class="hours">
+                                        Thursday: 10:00am - 4:00pm
+                                    </div>
+                                    <div class="hours">
+                                        Friday: 10:00am - 4:00pm
+                                    </div>
+                                    <div class="hours">
+                                        Saturday: 10:00am - 12:00pm
+                                    </div>
+
+                                    <div class="post-hours">
+                                        RLM Florist offers 24 hour phone and internet service for your orders and
+                                        questions
+                                        after the showroom has closed.
+                                    </div>
+
+                                    <div class="store-phone">
+                                        770-536-7306
+                                    </div>
                                 </div>
 
-                                <div class="post-hours">
-                                    RLM Florist offers 24 hour phone and internet service for your orders and questions
-                                    after the showroom has closed.
-                                </div>
-
-                                <div class="store-phone">
-                                    770-536-7306
-                                </div>
                             </div>
                         </div>
                     </div>
 
                     <div class="we-offer-wrapper container-fluid">
-                        <div class="row">
+                        <div class="row align-items-center">
                             <div class="col-lg-6">
                                 <h2>
                                     Some of What We Offer
@@ -116,11 +121,10 @@ $container = get_theme_mod( 'understrap_container_type' );
                                 </p>
                             </div>
                             <div class="col-lg-6">
-                                <img class="offer-img full-width" loading=lazy
+                                <img class="offer-img" loading=lazy
                                     src="<?php echo get_template_directory_uri(); ?>/img/about-lantern.jpg" alt="">
                             </div>
                         </div>
-
                     </div>
 
                     <div class="map-wrapper">
@@ -133,7 +137,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                     <div class="icons-wrapper container">
 
                         <div class="row justify-content-center">
-                            <div class="col-md-2">
+                            <div class="col-md-3">
                                 <div class="icon-wrapper">
                                     <i class="fas fa-car-side"></i>
                                     <div class="subtitle">
@@ -141,7 +145,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-2">
+                            <div class="col-md-3">
                                 <div class="icon-wrapper">
                                     <i class="fas fa-leaf"></i>
                                     <div class="subtitle">
@@ -149,7 +153,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-2">
+                            <div class="col-md-3">
                                 <div class="icon-wrapper">
                                     <i class="fas fa-phone"></i>
                                     <div class="subtitle">
@@ -157,7 +161,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-2">
+                            <div class="col-md-3">
                                 <div class="icon-wrapper">
                                     <i class="fas fa-award"></i>
                                     <div class="subtitle">
