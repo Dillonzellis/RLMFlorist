@@ -72,27 +72,24 @@
         }
 
         .map-wrapper {
-            // height: 300px;
-            // width: 100vw;
-            // background-color: $primary;
             iframe {
                 width: 100vw;
                 max-width: 100vw;
             }
-
-
         }
 
         .icons-wrapper {
             margin-top: 45px;
-            justify-content: center;
-            
-            .card {
-                text-align: center;
+            text-align: center;
+            .icon-wrapper {
+                margin-bottom: 20px;
+                .fas {
+                    font-size: 50px;
+                    color: $primary;
+                    margin-bottom: 20px;
+                }  
             }
-           
+
         }
-
     }
-
 }

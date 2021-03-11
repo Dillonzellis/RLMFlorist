@@ -133,24 +133,40 @@ $container = get_theme_mod( 'understrap_container_type' );
                     <div class="icons-wrapper container">
 
                         <div class="row justify-content-center">
-                            <div class="col-md-2 card">
-                                card 1
+                            <div class="col-md-2">
+                                <div class="icon-wrapper">
+                                    <i class="fas fa-car-side"></i>
+                                    <div class="subtitle">
+                                        Same Day Delivery
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-md-2 card">
-                                card 2
+                            <div class="col-md-2">
+                                <div class="icon-wrapper">
+                                    <i class="fas fa-leaf"></i>
+                                    <div class="subtitle">
+                                        Fresh, Farm to Table Arrangements
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-md-2 card">
-                                card 3
+                            <div class="col-md-2">
+                                <div class="icon-wrapper">
+                                    <i class="fas fa-phone"></i>
+                                    <div class="subtitle">
+                                        24/7 Phone Call or Email for Customization
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-md-2 card">
-                                card 4
+                            <div class="col-md-2">
+                                <div class="icon-wrapper">
+                                    <i class="fas fa-award"></i>
+                                    <div class="subtitle">
+                                        Award Winning Designs and Service
+                                    </div>
+                                </div>
                             </div>
                         </div>
-
                     </div>
-
-
-
                 </main><!-- #main -->
 
             </div><!-- #primary -->
