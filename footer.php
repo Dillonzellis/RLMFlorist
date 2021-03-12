@@ -98,8 +98,10 @@ $container = get_theme_mod( 'understrap_container_type' );
     <div class="legal-holder container">
         <div class="row justify-content-center align-items-center">
             <div class="col-sm-4 col-md-2">
-                <div class="legal-item"><a href="#">Terms of Service</a></div>
+                <div class="legal-item"><a href="<?php echo esc_url( home_url( '/terms-of-service/' ) ); ?>">Terms of Service</a></div>
             </div>
+
+            
             <div class="col-sm-4 col-md-2">
                 <div class="legal-item">Copyright &#169; <?php echo date('Y'); ?> RLM Florist</div>
             </div>
