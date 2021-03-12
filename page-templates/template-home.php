@@ -280,7 +280,7 @@ $container = get_theme_mod( 'understrap_container_type' );
     </div>
     <div class="row">
       <div class="col text-center fade-in">
-        <button type="button" class="btn btn-lg btn-outline-light">RLM Venue & Event Services</button>
+        <a href="https://www.rlmaffairs.com/"><button type="button" class="btn btn-lg btn-outline-light">RLM Venue & Event Services</button></a>
       </div>
     </div>
   </div>
