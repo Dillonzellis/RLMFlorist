@@ -45,11 +45,18 @@
         }
 
         .widget_price_filter {
-            visibility: hidden;
+            // visibility: hidden;
 
             .price_slider {
+                height: 3px;
+                background-color: $primary;
                 .ui-slider-range {
                     background-color: $primary;
+                    // top: 2px;
+                }
+                span {
+                    background-color: $primary;
+                    top: -6px;
                 }
             }
         }
