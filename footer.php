@@ -104,7 +104,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                 <div class="legal-item">Copyright &#169; <?php echo date('Y'); ?> RLM Florist</div>
             </div>
             <div class="col-sm-4 col-md-2">
-                <div class="legal-item"><a href="#">Privacy Policy</a></div>
+                <div class="legal-item"><a href="<?php echo get_privacy_policy_url() ?>">Privacy Policy</a></div>
             </div>
         </div>
     </div>
