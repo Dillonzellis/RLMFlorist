@@ -84,10 +84,10 @@ $container = get_theme_mod( 'understrap_container_type' );
     <div class="socials-holder container">
       <div class="row justify-content-center">
         <div class="col-2 grow">
-            <div class="social"><a href="#"><i class="fab fa-facebook-f fa-lg"></i></a></div>
+            <div class="social"><a href="https://www.facebook.com/rlmaffairs/"><i class="fab fa-facebook-f fa-lg"></i></a></div>
         </div>
         <div class="col-2 grow">
-            <div class="social"><a href="#"><i class="fab fa-instagram fa-lg"></i></a></div>
+            <div class="social"><a href="https://www.instagram.com/rlmaffairs/"><i class="fab fa-instagram fa-lg"></i></a></div>
         </div>
         <div class="col-2 grow">
             <div class="social"><a href="mailto:resia@rlmaffairs.com"><i class="far fa-envelope fa-lg"></i></a></div>
