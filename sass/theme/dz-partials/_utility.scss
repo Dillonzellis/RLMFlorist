@@ -9,6 +9,7 @@ body {
 }
 
 .btn {
+    text-transform: capitalize;
     font-size: 18px;
     border-radius: 0;
     line-height: 18px;
@@ -88,3 +89,4 @@ hr{
     width: 70%;
     border-top: 1.8px solid $primary;
 }
+

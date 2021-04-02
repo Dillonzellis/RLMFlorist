@@ -1,0 +1,13 @@
+.page-id-21 {
+    .woocommerce-info {
+        border-top-color: $primary;
+        &::before {
+            color: $primary;
+        }
+    }
+
+    .btn {
+        color: $primary;
+        border-color: $primary;
+    }
+}

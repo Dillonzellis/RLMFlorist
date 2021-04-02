@@ -49,10 +49,10 @@ $container = get_theme_mod( 'understrap_container_type' );
           </h3>
           <div class="row">
             <div class="col-sm text-sm-right mb-2 mb-sm-0"">
-              <button type="button" class="btn btn-outline-light">770-536-7306</button>
+              <a href="tel:770-536-7306"><button type="button" class="btn btn-outline-light">770-536-7306</button></a>
             </div>
             <div class="col-sm text-sm-left">
-              <button type="button" class="btn btn-outline-light">Shop Now</button>
+              <a href="<?php echo get_permalink( woocommerce_get_page_id( 'shop' ) ); ?>"><button type="button" class="btn btn-outline-light">Shop Now</button></a>
             </div>
           </div>
           <div class="row">
@@ -280,7 +280,7 @@ $container = get_theme_mod( 'understrap_container_type' );
     </div>
     <div class="row">
       <div class="col text-center fade-in">
-        <button type="button" class="btn btn-lg btn-outline-light">RLM Venue & Event Services</button>
+        <a href="https://www.rlmaffairs.com/"><button type="button" class="btn btn-lg btn-outline-light">RLM Venue & Event Services</button></a>
       </div>
     </div>
   </div>
