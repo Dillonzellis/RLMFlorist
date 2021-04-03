@@ -232,6 +232,19 @@
 .page-id-19 {
     background-color: #eeeeee;
 
+    .button {
+        text-transform: capitalize;
+        // &:focus{
+        //     box-shadow: none !important;
+        // }
+    }
+
+    .btn{
+        &:focus {
+            box-shadow: none !important;
+        }
+    }
+
     #primary {
         .entry-header {
             text-align: center;
@@ -424,6 +437,16 @@
                 font-size: 66px;
                 line-height: 79.2px;
             }
+        }
+    }
+
+    .btn {
+        background-color: $primary;
+        &:focus {
+            box-shadow: none !important;
+        }
+        &:active {
+            background-color: $primary !important;
         }
     }
 
