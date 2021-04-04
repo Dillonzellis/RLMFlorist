@@ -440,11 +440,15 @@
         }
     }
 
-    // .place-order {
-    //     justify-content: center;
-    //     align-items: center;
-
-    // }
+    .woocommerce-info {
+        border-top-color: $primary;
+        // .showlogin {
+        //     color: $primary;
+        // }
+        &::before {
+            color: $primary;
+        }
+    }
 
     .woocommerce-terms-and-conditions-wrapper {
         margin-right: 200px;
@@ -456,10 +460,10 @@
 
     .woocommerce-privacy-policy-text {
         display: none;
-        // visibility: hidden;
     }
 
     .btn {
+        border-color: $primary !important;
         background-color: $primary;
         &:focus {
             box-shadow: none !important;
