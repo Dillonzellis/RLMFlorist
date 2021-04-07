@@ -130,10 +130,16 @@
     }
 }
 
-// temp single product page
+// single product page
 .single-product {
     .site {
         background-color: #eeeeee;
+
+        .woocommerce-Tabs-panel {
+            h2 {
+                display: none;
+            }
+        }
 
         .wrapper {
             margin-left: auto;
