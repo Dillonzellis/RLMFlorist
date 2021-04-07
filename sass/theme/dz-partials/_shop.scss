@@ -446,9 +446,6 @@
 
     .woocommerce-info {
         border-top-color: $primary;
-        // .showlogin {
-        //     color: $primary;
-        // }
         &::before {
             color: $primary;
         }
@@ -477,5 +474,13 @@
         }
     }
 
+    .woocommerce-customer-details{
+        .col-1 {
+            max-width: 50% !important;
+        }
+        .col-2 {
+            max-width: 50% !important;
+        }
 
+    }
 }
