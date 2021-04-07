@@ -50,7 +50,7 @@ $container = get_theme_mod( 'understrap_container_type' );
             </div>
             <div class="col-lg">
                 <div class="nav-link grow">
-                    <a href="<?php echo esc_url( home_url( '/product-category/holidays/' ) ); ?>">HOLIDAYS</a>
+                    <a href="<?php echo esc_url( home_url( '/product-category/holiday/' ) ); ?>">HOLIDAYS</a>
                 </div>
             </div>
             <div class="col-lg">
