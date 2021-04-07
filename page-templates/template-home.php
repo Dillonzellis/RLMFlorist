@@ -23,6 +23,7 @@ $container = get_theme_mod( 'understrap_container_type' );
   <div class="container-fluid">
     <div class="row">
       <div class="col p-0">
+        <div class="mobile-bg"></div>
         <div id="dz-carousel" class="carousel slide carousel-fade" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">

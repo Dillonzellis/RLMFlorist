@@ -17,7 +17,26 @@
         height: 1080px;
     }
 
+    .mobile-bg {
+        min-height: 625px;
+        opacity: 0.6;
+        background: url('../img/a1.jpg') no-repeat center bottom;
+
+        @media(min-width:$sm) {
+            height: 760px;
+        }
+
+        @media(min-width:$md){
+            display: none;
+        }
+    }
+
     #dz-carousel {
+        display: none;
+        @media(min-width:$md){
+            display: block;
+        }
+
         .carousel-item {
             opacity: 0.6;
             animation: move infinite ease;
