@@ -98,7 +98,7 @@ $container = get_theme_mod( 'understrap_container_type' );
               <li class="wc-block-grid__product">
                 <a href="https://rlmflorist.com/store/garden-bounty/" class="wc-block-grid__product-link">
                   <div class="wc-block-grid__product-image"><img loading=lazy width="228" height="228"
-                      src="http://rlmflorist/wp-content/uploads/2020/02/Garden-Bounty-11500-228x228-1.jpg"
+                      src="https://rlmflorist.com/wp-content/uploads/2020/02/Garden-Bounty-11500-228x228-1.jpg"
                       class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy"
                       srcset=""
                       sizes="(max-width: 228px) 100vw, 228px" /></div>
@@ -118,7 +118,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                 <a href="https://rlmflorist.com/store/colorful-lilies/"
                  class="wc-block-grid__product-link">
                   <div class="wc-block-grid__product-image"><img loading=lazy width="228" height="228"
-                      src="http://rlmflorist/wp-content/uploads/2020/02/Lillies-228x228-1.jpg"
+                      src="https://rlmflorist.com/wp-content/uploads/2020/02/Lillies-228x228-1.jpg"
                       class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy"
                       srcset=""
                       sizes="(max-width: 228px) 100vw, 228px" /></div>
@@ -138,7 +138,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                 <a href="https://rlmflorist.com/store/rainbow-of-roses/" 
                   class="wc-block-grid__product-link">
                   <div class="wc-block-grid__product-image"><img loading=lazy width="300" height="300"
-                      src="http://rlmflorist/wp-content/uploads/2020/02/rr.jpg"
+                      src="https://rlmflorist.com/wp-content/uploads/2020/02/rr.jpg"
                       class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy"
                       srcset=""
                       sizes="(max-width: 300px) 100vw, 300px" /></div>
