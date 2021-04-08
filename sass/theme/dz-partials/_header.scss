@@ -50,6 +50,9 @@
                 margin-top: -7px;
                 color: $primary;
                 font-size: 20px;
+                &:focus {
+                    outline-color: $primary !important;
+                }
             }
         }
     }
@@ -286,6 +289,9 @@
                 margin-top: -7px;
                 color: $primary;
                 font-size: 20px;
+                &:focus {
+                    outline-color: $primary !important;
+                }
             }
         }
     }
