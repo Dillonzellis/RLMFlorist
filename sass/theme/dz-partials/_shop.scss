@@ -462,9 +462,6 @@
         display: none;
     }
 
-    // .woocommerce-privacy-policy-text {
-    //     display: none;
-    // }
 
     .btn {
         border-color: $primary !important;
@@ -478,13 +475,23 @@
     }
 
     .woocommerce-customer-details{
+
         .col-1 {
-            max-width: 50% !important;
+            max-width: 100% !important;
         }
         .col-2 {
-            max-width: 50% !important;
+            max-width: 100% !important;
         }
+  
 
+        @media(min-width: $md) {
+            .col-1 {
+                max-width: 50% !important;
+            }
+            .col-2 {
+                max-width: 50% !important;
+            }
+        }
     }
 
     .place-order{
