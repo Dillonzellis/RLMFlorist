@@ -37,7 +37,7 @@
         }
 
         .carousel-item {
-            opacity: 0.6;
+            // opacity: 0.6;
             animation: move infinite ease;
             -ms-animation: move 40s ease;
             -webkit-animation: move 40s ease;
@@ -384,8 +384,8 @@
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-color: rgba(0, 0, 0, 0.5);
-    background-blend-mode: multiply;
+    // background-color: rgba(0, 0, 0, 0.5);
+    // background-blend-mode: multiply;
     color: white;
     display: flex;
     align-items: center;
