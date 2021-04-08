@@ -199,6 +199,9 @@
 
                     .qty {
                         height: 36px;
+                        &:focus {
+                            outline-color: $primary !important;
+                        }
                     }
 
                     .single_add_to_cart_button {
