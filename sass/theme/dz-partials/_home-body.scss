@@ -18,7 +18,6 @@
 
     .mobile-bg {
         min-height: 625px;
-        opacity: 0.6;
         background: url('../img/a1.jpg') no-repeat center bottom;
 
         @media(min-width:$sm) {
@@ -37,7 +36,6 @@
         }
 
         .carousel-item {
-            opacity: 0.6;
             animation: move infinite ease;
             -ms-animation: move 40s ease;
             -webkit-animation: move 40s ease;
@@ -317,9 +315,11 @@
 .strap-video-holder {
     display: none !important;
     position: relative;
-    background-color: black;
+    background-image: url('../img/about-lantern.jpg');
+    background-size: cover;
     position: relative;
     color: white;
+    font-weight: 500;
     height: 762px;
     overflow: hidden;
     display: flex;
@@ -345,7 +345,7 @@
         .video-title {
             padding-top: 250px;
             font-size: 80px;
-            font-weight: 300;
+            font-weight: 600;
             letter-spacing: 3.5;
         }
 
@@ -384,8 +384,6 @@
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-color: rgba(0, 0, 0, 0.5);
-    background-blend-mode: multiply;
     color: white;
     display: flex;
     align-items: center;

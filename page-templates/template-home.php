@@ -163,10 +163,6 @@ $container = get_theme_mod( 'understrap_container_type' );
 </div>
 
 <div class="strap-video-holder">
-  <div class="embed-responsive embed-responsive-4by3">
-    <iframe class="embed-responsive-item"
-      src="https://www.youtube.com/embed/oZwcrNL-CJ4?playlist=oZwcrNL-CJ4&loop=1&controls=0&modestbranding=1&showinfo=0&rel=0&playsinline=1&showinfo=0&rel=0&enablejsapi=1&mute=1&autoplay=1"></iframe>
-  </div>
   <div class="video-foreground">
     <div class="video-title">
       Farm to Table

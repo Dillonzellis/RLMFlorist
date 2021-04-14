@@ -301,13 +301,7 @@
                     display: table-cell;
                 }
                 a {
-                    // padding: 0 6px;
-                    // border: 1px solid #ccc;
-                    // border-radius: 50%;
-                    // font-size: 18px;
                     color: rgb(138, 138, 138) !important;
-
-
                     font-weight: 400;
                     font-size: 24px;
                     width: 24px;
@@ -318,7 +312,6 @@
                     color: #ccc;
                     text-decoration: none;
                     border: 1px solid #ccc;
-
 
                     &:hover {
                         text-decoration: none;
@@ -457,20 +450,15 @@
         }
     }
 
-
     .wc_payment_methods {
         display: none;
     }
-
-    // .woocommerce-privacy-policy-text {
-    //     display: none;
-    // }
 
     .btn {
         border-color: $primary !important;
         background-color: $primary;
         &:focus {
-            box-shadow: none !important;
+            box-shadow: 5px 5px 15px 5px $primary !important;
         }
         &:active {
             background-color: $primary !important;
