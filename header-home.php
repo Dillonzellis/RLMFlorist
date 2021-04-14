@@ -21,12 +21,12 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,300;1,400&display=swap"
+	<link defer href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,300;1,400&display=swap"
 		rel="stylesheet">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+	<link defer rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
 		integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+	<link defer href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
 	<?php wp_head(); ?>
 </head>
 
