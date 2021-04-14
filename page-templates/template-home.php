@@ -498,29 +498,4 @@ $container = get_theme_mod( 'understrap_container_type' );
   </div>
 </div>
 
-<div class="covid-holder">
-  <div class="green-bar"></div>
-  <div class="container">
-    <div class="row">
-      <div class="col">
-        <div class="covid-title">
-          Covid-19
-        </div>
-        <div class="covid-body">
-          <p>We are grateful for all of you and are open for phone or internet orders. They will be fulfilled with a
-            no
-            contact delivery left at your front door or a no contact pick up at our front door.</p>
-        </div>
-        <div class="covid-body">
-          We realize that this is a very stressful time, and we are here for your floral, event, BabyCakes &amp; venue
-          needs. We are monitoring the situation closely and will update you with any changes as they arise. We’re
-          closely monitoring the Center for Disease Control’s guidelines and recommendations on additional steps to
-          take
-          to help stop the spread of the virus.
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
 <?php get_footer(); ?>
