@@ -89,9 +89,73 @@ $container = get_theme_mod( 'understrap_container_type' );
           </div>
         </div>
       </div>
+      <div class="wp-block-group">
+        <div class="wp-block-group__inner-container">
+          <div
+            class="wc-block-grid wp-block-handpicked-products wc-block-handpicked-products has-3-columns has-multiple-rows has-aligned-buttons">
+            <ul class="wc-block-grid__products">
+              <li class="wc-block-grid__product">
+                <a href="https://rlmflorist.com/store/garden-bounty/" class="wc-block-grid__product-link">
+                  <div class="wc-block-grid__product-image"><img loading=lazy width="228" height="228"
+                      src="https://rlmflorist.com/wp-content/uploads/2020/02/Garden-Bounty-11500-228x228-1.jpg"
+                      class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy"
+                      srcset=""
+                      sizes="(max-width: 228px) 100vw, 228px" /></div>
+                  <div class="wc-block-grid__product-title">Garden Bounty</div>
+                </a>
 
+                <div class="wc-block-grid__product-price price"><span class="woocommerce-Price-amount amount"><bdi><span
+                        class="woocommerce-Price-currencySymbol">$</span>114.99</bdi></span></div>
 
+                <div class="wp-block-button wc-block-grid__product-add-to-cart"><a href="?add-to-cart=1791"
+                    aria-label="Add &ldquo;Garden Bounty&rdquo; to your cart" data-quantity="1" data-product_id="2154"
+                    data-product_sku="" rel="nofollow"
+                    class="btn wp-block-button__link add_to_cart_button ajax_add_to_cart">Add
+                    to cart</a></div>
+              </li>
+              <li class="wc-block-grid__product">
+                <a href="https://rlmflorist.com/store/colorful-lilies/"
+                 class="wc-block-grid__product-link">
+                  <div class="wc-block-grid__product-image"><img loading=lazy width="228" height="228"
+                      src="https://rlmflorist.com/wp-content/uploads/2020/02/Lillies-228x228-1.jpg"
+                      class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy"
+                      srcset=""
+                      sizes="(max-width: 228px) 100vw, 228px" /></div>
+                  <div class="wc-block-grid__product-title">Colorful Lilies</div>
+                </a>
 
+                <div class="wc-block-grid__product-price price"><span class="woocommerce-Price-amount amount"><bdi><span
+                        class="woocommerce-Price-currencySymbol">$</span>29.99</bdi></span></div>
+
+                <div class="wp-block-button wc-block-grid__product-add-to-cart"><a href="?add-to-cart=1965"
+                    aria-label="Add &ldquo;Colorful Lilies&rdquo; to your cart" data-quantity="1"
+                    data-product_id="1775" data-product_sku="" rel="nofollow"
+                    class="btn wp-block-button__link add_to_cart_button ajax_add_to_cart">Add
+                    to cart</a></div>
+              </li>
+              <li class="wc-block-grid__product">
+                <a href="https://rlmflorist.com/store/rainbow-of-roses/" 
+                  class="wc-block-grid__product-link">
+                  <div class="wc-block-grid__product-image"><img loading=lazy width="300" height="300"
+                      src="https://rlmflorist.com/wp-content/uploads/2020/02/rr.jpg"
+                      class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy"
+                      srcset=""
+                      sizes="(max-width: 300px) 100vw, 300px" /></div>
+                  <div class="wc-block-grid__product-title">Rainbow of Roses</div>
+                </a>
+
+                <div class="wc-block-grid__product-price price"><span class="woocommerce-Price-amount amount"><bdi><span
+                        class="woocommerce-Price-currencySymbol">$</span>74.99</bdi></span></div>
+
+                <div class="wp-block-button wc-block-grid__product-add-to-cart"><a href="?add-to-cart=1980"
+                    aria-label="Add &ldquo;Rainbow of Roses&rdquo; to your cart" data-quantity="1"
+                    data-product_id="1971" data-product_sku="" rel="nofollow"
+                    class="btn wp-block-button__link add_to_cart_button ajax_add_to_cart">Add to cart</a></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
