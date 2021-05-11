@@ -61,7 +61,7 @@ gulp.task('mini-headers', function(){
   });
 
   // runs all minified html
-  gulp.task('minihtml', gulp.series('mini-page', 'mini-headers'));
+gulp.task('minihtml', gulp.series('mini-page', 'mini-headers'));
 
 
 
