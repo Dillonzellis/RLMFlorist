@@ -23,10 +23,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 	<div class="checkout-header-wrapper">
 		<img loading=lazy src="<?php echo get_template_directory_uri(); ?>/img/about-us-logo.png" alt="">
 
-		<h1>We are closed for vacation 6/12-6/20.</h1>
-		<br>
-		<h1>Thank you for your patience.</h1>
-
 		<h4 class="title">Our shop serves the following areas in Georgia: Flowery Branch, Gainesville, Buford, Hoschton, Braselton,
 			Winder and Oakwood.</h4>
 
