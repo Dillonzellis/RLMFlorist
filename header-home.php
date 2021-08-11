@@ -72,7 +72,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 							<a class="dropdown-item" href="<?php echo esc_url( home_url( '/product-category/occasion/thinking-of-you/' ) ); ?>"><i class="fas fa-chevron-right fa-xs"></i>THINKING OF YOU</a>
 							<a class="dropdown-item" href="<?php echo esc_url( home_url( '/product-category/occasion/thank-you/' ) ); ?>"><i class="fas fa-chevron-right fa-xs"></i>THANK YOU</a>
-							<a class="dropdown-item" href="<?php echo esc_url( home_url( '/product-category/occasion/love-&-romance/' ) ); ?>"><i class="fas fa-chevron-right fa-xs"></i>LOVE & ROMANCE</a>
+							<a class="dropdown-item" href="<?php echo esc_url( home_url( '/product-category/occasion/love/' ) ); ?>"><i class="fas fa-chevron-right fa-xs"></i>LOVE & ROMANCE</a>
 							<a class="dropdown-item" href="<?php echo esc_url( home_url( '/product-category/occasion/birthday/' ) ); ?>"><i class="fas fa-chevron-right fa-xs"></i>BIRTHDAY</a>
 							<a class="dropdown-item" href="<?php echo esc_url( home_url( '/product-category/occasion/anniversary/' ) ); ?>"><i class="fas fa-chevron-right fa-xs"></i>ANNIVERSARY</a>
 							<a class="dropdown-item" href="<?php echo esc_url( home_url( '/product-category/occasion/new-baby/' ) ); ?>"><i class="fas fa-chevron-right fa-xs"></i>NEW BABY</a>
