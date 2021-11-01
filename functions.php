@@ -142,3 +142,29 @@ $field = str_replace( $optional, '', $field );
 }
 return $field;
 }
+
+// ajax to update order summary to update shipping method
+//----Creative Tweets
+add_action('wp_footer', 'billing_country_update_checkout', 50);
+function billing_country_update_checkout() {
+    if ( ! is_checkout() ) return;
+    ?>
+    <script type="text/javascript">
+        jQuery(function($){
+        $('select#billing_state, select#shipping_state, #billing_postcode_field').on( 'change', function (){
+        var t = { updateTimer: !1,  dirtyInput: !1,
+        reset_update_checkout_timer: function() {
+        clearTimeout(t.updateTimer)
+        },
+        trigger_update_checkout: function() {
+        t.reset_update_checkout_timer(), t.dirtyInput = !1,
+        $(document.body).trigger("update_checkout")
+        }
+        };
+        $(document.body).trigger('update_checkout');
+        console.log('Event: update_checkout');
+        });
+        });
+    </script>
+    <?php
+}
