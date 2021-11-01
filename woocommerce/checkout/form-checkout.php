@@ -137,12 +137,14 @@ if ( ! defined( 'ABSPATH' ) ) {
 		const orderComments = document.querySelector('#order_comments_field');
 		const orderCardMsg = document.querySelector('#order_card_message_field');
 
+		const dateDelivery = document.querySelector('#order_date_of_delivery');
+
 		inStoreRadio.addEventListener('change', (event) => {
 			billAdd1.classList.toggle('hide');
 			billAdd2.classList.toggle('hide');
-			// billCity.classList.toggle('hide');
+			billCity.classList.toggle('hide');
 			// billPostcode.classList.toggle('hide');
-			// billState.classList.toggle('hide');
+			billState.classList.toggle('hide');
 			billCountry.classList.toggle('hide');
 			billCCnum.classList.toggle('hide');
 			billCCExp.classList.toggle('hide');
@@ -150,14 +152,16 @@ if ( ! defined( 'ABSPATH' ) ) {
 			// shippingFields.classList.toggle('hide');
 			orderComments.classList.toggle('hide');
 			orderCardMsg.classList.toggle('hide');
+
+			dateDelivery.innerHTML = 'Date of Pickup';
 		});
 
 		payOnlineRadio.addEventListener('change', (event) => {
 			billAdd1.classList.toggle('hide');
 			billAdd2.classList.toggle('hide');
-			// billCity.classList.toggle('hide');
+			billCity.classList.toggle('hide');
 			// billPostcode.classList.toggle('hide');
-			// billState.classList.toggle('hide');
+			billState.classList.toggle('hide');
 			billCountry.classList.toggle('hide');
 			billCCnum.classList.toggle('hide');
 			billCCExp.classList.toggle('hide');
@@ -165,6 +169,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 			// shippingFields.classList.toggle('hide');
 			orderComments.classList.toggle('hide');
 			orderCardMsg.classList.toggle('hide');
+
+			dateDelivery.textContent = 'Date of Delivery';
 		});
 
     </script>
