@@ -133,12 +133,98 @@ function wc_minimum_order_amount()
     }
 }
 
-// remove optional text on checkout fields
-add_filter( 'woocommerce_form_field' , 'elex_remove_checkout_optional_text', 10, 4 );
-function elex_remove_checkout_optional_text( $field, $key, $args, $value ) {
-if( is_checkout() && ! is_wc_endpoint_url() ) {
-$optional = '&nbsp;<span class="optional">(' . esc_html__( 'optional', 'woocommerce' ) . ')</span>';
-$field = str_replace( $optional, '', $field );
+// hide billing info when in store pickup
+add_filter('woocommerce_checkout_fields', 'xa_remove_billing_checkout_fields');
+
+function xa_remove_billing_checkout_fields($fields)
+{
+    $shipping_method = 'local_pickup:7'; // Value of the applicable shipping method.
+	$hide_fields = array( 'billing_address_1', 'billing_address_2', 'billing_city', 'billing_state', 'billing_postcode' );
+	
+    $chosen_methods = WC()->session->get('chosen_shipping_methods');
+    $chosen_shipping = $chosen_methods[0];
+
+     foreach($hide_fields as $field ) {
+        if ($chosen_shipping == $shipping_method) {
+            $fields['billing'][$field]['required'] = false;
+            $fields['billing'][$field]['class'][] = 'hide';
+        }
+        $fields['billing'][$field]['class'][] = 'billing-dynamic';
+    }
+    return $fields;
 }
-return $field;
+
+add_action( 'wp_footer', 'cart_update_script', 999 );
+function cart_update_script() {
+    if (is_checkout()) :
+//     ?>
+//     <style>
+//         .hide {display: none!important;}
+//     </style>
+    <script>
+        jQuery( function( $ ) {
+
+            // woocommerce_params is required to continue, ensure the object exists
+            if ( typeof woocommerce_params === 'undefined' ) {
+                return false;
+            }
+
+            $('input:radio[name="shipping_method[0]"]').filter('[value="flat_rate:1"]').prop('checked', true);
+			
+            $(document).on( 'change', '#shipping_method input[type="radio"]', function() {
+                $('.billing-dynamic').toggleClass('hide', this.value == 'local_pickup:7');
+                $('#billing_address_1_field').toggleClass('hide');
+                $('#billing_address_2_field').toggleClass('hide');
+                $('#billing_city_field').toggleClass('hide');
+                $('#billing_company_field').toggleClass('hide');
+                $('#billing_postcode_field').toggleClass('hide');
+                $('#billing_state_field').toggleClass('hide');
+                $('#billing_credit_card_number_field').toggleClass('hide');
+                $('#billing_credit_card_expirati_field').toggleClass('hide');
+                $('#billing_cv_code_field').toggleClass('hide');
+                $('.woocommerce-shipping-fields').toggleClass('hide');
+                $('#order_comments_field').toggleClass('hide');
+                $('#order_card_message_field').toggleClass('hide');
+                $("label[for='order_date_of_delivery']").text('Date of Pickup');
+            });
+        });
+    </script>
+    <?php
+    endif;
+}
+
+// Remove Address from cart page when using local delivery
+
+add_action( 'woocommerce_after_checkout_form', 'bbloomer_disable_shipping_local_pickup' );
+  
+function bbloomer_disable_shipping_local_pickup( $available_gateways ) {
+    
+   // Part 1: Hide shipping based on the static choice @ Cart
+   // Note: "#customer_details .col-2" strictly depends on your theme
+ 
+   $chosen_methods = WC()->session->get( 'chosen_shipping_methods' );
+   $chosen_shipping = $chosen_methods[0];
+   if ( 0 === strpos( $chosen_shipping, 'local_pickup' ) ) {
+   ?>
+      <script type="text/javascript">
+         jQuery('#customer_details .col-2').fadeOut();
+      </script>
+   <?php  
+   } 
+ 
+   // Part 2: Hide shipping based on the dynamic choice @ Checkout
+   // Note: "#customer_details .col-2" strictly depends on your theme
+ 
+   ?>
+      <script type="text/javascript">
+         jQuery('form.checkout').on('change','input[name^="shipping_method"]',function() {
+            var val = jQuery( this ).val();
+            if (val.match("^local_pickup")) {
+                     jQuery('#customer_details .col-2').fadeOut();
+               } else {
+               jQuery('#customer_details .col-2').fadeIn();
+            }
+         });
+      </script>
+   <?php
 }
