@@ -218,7 +218,7 @@ function wc_minimum_order_amount()
         if (is_cart()) {
             wc_print_notice(
                 sprintf(
-                    "Your current order total is %s — you must have an order with a minimum of %s to place your order for delivery",
+                    "Your current order total is %s — you must have an order with a minimum of %s to place your order for delivery. In store pickup has no minimum requirement.",
                     wc_price(WC()->cart->total),
                     wc_price($minimum)
                 ),
@@ -227,7 +227,7 @@ function wc_minimum_order_amount()
         } else {
             wc_add_notice(
                 sprintf(
-                    "Your current order total is %s — you must have an order with a minimum of %s to place your order for delivery",
+                    "Your current order total is %s — you must have an order with a minimum of %s to place your order for delivery. In store pickup has no minimum requirement.",
                     wc_price(WC()->cart->total),
                     wc_price($minimum)
                 ),
