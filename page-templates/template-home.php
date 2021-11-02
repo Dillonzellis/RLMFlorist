@@ -85,7 +85,7 @@ $container = get_theme_mod( 'understrap_container_type' );
           <div class="col">
             <div class="sub-title">the</div>
             <div class="shop-card-title">
-              Summer Collection
+              Fall Collection
             </div>
           </div>
         </div>
