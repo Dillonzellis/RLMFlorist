@@ -19,6 +19,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 ?>
+<style>
+	.hide {display: none!important;}
+</style>
+
 <div class="container">
 	<div class="checkout-header-wrapper">
 		<img loading=lazy src="<?php echo get_template_directory_uri(); ?>/img/about-us-logo.png" alt="">
@@ -58,9 +62,14 @@ if ( ! defined( 'ABSPATH' ) ) {
 		</div>
 
 		<h1>Checkout</h1>
-	
-		
 
+		<div>
+			<label class="checkout-radio">
+				<input class="checkout-radio-dot" type="radio" name="check button" id="online" value="online" checked>Pay Online</label>
+			<label class="checkout-radio">
+				<input class="checkout-radio-dot" type="radio" name="check button" id="in-store" value="inStore">Pay In Store</label>
+		</div>
+	
 	</div>
 
 	<?php
@@ -109,3 +118,60 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 	<?php do_action( 'woocommerce_after_checkout_form', $checkout ); ?>
 </div>
+
+
+    <script>
+        const inStoreRadio = document.querySelector('#in-store');
+		const payOnlineRadio = document.querySelector('#online');
+
+		const billAdd1 = document.querySelector('#billing_address_1_field');
+		const billAdd2 = document.querySelector('#billing_address_2_field');
+		const billCity = document.querySelector('#billing_city_field');
+		const billPostcode = document.querySelector('#billing_postcode_field');
+		const billState = document.querySelector('#billing_state_field');
+		const billCountry = document.querySelector('.single-country');
+		const billCCnum = document.querySelector('#billing_credit_card_number_field');
+		const billCCExp = document.querySelector('#billing_credit_card_expirati_field');
+		const billCVcode = document.querySelector('#billing_cv_code_field');
+		const shippingFields = document.querySelector('.woocommerce-shipping-fields');
+		const orderComments = document.querySelector('#order_comments_field');
+		const orderCardMsg = document.querySelector('#order_card_message_field');
+
+		const dateDelivery = document.querySelector('#order_date_of_delivery');
+
+		inStoreRadio.addEventListener('change', (event) => {
+			billAdd1.classList.toggle('hide');
+			billAdd2.classList.toggle('hide');
+			billCity.classList.toggle('hide');
+			// billPostcode.classList.toggle('hide');
+			billState.classList.toggle('hide');
+			billCountry.classList.toggle('hide');
+			billCCnum.classList.toggle('hide');
+			billCCExp.classList.toggle('hide');
+			billCVcode.classList.toggle('hide');
+			// shippingFields.classList.toggle('hide');
+			orderComments.classList.toggle('hide');
+			orderCardMsg.classList.toggle('hide');
+
+			dateDelivery.innerHTML = 'Date of Pickup';
+		});
+
+		payOnlineRadio.addEventListener('change', (event) => {
+			billAdd1.classList.toggle('hide');
+			billAdd2.classList.toggle('hide');
+			billCity.classList.toggle('hide');
+			// billPostcode.classList.toggle('hide');
+			billState.classList.toggle('hide');
+			billCountry.classList.toggle('hide');
+			billCCnum.classList.toggle('hide');
+			billCCExp.classList.toggle('hide');
+			billCVcode.classList.toggle('hide');
+			// shippingFields.classList.toggle('hide');
+			orderComments.classList.toggle('hide');
+			orderCardMsg.classList.toggle('hide');
+
+			dateDelivery.textContent = 'Date of Delivery';
+		});
+
+    </script>
+    <?php

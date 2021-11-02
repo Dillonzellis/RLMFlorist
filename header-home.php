@@ -21,12 +21,12 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,300;1,400&display=swap"
+	<link defer href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,300;1,400&display=swap"
 		rel="stylesheet">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+	<link defer rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
 		integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+	<link defer href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
 	<?php wp_head(); ?>
 </head>
 
@@ -72,7 +72,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 							<a class="dropdown-item" href="<?php echo esc_url( home_url( '/product-category/occasion/thinking-of-you/' ) ); ?>"><i class="fas fa-chevron-right fa-xs"></i>THINKING OF YOU</a>
 							<a class="dropdown-item" href="<?php echo esc_url( home_url( '/product-category/occasion/thank-you/' ) ); ?>"><i class="fas fa-chevron-right fa-xs"></i>THANK YOU</a>
-							<a class="dropdown-item" href="<?php echo esc_url( home_url( '/product-category/occasion/love-&-romance/' ) ); ?>"><i class="fas fa-chevron-right fa-xs"></i>LOVE & ROMANCE</a>
+							<a class="dropdown-item" href="<?php echo esc_url( home_url( '/product-category/occasion/love/' ) ); ?>"><i class="fas fa-chevron-right fa-xs"></i>LOVE & ROMANCE</a>
 							<a class="dropdown-item" href="<?php echo esc_url( home_url( '/product-category/occasion/birthday/' ) ); ?>"><i class="fas fa-chevron-right fa-xs"></i>BIRTHDAY</a>
 							<a class="dropdown-item" href="<?php echo esc_url( home_url( '/product-category/occasion/anniversary/' ) ); ?>"><i class="fas fa-chevron-right fa-xs"></i>ANNIVERSARY</a>
 							<a class="dropdown-item" href="<?php echo esc_url( home_url( '/product-category/occasion/new-baby/' ) ); ?>"><i class="fas fa-chevron-right fa-xs"></i>NEW BABY</a>
@@ -88,8 +88,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 							HOLIDAYS
 						</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-							<a class="dropdown-item" href="<?php echo esc_url( home_url( '/product-category/holiday/mothers-day/' ) ); ?>"><i class="fas fa-chevron-right fa-xs"></i>MOTHER'S DAY</a>
-							<a class="dropdown-item" href="<?php echo esc_url( home_url( '/product-category/holiday/4th-of-july/' ) ); ?>"><i class="fas fa-chevron-right fa-xs"></i>4TH OF JULY</a>
+							<a class="dropdown-item" href="<?php echo esc_url( home_url( '/product-category/holiday/thanksgiving/' ) ); ?>"><i class="fas fa-chevron-right fa-xs"></i>THANKSGIVING</a>
+							<a class="dropdown-item" href="<?php echo esc_url( home_url( '/product-category/holiday/happy-holiday/' ) ); ?>"><i class="fas fa-chevron-right fa-xs"></i>HAPPY HOLIDAY</a>
 						</div>
 					</li>
 

@@ -50,10 +50,11 @@ $container = get_theme_mod( 'understrap_container_type' );
           </h3>
           <div class="row">
             <div class="col-sm text-sm-right mb-2 mb-sm-0"">
-              <a href="tel:770-536-7306"><button type="button" class="btn btn-outline-light">770-536-7306</button></a>
+              <a href=" tel:770-536-7306"><button type="button" class="btn btn-outline-light">770-536-7306</button></a>
             </div>
             <div class="col-sm text-sm-left">
-              <a href="<?php echo get_permalink( woocommerce_get_page_id( 'shop' ) ); ?>"><button type="button" class="btn btn-outline-light">Shop Now</button></a>
+              <a href="<?php echo get_permalink( woocommerce_get_page_id( 'shop' ) ); ?>"><button type="button"
+                  class="btn btn-outline-light">Shop Now</button></a>
             </div>
           </div>
           <div class="row">
@@ -84,74 +85,45 @@ $container = get_theme_mod( 'understrap_container_type' );
           <div class="col">
             <div class="sub-title">the</div>
             <div class="shop-card-title">
-              mother's day collection
+              Fall Collection
             </div>
           </div>
         </div>
       </div>
-
       <div class="wp-block-group">
         <div class="wp-block-group__inner-container">
           <div
             class="wc-block-grid wp-block-handpicked-products wc-block-handpicked-products has-3-columns has-multiple-rows has-aligned-buttons">
             <ul class="wc-block-grid__products">
               <li class="wc-block-grid__product">
-                <a href="https://rlmflorist.com/store/garden-bounty/" class="wc-block-grid__product-link">
-                  <div class="wc-block-grid__product-image"><img loading=lazy width="228" height="228"
-                      src="https://rlmflorist.com/wp-content/uploads/2020/02/Garden-Bounty-11500-228x228-1.jpg"
-                      class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy"
-                      srcset=""
-                      sizes="(max-width: 228px) 100vw, 228px" /></div>
-                  <div class="wc-block-grid__product-title">Garden Bounty</div>
+                <a href="https://rlmflorist.com/store/garden-path-basket/" class="wc-block-grid__product-link">
+                    <div class="wc-block-grid__product-image"><img width="228" height="228" src="https://rlmflorist.com/wp-content/uploads/2020/02/LSItem1233_CTT82-11_D2_R4-228x228-1.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy" srcset="https://rlmflorist.com/wp-content/uploads/2020/02/LSItem1233_CTT82-11_D2_R4-228x228-1.jpg 228w, https://rlmflorist.com/wp-content/uploads/2020/02/LSItem1233_CTT82-11_D2_R4-228x228-1-150x150.jpg 150w, https://rlmflorist.com/wp-content/uploads/2020/02/LSItem1233_CTT82-11_D2_R4-228x228-1-100x100.jpg 100w" sizes="(max-width: 228px) 100vw, 228px"></div>
+                    <div class="wc-block-grid__product-title">Garden Path Basket</div>
                 </a>
-
-                <div class="wc-block-grid__product-price price"><span class="woocommerce-Price-amount amount"><bdi><span
-                        class="woocommerce-Price-currencySymbol">$</span>114.99</bdi></span></div>
-
-                <div class="wp-block-button wc-block-grid__product-add-to-cart"><a href="?add-to-cart=1791"
-                    aria-label="Add &ldquo;Garden Bounty&rdquo; to your cart" data-quantity="1" data-product_id="2154"
-                    data-product_sku="" rel="nofollow"
-                    class="btn wp-block-button__link add_to_cart_button ajax_add_to_cart">Add
-                    to cart</a></div>
+                
+                <div class="wc-block-grid__product-price price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>84.99</span></div>
+                
+                <div class="wp-block-button wc-block-grid__product-add-to-cart"><a href="?add-to-cart=2113" aria-label="Add “Garden Path Basket” to your cart" data-quantity="1" data-product_id="2113" data-product_sku="" rel="nofollow" class="btn wp-block-button__link add_to_cart_button ajax_add_to_cart">Add to cart</a></div>
               </li>
               <li class="wc-block-grid__product">
-                <a href="https://rlmflorist.com/store/colorful-lilies/"
-                 class="wc-block-grid__product-link">
-                  <div class="wc-block-grid__product-image"><img loading=lazy width="228" height="228"
-                      src="https://rlmflorist.com/wp-content/uploads/2020/02/Lillies-228x228-1.jpg"
-                      class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy"
-                      srcset=""
-                      sizes="(max-width: 228px) 100vw, 228px" /></div>
-                  <div class="wc-block-grid__product-title">Colorful Lilies</div>
+                <a href="https://rlmflorist.com/store/artistic-dish-garden/" class="wc-block-grid__product-link">
+                    <div class="wc-block-grid__product-image"><img width="228" height="228" src="https://rlmflorist.com/wp-content/uploads/2020/02/dishart-228x228-1.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy" srcset="https://rlmflorist.com/wp-content/uploads/2020/02/dishart-228x228-1.jpg 228w, https://rlmflorist.com/wp-content/uploads/2020/02/dishart-228x228-1-150x150.jpg 150w, https://rlmflorist.com/wp-content/uploads/2020/02/dishart-228x228-1-100x100.jpg 100w" sizes="(max-width: 228px) 100vw, 228px"></div>
+                    <div class="wc-block-grid__product-title">Artistic Dish Garden</div>
                 </a>
-
-                <div class="wc-block-grid__product-price price"><span class="woocommerce-Price-amount amount"><bdi><span
-                        class="woocommerce-Price-currencySymbol">$</span>29.99</bdi></span></div>
-
-                <div class="wp-block-button wc-block-grid__product-add-to-cart"><a href="?add-to-cart=1965"
-                    aria-label="Add &ldquo;Colorful Lilies&rdquo; to your cart" data-quantity="1"
-                    data-product_id="1775" data-product_sku="" rel="nofollow"
-                    class="btn wp-block-button__link add_to_cart_button ajax_add_to_cart">Add
-                    to cart</a></div>
+                
+                <div class="wc-block-grid__product-price price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>94.99</span></div>
+                
+                <div class="wp-block-button wc-block-grid__product-add-to-cart"><a href="?add-to-cart=2069" aria-label="Add “Artistic Dish Garden” to your cart" data-quantity="1" data-product_id="2069" data-product_sku="" rel="nofollow" class="btn wp-block-button__link add_to_cart_button ajax_add_to_cart">Add to cart</a></div>
               </li>
               <li class="wc-block-grid__product">
-                <a href="https://rlmflorist.com/store/rainbow-of-roses/" 
-                  class="wc-block-grid__product-link">
-                  <div class="wc-block-grid__product-image"><img loading=lazy width="300" height="300"
-                      src="https://rlmflorist.com/wp-content/uploads/2020/02/rr.jpg"
-                      class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy"
-                      srcset=""
-                      sizes="(max-width: 300px) 100vw, 300px" /></div>
-                  <div class="wc-block-grid__product-title">Rainbow of Roses</div>
+                <a href="https://rlmflorist.com/store/rlm-signature-candle/" class="wc-block-grid__product-link">
+                    <div class="wc-block-grid__product-image"><img width="300" height="300" src="https://rlmflorist.com/wp-content/uploads/2020/03/IMG_8509-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy" srcset="https://rlmflorist.com/wp-content/uploads/2020/03/IMG_8509-300x300.jpg 300w, https://rlmflorist.com/wp-content/uploads/2020/03/IMG_8509-150x150.jpg 150w, https://rlmflorist.com/wp-content/uploads/2020/03/IMG_8509-100x100.jpg 100w" sizes="(max-width: 300px) 100vw, 300px"></div>
+                    <div class="wc-block-grid__product-title">RLM Signature Candle</div>
                 </a>
-
-                <div class="wc-block-grid__product-price price"><span class="woocommerce-Price-amount amount"><bdi><span
-                        class="woocommerce-Price-currencySymbol">$</span>74.99</bdi></span></div>
-
-                <div class="wp-block-button wc-block-grid__product-add-to-cart"><a href="?add-to-cart=1980"
-                    aria-label="Add &ldquo;Rainbow of Roses&rdquo; to your cart" data-quantity="1"
-                    data-product_id="1971" data-product_sku="" rel="nofollow"
-                    class="btn wp-block-button__link add_to_cart_button ajax_add_to_cart">Add to cart</a></div>
+                
+                <div class="wc-block-grid__product-price price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>25.00</span></div>
+                
+                <div class="wp-block-button wc-block-grid__product-add-to-cart"><a href="?add-to-cart=2228" aria-label="Add “RLM Signature Candle” to your cart" data-quantity="1" data-product_id="2228" data-product_sku="" rel="nofollow" class="btn wp-block-button__link add_to_cart_button ajax_add_to_cart">Add to cart</a></div>
               </li>
             </ul>
           </div>
@@ -163,10 +135,6 @@ $container = get_theme_mod( 'understrap_container_type' );
 </div>
 
 <div class="strap-video-holder">
-  <div class="embed-responsive embed-responsive-4by3">
-    <iframe class="embed-responsive-item"
-      src="https://www.youtube.com/embed/oZwcrNL-CJ4?playlist=oZwcrNL-CJ4&loop=1&controls=0&modestbranding=1&showinfo=0&rel=0&playsinline=1&showinfo=0&rel=0&enablejsapi=1&mute=1&autoplay=1"></iframe>
-  </div>
   <div class="video-foreground">
     <div class="video-title">
       Farm to Table
@@ -226,7 +194,8 @@ $container = get_theme_mod( 'understrap_container_type' );
                   <div class="wc-block-grid__product-image"><img loading=lazy width="228" height="228"
                       src="https://rlmflorist.com/wp-content/uploads/2020/02/bbycakes.jpg"
                       class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy"
-                      srcset="https://rlmflorist.com/wp-content/uploads/2020/02/bbycakes.jpg 228w, https://rlmflorist.com/wp-content/uploads/2020/02/bbycakes-150x150.jpg 150w, https://rlmflorist.com/wp-content/uploads/2020/02/bbycakes-100x100.jpg 100w" /></div>
+                      srcset="https://rlmflorist.com/wp-content/uploads/2020/02/bbycakes.jpg 228w, https://rlmflorist.com/wp-content/uploads/2020/02/bbycakes-150x150.jpg 150w, https://rlmflorist.com/wp-content/uploads/2020/02/bbycakes-100x100.jpg 100w" />
+                  </div>
                   <div class="wc-block-grid__product-title">Assorted Dozen</div>
                 </a>
 
@@ -244,7 +213,8 @@ $container = get_theme_mod( 'understrap_container_type' );
                   <div class="wc-block-grid__product-image"><img loading=lazy width="300" height="300"
                       src="https://rlmflorist.com/wp-content/uploads/2020/02/12-roses-RLM-90.00-300x300.jpg"
                       class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy"
-                      srcset="https://rlmflorist.com/wp-content/uploads/2020/02/12-roses-RLM-90.00-300x300.jpg 300w, https://rlmflorist.com/wp-content/uploads/2020/02/12-roses-RLM-90.00-150x150.jpg 150w, https://rlmflorist.com/wp-content/uploads/2020/02/12-roses-RLM-90.00-768x767.jpg 768w, https://rlmflorist.com/wp-content/uploads/2020/02/12-roses-RLM-90.00-600x599.jpg 600w, https://rlmflorist.com/wp-content/uploads/2020/02/12-roses-RLM-90.00-100x100.jpg 100w, https://rlmflorist.com/wp-content/uploads/2020/02/12-roses-RLM-90.00.jpg 1006w" /></div>
+                      srcset="https://rlmflorist.com/wp-content/uploads/2020/02/12-roses-RLM-90.00-300x300.jpg 300w, https://rlmflorist.com/wp-content/uploads/2020/02/12-roses-RLM-90.00-150x150.jpg 150w, https://rlmflorist.com/wp-content/uploads/2020/02/12-roses-RLM-90.00-768x767.jpg 768w, https://rlmflorist.com/wp-content/uploads/2020/02/12-roses-RLM-90.00-600x599.jpg 600w, https://rlmflorist.com/wp-content/uploads/2020/02/12-roses-RLM-90.00-100x100.jpg 100w, https://rlmflorist.com/wp-content/uploads/2020/02/12-roses-RLM-90.00.jpg 1006w" />
+                  </div>
                   <div class="wc-block-grid__product-title">A Dozen Red Roses</div>
                 </a>
 
@@ -281,7 +251,8 @@ $container = get_theme_mod( 'understrap_container_type' );
     </div>
     <div class="row">
       <div class="col text-center fade-in">
-        <a href="https://www.rlmaffairs.com/"><button type="button" class="btn btn-lg btn-outline-light">RLM Venue & Event Services</button></a>
+        <a href="https://www.rlmaffairs.com/"><button type="button" class="btn btn-lg btn-outline-light">RLM Venue &
+            Event Services</button></a>
       </div>
     </div>
   </div>
@@ -499,31 +470,6 @@ $container = get_theme_mod( 'understrap_container_type' );
         <i class="fas fa-chevron-right fa-2x"></i>
       </span>
     </a>
-  </div>
-</div>
-
-<div class="covid-holder">
-  <div class="green-bar"></div>
-  <div class="container">
-    <div class="row">
-      <div class="col">
-        <div class="covid-title">
-          Covid-19
-        </div>
-        <div class="covid-body">
-          <p>We are grateful for all of you and are open for phone or internet orders. They will be fulfilled with a
-            no
-            contact delivery left at your front door or a no contact pick up at our front door.</p>
-        </div>
-        <div class="covid-body">
-          We realize that this is a very stressful time, and we are here for your floral, event, BabyCakes &amp; venue
-          needs. We are monitoring the situation closely and will update you with any changes as they arise. We’re
-          closely monitoring the Center for Disease Control’s guidelines and recommendations on additional steps to
-          take
-          to help stop the spread of the virus.
-        </div>
-      </div>
-    </div>
   </div>
 </div>
 
