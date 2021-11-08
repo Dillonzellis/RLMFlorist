@@ -9,6 +9,17 @@
   .btn {
     color: $primary;
     border-color: $primary;
+    &:focus {
+      box-shadow: 0 0 0 0.2rem #274d35 !important;
+    }
+    &:active {
+      background-color: $primary !important;
+      border-color: $primary !important;
+    }
+  }
+
+  .woocommerce-mini-cart__buttons {
+    border-style: none;
   }
 
   .woocommerce-column--billing-address {
@@ -25,5 +36,25 @@
 
   .inspire_checkout_fields_additional_information {
     padding-left: 15px;
+  }
+
+  @media (min-width: $md) {
+    .password-input {
+      margin-left: 7px;
+    }
+  }
+
+  .woocommerce-form-login__rememberme {
+    margin-right: 7px;
+  }
+
+  .show-password-input {
+    top: unset !important;
+  }
+
+  @media (min-width: $xl) {
+    .show-password-input {
+      top: 0.7rem !important;
+    }
   }
 }
