@@ -24,4 +24,5 @@ global $product;
 ?>
 <p class="<?php echo esc_attr( apply_filters( 'woocommerce_product_price_class', 'price' ) ); ?>"><?php echo $product->get_price_html(); ?></p>
 
-<p class="mb-3"><strong>*Please note:</strong> The arrangement photo is for reference and inspiration in regards to color palette and mood. RLM floral designers will use their professional discretion on what flowers are included based on seasonal availability and quality. Reci 
+<p class="mb-3"><strong>*Please note:</strong> The arrangement photo is for reference and inspiration in regards to color palette and mood. RLM floral designers will use their professional discretion on what flowers are included based on seasonal availability and quality. Recipients will not receive an exact replica of what is pictured, including the vase.
+</p>
