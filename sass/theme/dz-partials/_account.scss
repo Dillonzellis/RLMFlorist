@@ -1,13 +1,29 @@
 .page-id-21 {
-    .woocommerce-info {
-        border-top-color: $primary;
-        &::before {
-            color: $primary;
-        }
+  .woocommerce-info {
+    border-top-color: $primary;
+    &::before {
+      color: $primary;
     }
+  }
 
-    .btn {
-        color: $primary;
-        border-color: $primary;
-    }
+  .btn {
+    color: $primary;
+    border-color: $primary;
+  }
+
+  .woocommerce-column--billing-address {
+    max-width: unset;
+    width: 48%;
+    padding-left: unset;
+  }
+
+  .woocommerce-column--shipping-address {
+    max-width: unset;
+    width: 48%;
+    padding-left: unset;
+  }
+
+  .inspire_checkout_fields_additional_information {
+    padding-left: 15px;
+  }
 }
