@@ -235,4 +235,12 @@ function wc_minimum_order_amount()
             );
         }
     }    
-}    
+}
+
+// create character limit for recipient card message
+add_filter( 'woocommerce_checkout_fields', 'bbloomer_checkout_fields_custom_attributes', 9999 );
+
+function bbloomer_checkout_fields_custom_attributes( $fields ) {
+    $fields['order']['order_card_message']['maxlength'] = 120;
+    return $fields;
+ }
