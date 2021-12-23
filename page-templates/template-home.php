@@ -39,7 +39,7 @@ $container = get_theme_mod( 'understrap_container_type' );
         </div>
         <div class="hero-captions-holder">
           <h1 class="main-title">
-            Ethical Fresh Flowers
+            RLM Florist
           </h1>
           <h2 class="sub-title">
             42 Years of Award Winning Designs
