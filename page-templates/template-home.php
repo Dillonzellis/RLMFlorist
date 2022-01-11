@@ -85,7 +85,7 @@ $container = get_theme_mod( 'understrap_container_type' );
           <div class="col">
             <div class="sub-title">the</div>
             <div class="shop-card-title">
-              Fall Collection
+              Valentine's Day Collection
             </div>
           </div>
         </div>
@@ -94,53 +94,45 @@ $container = get_theme_mod( 'understrap_container_type' );
         <div class="wp-block-group__inner-container">
           <div
             class="wc-block-grid wp-block-handpicked-products wc-block-handpicked-products has-3-columns has-multiple-rows has-aligned-buttons">
-            <ul class="wc-block-grid__products">
-              <li class="wc-block-grid__product">
-                <a href="https://rlmflorist.com/store/organic-fall/" class="wc-block-grid__product-link">
-                  <div class="wc-block-grid__product-image"><img width="300" height="300" src="https://rlmflorist.com/wp-content/uploads/2021/11/OrganicFall1-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy" srcset="https://rlmflorist.com/wp-content/uploads/2021/11/OrganicFall1-300x300.jpg 300w, https://rlmflorist.com/wp-content/uploads/2021/11/OrganicFall1-150x150.jpg 150w, https://rlmflorist.com/wp-content/uploads/2021/11/OrganicFall1-768x768.jpg 768w, https://rlmflorist.com/wp-content/uploads/2021/11/OrganicFall1-600x600.jpg 600w, https://rlmflorist.com/wp-content/uploads/2021/11/OrganicFall1-100x100.jpg 100w, https://rlmflorist.com/wp-content/uploads/2021/11/OrganicFall1.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px"></div>
-                  <div class="wc-block-grid__product-title">Organic Fall</div>
-                </a>
-                
-                <div class="wc-block-grid__product-price price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>210.00</span></div>
-                
-                <div class="wp-block-button wc-block-grid__product-add-to-cart"><a href="?add-to-cart=2876" aria-label="Add “Organic Fall” to your cart" data-quantity="1" data-product_id="2876" data-product_sku="" rel="nofollow" class="wp-block-button__link add_to_cart_button ajax_add_to_cart btn">Add to cart</a></div>
-              </li>
-
-              <li class="wc-block-grid__product">
-                <a href="https://rlmflorist.com/store/rustic-splendor/" class="wc-block-grid__product-link">
-                  <div class="wc-block-grid__product-image"><img width="300" height="300" src="https://rlmflorist.com/wp-content/uploads/2021/11/RusticSplendor2-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy" srcset="https://rlmflorist.com/wp-content/uploads/2021/11/RusticSplendor2-300x300.jpg 300w, https://rlmflorist.com/wp-content/uploads/2021/11/RusticSplendor2-150x150.jpg 150w, https://rlmflorist.com/wp-content/uploads/2021/11/RusticSplendor2-100x100.jpg 100w" sizes="(max-width: 300px) 100vw, 300px"></div>
-                  <div class="wc-block-grid__product-title">Rustic Splendor</div>
-                </a>
-                
-                <div class="wc-block-grid__product-price price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>125.00</span></div>
-                
-                <div class="wp-block-button wc-block-grid__product-add-to-cart"><a href="?add-to-cart=2870" aria-label="Add “Rustic Splendor” to your cart" data-quantity="1" data-product_id="2870" data-product_sku="" rel="nofollow" class="wp-block-button__link add_to_cart_button ajax_add_to_cart btn">Add to cart</a></div>
-              </li>
-
-              <li class="wc-block-grid__product">
-                <a href="https://rlmflorist.com/store/butterscotch/" class="wc-block-grid__product-link">
-                  <div class="wc-block-grid__product-image"><img width="300" height="300" src="https://rlmflorist.com/wp-content/uploads/2021/11/butterscotch1-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy" srcset="https://rlmflorist.com/wp-content/uploads/2021/11/butterscotch1-300x300.jpg 300w, https://rlmflorist.com/wp-content/uploads/2021/11/butterscotch1-150x150.jpg 150w, https://rlmflorist.com/wp-content/uploads/2021/11/butterscotch1-100x100.jpg 100w" sizes="(max-width: 300px) 100vw, 300px"></div>
-                  <div class="wc-block-grid__product-title">Butterscotch</div>
-                </a>
-                      
-                <div class="wc-block-grid__product-price price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>110.00</span></div>
-                
-                <div class="wp-block-button wc-block-grid__product-add-to-cart">
-                  <a href="?add-to-cart=2864" aria-label="Add “Butterscotch” to your cart" data-quantity="1" data-product_id="2864"           data-product_sku="" rel="nofollow" class="wp-block-button__link add_to_cart_button ajax_add_to_cart btn">Add to cart
-                  </a>
-                </div>
-              </li>
+            <ul class="wc-block-grid__products"><li class="wc-block-grid__product">
+				<a href="https://rlmflorist.com/store/loves-bounty/" class="wc-block-grid__product-link">
+					<div class="wc-block-grid__product-image"><img width="228" height="228" src="https://rlmflorist.com/wp-content/uploads/2020/02/lboiunty.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Loves Bounty" loading="lazy" srcset="https://rlmflorist.com/wp-content/uploads/2020/02/lboiunty.jpg 228w, https://rlmflorist.com/wp-content/uploads/2020/02/lboiunty-150x150.jpg 150w, https://rlmflorist.com/wp-content/uploads/2020/02/lboiunty-100x100.jpg 100w" sizes="(max-width: 228px) 100vw, 228px"></div>
+					<div class="wc-block-grid__product-title">Loves Bounty</div>
+				</a>
+				
+				<div class="wc-block-grid__product-price price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>119.99</span></div>
+				
+				<div class="wp-block-button wc-block-grid__product-add-to-cart"><a href="?add-to-cart=1950" aria-label="Add “Loves Bounty” to your cart" data-quantity="1" data-product_id="1950" data-product_sku="" rel="nofollow" class="wp-block-button__link add_to_cart_button ajax_add_to_cart btn">Add to cart</a></div>
+			</li><li class="wc-block-grid__product">
+				<a href="https://rlmflorist.com/store/love/" class="wc-block-grid__product-link">
+					<div class="wc-block-grid__product-image"><img width="228" height="228" src="https://rlmflorist.com/wp-content/uploads/2020/02/lve.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Love" loading="lazy" srcset="https://rlmflorist.com/wp-content/uploads/2020/02/lve.jpg 228w, https://rlmflorist.com/wp-content/uploads/2020/02/lve-150x150.jpg 150w, https://rlmflorist.com/wp-content/uploads/2020/02/lve-100x100.jpg 100w" sizes="(max-width: 228px) 100vw, 228px"></div>
+					<div class="wc-block-grid__product-title">Love</div>
+				</a>
+				
+				<div class="wc-block-grid__product-price price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>204.99</span></div>
+				
+				<div class="wp-block-button wc-block-grid__product-add-to-cart"><a href="?add-to-cart=1947" aria-label="Add “Love” to your cart" data-quantity="1" data-product_id="1947" data-product_sku="" rel="nofollow" class="wp-block-button__link add_to_cart_button ajax_add_to_cart btn">Add to cart</a></div>
+			</li><li class="wc-block-grid__product">
+				<a href="https://rlmflorist.com/store/modern-love/" class="wc-block-grid__product-link">
+					<div class="wc-block-grid__product-image"><img width="228" height="228" src="https://rlmflorist.com/wp-content/uploads/2020/02/mlove.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Modern Love" loading="lazy" srcset="https://rlmflorist.com/wp-content/uploads/2020/02/mlove.jpg 228w, https://rlmflorist.com/wp-content/uploads/2020/02/mlove-150x150.jpg 150w, https://rlmflorist.com/wp-content/uploads/2020/02/mlove-100x100.jpg 100w" sizes="(max-width: 228px) 100vw, 228px"></div>
+					<div class="wc-block-grid__product-title">Modern Love</div>
+				</a>
+				
+				<div class="wc-block-grid__product-price price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>67.99</span></div>
+				
+				<div class="wp-block-button wc-block-grid__product-add-to-cart"><a href="?add-to-cart=1931" aria-label="Add “Modern Love” to your cart" data-quantity="1" data-product_id="1931" data-product_sku="" rel="nofollow" class="wp-block-button__link add_to_cart_button ajax_add_to_cart btn">Add to cart</a></div>
+			</li></ul>
 
               
 
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-              </div>
+</div>
 
 <div class="strap-video-holder">
   <div class="video-foreground">
