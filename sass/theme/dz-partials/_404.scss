@@ -1,0 +1,10 @@
+.error404 {
+  .page-content {
+    min-height: 20vh;
+  }
+  @media (min-width: 1200px) {
+    .page-content {
+      min-height: 40vh;
+    }
+  }
+}
