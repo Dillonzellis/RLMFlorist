@@ -251,7 +251,7 @@ function bbloomer_checkout_fields_custom_attributes( $fields ) {
 function bbloomer_checkout_fields_custom_validation() { 
    if ( isset( $_POST['billing_credit_card_number'] ) && ! empty( $_POST['billing_credit_card_number'] ) ) {
       if ( strlen( $_POST['billing_credit_card_number'] ) < 16 ) {
-         wc_add_notice( 'Credit Card requires at least 16 numbers', 'error' );
+         wc_add_notice( '<strong>Credit Card</strong> requires 16 numbers', 'error' );
       }
    }   
 }
