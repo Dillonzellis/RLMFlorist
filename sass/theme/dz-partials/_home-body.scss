@@ -283,8 +283,12 @@
           }
         }
 
+        img {
+          width: 100% !important;
+        }
+
         .btn {
-          width: 100%;
+          // width: 100%;
           color: $primary;
           border: 2px solid $primary;
           padding: 16px 25px;

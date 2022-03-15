@@ -78,59 +78,54 @@ $container = get_theme_mod( 'understrap_container_type' );
 <div class="main-green"></div>
 
 <div class="featured-shop">
-  <div class="shop-card-holder">
-    <div class="container-fluid">
-      <div class="shop-card-titles-holder">
-        <div class="row">
-          <div class="col">
-            <div class="sub-title">the</div>
-            <div class="shop-card-title">
-              Valentine's Day Collection
-            </div>
-          </div>
+
+
+<div class="shop-card-holder">
+  <div class="container-fluid">
+    <div class="shop-card-titles-holder">
+      <div class="row">
+        <div class="col">
+          <div class="sub-title">the</div>
+          <div class="shop-card-title"> Mother's Day Collection </div>
         </div>
       </div>
-      <div class="wp-block-group">
-        <div class="wp-block-group__inner-container">
-          <div class="wc-block-grid wp-block-handpicked-products wc-block-handpicked-products has-3-columns has-multiple-rows has-aligned-buttons">
-
-
-
-          <ul class="wc-block-grid__products"><li class="wc-block-grid__product">
-				<a href="https://rlmflorist.com/store/loves-bounty/" class="wc-block-grid__product-link">
-					<div class="wc-block-grid__product-image"><img width="300" height="300" src="https://rlmflorist.com/wp-content/uploads/2022/01/2-dozen-roses-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Loves Bounty" loading="lazy" srcset="https://rlmflorist.com/wp-content/uploads/2022/01/2-dozen-roses-300x300.jpg 300w, https://rlmflorist.com/wp-content/uploads/2022/01/2-dozen-roses-150x150.jpg 150w, https://rlmflorist.com/wp-content/uploads/2022/01/2-dozen-roses-100x100.jpg 100w" sizes="(max-width: 300px) 100vw, 300px"></div>
-					<div class="wc-block-grid__product-title">Loves Bounty</div>
-				</a>
-				
-				<div class="wc-block-grid__product-price price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>119.99</span></div>
-				
-				<div class="wp-block-button wc-block-grid__product-add-to-cart"><a href="?add-to-cart=1950" aria-label="Add “Loves Bounty” to your cart" data-quantity="1" data-product_id="1950" data-product_sku="" rel="nofollow" class="wp-block-button__link add_to_cart_button ajax_add_to_cart btn">Add to cart</a></div>
-			</li><li class="wc-block-grid__product">
-				<a href="https://rlmflorist.com/store/love/" class="wc-block-grid__product-link">
-					<div class="wc-block-grid__product-image"><img width="300" height="300" src="https://rlmflorist.com/wp-content/uploads/2022/01/3-dozen-roses-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Love" loading="lazy" srcset="https://rlmflorist.com/wp-content/uploads/2022/01/3-dozen-roses-300x300.jpg 300w, https://rlmflorist.com/wp-content/uploads/2022/01/3-dozen-roses-150x150.jpg 150w, https://rlmflorist.com/wp-content/uploads/2022/01/3-dozen-roses-100x100.jpg 100w" sizes="(max-width: 300px) 100vw, 300px"></div>
-					<div class="wc-block-grid__product-title">Love</div>
-				</a>
-				
-				<div class="wc-block-grid__product-price price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>204.99</span></div>
-				
-				<div class="wp-block-button wc-block-grid__product-add-to-cart"><a href="?add-to-cart=1947" aria-label="Add “Love” to your cart" data-quantity="1" data-product_id="1947" data-product_sku="" rel="nofollow" class="wp-block-button__link add_to_cart_button ajax_add_to_cart btn">Add to cart</a></div>
-			</li><li class="wc-block-grid__product">
-				<a href="https://rlmflorist.com/store/18-mixed-roses-garden-vase/" class="wc-block-grid__product-link">
-					<div class="wc-block-grid__product-image"><img width="300" height="300" src="https://rlmflorist.com/wp-content/uploads/2020/02/18-mixed-roses-garden-vase-RLM-110.00-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="18 Mixed Roses Garden Vase" loading="lazy" srcset="https://rlmflorist.com/wp-content/uploads/2020/02/18-mixed-roses-garden-vase-RLM-110.00-300x300.jpg 300w, https://rlmflorist.com/wp-content/uploads/2020/02/18-mixed-roses-garden-vase-RLM-110.00-150x150.jpg 150w, https://rlmflorist.com/wp-content/uploads/2020/02/18-mixed-roses-garden-vase-RLM-110.00-768x767.jpg 768w, https://rlmflorist.com/wp-content/uploads/2020/02/18-mixed-roses-garden-vase-RLM-110.00-600x599.jpg 600w, https://rlmflorist.com/wp-content/uploads/2020/02/18-mixed-roses-garden-vase-RLM-110.00-100x100.jpg 100w, https://rlmflorist.com/wp-content/uploads/2020/02/18-mixed-roses-garden-vase-RLM-110.00.jpg 1006w" sizes="(max-width: 300px) 100vw, 300px"></div>
-					<div class="wc-block-grid__product-title">18 Mixed Roses Garden Vase</div>
-				</a>
-				
-				<div class="wc-block-grid__product-price price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>95.00</span></div>
-				
-				<div class="wp-block-button wc-block-grid__product-add-to-cart"><a href="?add-to-cart=1763" aria-label="Add “18 Mixed Roses Garden Vase” to your cart" data-quantity="1" data-product_id="1763" data-product_sku="" rel="nofollow" class="wp-block-button__link add_to_cart_button ajax_add_to_cart btn">Add to cart</a></div>
-			</li></ul>
-            
-          </div>
+    </div>
+    <div class="wp-block-group">
+      <div class="wp-block-group__inner-container">
+        <div data-block-name="woocommerce/handpicked-products" data-edit-mode="false" data-products="[2953,2949,2956]" class="wc-block-grid wp-block-handpicked-products wc-block-handpicked-products has-3-columns has-multiple-rows">
+          <ul class="wc-block-grid__products">
+            <li class="wc-block-grid__product">
+              <a href="https://rlmflorist.com/store/garden-walk/" class="wc-block-grid__product-link">
+                <div class="wc-block-grid__product-image"><img width="300" height="300" src="https://rlmflorist.com/wp-content/uploads/2022/03/garden-walk-main-300x300.webp" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Garden Walk" loading="lazy" srcset="https://rlmflorist.com/wp-content/uploads/2022/03/garden-walk-main-300x300.webp 300w, https://rlmflorist.com/wp-content/uploads/2022/03/garden-walk-main-150x150.webp 150w, https://rlmflorist.com/wp-content/uploads/2022/03/garden-walk-main-768x768.webp 768w, https://rlmflorist.com/wp-content/uploads/2022/03/garden-walk-main-600x600.webp 600w, https://rlmflorist.com/wp-content/uploads/2022/03/garden-walk-main-100x100.webp 100w, https://rlmflorist.com/wp-content/uploads/2022/03/garden-walk-main.webp 1024w" sizes="(max-width: 300px) 100vw, 300px"></div>
+                <div class="wc-block-grid__product-title">Garden Walk</div>
+              </a>
+              <div class="wc-block-grid__product-price price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>155.00</span>
+              </div>
+              <div class="wp-block-button wc-block-grid__product-add-to-cart"><a href="?add-to-cart=2956" aria-label="Add “Garden Walk” to your cart" data-quantity="1" data-product_id="2956" data-product_sku="" rel="nofollow" class="wp-block-button__link add_to_cart_button ajax_add_to_cart btn">Add to cart</a></div>
+            </li>
+            <li class="wc-block-grid__product">
+              <a href="https://rlmflorist.com/store/mothers-garden/" class="wc-block-grid__product-link">
+                <div class="wc-block-grid__product-image"><img width="300" height="300" src="https://rlmflorist.com/wp-content/uploads/2022/03/mothers-garden-main-300x300.webp" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Mother's Garden" loading="lazy" srcset="https://rlmflorist.com/wp-content/uploads/2022/03/mothers-garden-main-300x300.webp 300w, https://rlmflorist.com/wp-content/uploads/2022/03/mothers-garden-main-150x150.webp 150w, https://rlmflorist.com/wp-content/uploads/2022/03/mothers-garden-main-768x768.webp 768w, https://rlmflorist.com/wp-content/uploads/2022/03/mothers-garden-main-600x600.webp 600w, https://rlmflorist.com/wp-content/uploads/2022/03/mothers-garden-main-100x100.webp 100w, https://rlmflorist.com/wp-content/uploads/2022/03/mothers-garden-main.webp 1024w" sizes="(max-width: 300px) 100vw, 300px"></div>
+                <div class="wc-block-grid__product-title">Mother’s Garden</div>
+              </a>
+              <div class="wc-block-grid__product-price price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>155.00</span>
+              </div>
+              <div class="wp-block-button wc-block-grid__product-add-to-cart"><a href="?add-to-cart=2953" aria-label="Add “Mother's Garden” to your cart" data-quantity="1" data-product_id="2953" data-product_sku="" rel="nofollow" class="wp-block-button__link add_to_cart_button ajax_add_to_cart btn">Add to cart</a></div>
+            </li>
+            <li class="wc-block-grid__product">
+              <a href="https://rlmflorist.com/store/sherbet-sunshine/" class="wc-block-grid__product-link">
+                <div class="wc-block-grid__product-image"><img width="300" height="300" src="https://rlmflorist.com/wp-content/uploads/2022/03/sherbert-main-300x300.webp" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Sherbet Sunshine" loading="lazy" srcset="https://rlmflorist.com/wp-content/uploads/2022/03/sherbert-main-300x300.webp 300w, https://rlmflorist.com/wp-content/uploads/2022/03/sherbert-main-150x150.webp 150w, https://rlmflorist.com/wp-content/uploads/2022/03/sherbert-main-768x768.webp 768w, https://rlmflorist.com/wp-content/uploads/2022/03/sherbert-main-600x600.webp 600w, https://rlmflorist.com/wp-content/uploads/2022/03/sherbert-main-100x100.webp 100w, https://rlmflorist.com/wp-content/uploads/2022/03/sherbert-main.webp 1024w" sizes="(max-width: 300px) 100vw, 300px"></div>
+                <div class="wc-block-grid__product-title">Sherbet Sunshine</div>
+              </a>
+              <div class="wc-block-grid__product-price price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>145.00</span>
+              </div>
+              <div class="wp-block-button wc-block-grid__product-add-to-cart"><a href="?add-to-cart=2949" aria-label="Add “Sherbet Sunshine” to your cart" data-quantity="1" data-product_id="2949" data-product_sku="" rel="nofollow" class="wp-block-button__link add_to_cart_button ajax_add_to_cart btn">Add to cart</a></div>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
   </div>
-
 </div>
 
 <div class="strap-video-holder">
@@ -156,44 +151,42 @@ $container = get_theme_mod( 'understrap_container_type' );
         <div class="row">
           <div class="col">
             <div class="sub-title">our</div>
-            <div class="shop-card-title">
-              best sellers
-            </div>
+            <div class="shop-card-title"> best sellers </div>
           </div>
         </div>
       </div>
       <div class="wp-block-group">
         <div class="wp-block-group__inner-container">
-          <div
-            class="wc-block-grid wp-block-handpicked-products wc-block-handpicked-products has-3-columns has-multiple-rows has-aligned-buttons">
-            <ul class="wc-block-grid__products"><li class="wc-block-grid__product">
-				<a href="https://rlmflorist.com/store/12-roses/" class="wc-block-grid__product-link">
-					<div class="wc-block-grid__product-image"><img width="300" height="300" src="https://rlmflorist.com/wp-content/uploads/2020/02/12-roses-RLM-90.00-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="A Dozen Red Roses" loading="lazy" srcset="https://rlmflorist.com/wp-content/uploads/2020/02/12-roses-RLM-90.00-300x300.jpg 300w, https://rlmflorist.com/wp-content/uploads/2020/02/12-roses-RLM-90.00-150x150.jpg 150w, https://rlmflorist.com/wp-content/uploads/2020/02/12-roses-RLM-90.00-768x767.jpg 768w, https://rlmflorist.com/wp-content/uploads/2020/02/12-roses-RLM-90.00-600x599.jpg 600w, https://rlmflorist.com/wp-content/uploads/2020/02/12-roses-RLM-90.00-100x100.jpg 100w, https://rlmflorist.com/wp-content/uploads/2020/02/12-roses-RLM-90.00.jpg 1006w" sizes="(max-width: 300px) 100vw, 300px"></div>
-					<div class="wc-block-grid__product-title">A Dozen Red Roses</div>
-				</a>
-				
-				<div class="wc-block-grid__product-price price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>59.99</span></div>
-				
-				<div class="wp-block-button wc-block-grid__product-add-to-cart"><a href="?add-to-cart=1759" aria-label="Add “A Dozen Red Roses” to your cart" data-quantity="1" data-product_id="1759" data-product_sku="" rel="nofollow" class="wp-block-button__link add_to_cart_button ajax_add_to_cart btn">Add to cart</a></div>
-			</li><li class="wc-block-grid__product">
-				<a href="https://rlmflorist.com/store/assorted-dozen/" class="wc-block-grid__product-link">
-					<div class="wc-block-grid__product-image"><img width="228" height="228" src="https://rlmflorist.com/wp-content/uploads/2020/02/bbycakes.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Assorted Dozen" loading="lazy" srcset="https://rlmflorist.com/wp-content/uploads/2020/02/bbycakes.jpg 228w, https://rlmflorist.com/wp-content/uploads/2020/02/bbycakes-150x150.jpg 150w, https://rlmflorist.com/wp-content/uploads/2020/02/bbycakes-100x100.jpg 100w" sizes="(max-width: 228px) 100vw, 228px"></div>
-					<div class="wc-block-grid__product-title">Assorted Dozen</div>
-				</a>
-				
-				<div class="wc-block-grid__product-price price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>10.50</span></div>
-				
-				<div class="wp-block-button wc-block-grid__product-add-to-cart"><a href="?add-to-cart=1402" aria-label="Add “Assorted Dozen” to your cart" data-quantity="1" data-product_id="1402" data-product_sku="" rel="nofollow" class="wp-block-button__link add_to_cart_button ajax_add_to_cart btn">Add to cart</a></div>
-			</li><li class="wc-block-grid__product">
-				<a href="https://rlmflorist.com/store/6-red-roses/" class="wc-block-grid__product-link">
-					<div class="wc-block-grid__product-image"><img width="300" height="300" src="https://rlmflorist.com/wp-content/uploads/2020/02/6-rose-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Six Red Roses" loading="lazy" srcset="https://rlmflorist.com/wp-content/uploads/2020/02/6-rose-300x300.jpg 300w, https://rlmflorist.com/wp-content/uploads/2020/02/6-rose-150x150.jpg 150w, https://rlmflorist.com/wp-content/uploads/2020/02/6-rose-100x100.jpg 100w" sizes="(max-width: 300px) 100vw, 300px"></div>
-					<div class="wc-block-grid__product-title">Six Red Roses</div>
-				</a>
-				
-				<div class="wc-block-grid__product-price price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>29.99</span></div>
-				
-				<div class="wp-block-button wc-block-grid__product-add-to-cart"><a href="?add-to-cart=1399" aria-label="Add “Six Red Roses” to your cart" data-quantity="1" data-product_id="1399" data-product_sku="" rel="nofollow" class="wp-block-button__link add_to_cart_button ajax_add_to_cart btn">Add to cart</a></div>
-			</li></ul>
+          <div class="wc-block-grid wp-block-handpicked-products wc-block-handpicked-products has-3-columns has-multiple-rows has-aligned-buttons">
+            <ul class="wc-block-grid__products">
+              <li class="wc-block-grid__product">
+                <a href="https://rlmflorist.com/store/12-roses/" class="wc-block-grid__product-link">
+                  <div class="wc-block-grid__product-image"><img width="300" height="300" src="https://rlmflorist.com/wp-content/uploads/2020/02/12-roses-RLM-90.00-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="A Dozen Red Roses" loading="lazy" srcset="https://rlmflorist.com/wp-content/uploads/2020/02/12-roses-RLM-90.00-300x300.jpg 300w, https://rlmflorist.com/wp-content/uploads/2020/02/12-roses-RLM-90.00-150x150.jpg 150w, https://rlmflorist.com/wp-content/uploads/2020/02/12-roses-RLM-90.00-768x767.jpg 768w, https://rlmflorist.com/wp-content/uploads/2020/02/12-roses-RLM-90.00-600x599.jpg 600w, https://rlmflorist.com/wp-content/uploads/2020/02/12-roses-RLM-90.00-100x100.jpg 100w, https://rlmflorist.com/wp-content/uploads/2020/02/12-roses-RLM-90.00.jpg 1006w" sizes="(max-width: 300px) 100vw, 300px"></div>
+                  <div class="wc-block-grid__product-title">A Dozen Red Roses</div>
+                </a>
+                <div class="wc-block-grid__product-price price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>59.99</span>
+                </div>
+                <div class="wp-block-button wc-block-grid__product-add-to-cart"><a href="?add-to-cart=1759" aria-label="Add “A Dozen Red Roses” to your cart" data-quantity="1" data-product_id="1759" data-product_sku="" rel="nofollow" class="wp-block-button__link add_to_cart_button ajax_add_to_cart btn">Add to cart</a></div>
+              </li>
+              <li class="wc-block-grid__product">
+                <a href="https://rlmflorist.com/store/assorted-dozen/" class="wc-block-grid__product-link">
+                  <div class="wc-block-grid__product-image"><img width="228" height="228" src="https://rlmflorist.com/wp-content/uploads/2020/02/bbycakes.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Assorted Dozen" loading="lazy" srcset="https://rlmflorist.com/wp-content/uploads/2020/02/bbycakes.jpg 228w, https://rlmflorist.com/wp-content/uploads/2020/02/bbycakes-150x150.jpg 150w, https://rlmflorist.com/wp-content/uploads/2020/02/bbycakes-100x100.jpg 100w" sizes="(max-width: 228px) 100vw, 228px"></div>
+                  <div class="wc-block-grid__product-title">Assorted Dozen</div>
+                </a>
+                <div class="wc-block-grid__product-price price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>10.50</span>
+                </div>
+                <div class="wp-block-button wc-block-grid__product-add-to-cart"><a href="?add-to-cart=1402" aria-label="Add “Assorted Dozen” to your cart" data-quantity="1" data-product_id="1402" data-product_sku="" rel="nofollow" class="wp-block-button__link add_to_cart_button ajax_add_to_cart btn">Add to cart</a></div>
+              </li>
+              <li class="wc-block-grid__product">
+                <a href="https://rlmflorist.com/store/6-red-roses/" class="wc-block-grid__product-link">
+                  <div class="wc-block-grid__product-image"><img width="300" height="300" src="https://rlmflorist.com/wp-content/uploads/2020/02/6-rose-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Six Red Roses" loading="lazy" srcset="https://rlmflorist.com/wp-content/uploads/2020/02/6-rose-300x300.jpg 300w, https://rlmflorist.com/wp-content/uploads/2020/02/6-rose-150x150.jpg 150w, https://rlmflorist.com/wp-content/uploads/2020/02/6-rose-100x100.jpg 100w" sizes="(max-width: 300px) 100vw, 300px"></div>
+                  <div class="wc-block-grid__product-title">Six Red Roses</div>
+                </a>
+                <div class="wc-block-grid__product-price price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>29.99</span>
+                </div>
+                <div class="wp-block-button wc-block-grid__product-add-to-cart"><a href="?add-to-cart=1399" aria-label="Add “Six Red Roses” to your cart" data-quantity="1" data-product_id="1399" data-product_sku="" rel="nofollow" class="wp-block-button__link add_to_cart_button ajax_add_to_cart btn">Add to cart</a></div>
+              </li>
+            </ul>
           </div>
         </div>
       </div>

@@ -88,7 +88,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 							HOLIDAYS
 						</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-							<a class="dropdown-item" href="<?php echo esc_url( home_url( '/product-category/holiday/valentiness-day/' ) ); ?>"><i class="fas fa-chevron-right fa-xs"></i>VALENTINE'S DAY
+						<a class="dropdown-item" href="<?php echo esc_url( home_url( '/product-category/holiday/mothers-day/' ) ); ?>"><i class="fas fa-chevron-right fa-xs"></i>MOTHER'S DAY
 							</a>
 						</div>
 					</li>
