@@ -481,4 +481,15 @@
   .place-order {
     justify-content: space-between;
   }
+
+  #ship-to-different-address > label {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  #ship-to-different-address-checkbox {
+    height: 25px;
+    width: 25px;
+  }
 }
