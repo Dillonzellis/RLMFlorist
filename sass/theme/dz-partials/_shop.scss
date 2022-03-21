@@ -488,6 +488,12 @@
     align-items: center;
   }
 
+  @media (max-width: 500px) {
+    #ship-to-different-address > label > span {
+      text-align: center;
+    }
+  }
+
   #ship-to-different-address-checkbox {
     height: 25px;
     width: 25px;
