@@ -255,3 +255,6 @@ function bbloomer_checkout_fields_custom_validation() {
       }
    }   
 }
+
+// ship to different address checked by default
+add_filter( 'woocommerce_ship_to_different_address_checked', '__return_true' );
