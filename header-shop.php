@@ -106,20 +106,21 @@ $container = get_theme_mod( 'understrap_container_type' );
                             aria-haspopup="true" aria-expanded="false">
                             HOLIDAYS
                         </a>
-                        <!-- <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-							<a class="dropdown-item" href="<?php echo esc_url( home_url( '/product-category/holiday/mothers-day/' ) ); ?>"><i class="fas fa-chevron-right fa-xs"></i>MOTHER'S DAY
-							</a>
-						</div> -->
+
+                        <!-- <a class="dropdown-item"
+                            href="<?php echo esc_url( home_url( '/product-category/holiday/mothers-day/' ) ); ?>"><i
+                                class="fas fa-chevron-right fa-xs"></i>MOTHER'S DAY
+                        </a> -->
+
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item"
                                 href="<?php echo esc_url( home_url( 'product-category/holiday/thanksgiving/' ) ); ?>"><i
-                                    class="fas fa-chevron-right fa-xs"></i>Thanksgiving
+                                    class="fas fa-chevron-right fa-xs"></i>THANKSGIVING
                             </a>
-                        </div>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+
                             <a class="dropdown-item"
                                 href="<?php echo esc_url( home_url( 'product-category/holiday/happy-holiday/' ) ); ?>"><i
-                                    class="fas fa-chevron-right fa-xs"></i>Happy Holidays
+                                    class="fas fa-chevron-right fa-xs"></i>HAPPY HOLIDAYS
                             </a>
                         </div>
                     </li>
