@@ -8,15 +8,15 @@
  */
 
 // Exit if accessed directly.
-defined( 'ABSPATH' ) || exit;
+defined('ABSPATH') || exit;
 
-$container = get_theme_mod( 'understrap_container_type' );
+$container = get_theme_mod('understrap_container_type');
 ?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 
 <head>
-    <meta charset="<?php bloginfo( 'charset' ); ?>">
+    <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="profile" href="http://gmpg.org/xfn/11">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -32,12 +32,12 @@ $container = get_theme_mod( 'understrap_container_type' );
 </head>
 
 <body <?php body_class(); ?>>
-    <?php do_action( 'wp_body_open' ); ?>
+    <?php do_action('wp_body_open'); ?>
     <div class="site" id="page">
 
         <nav class="navbar navbar-expand-xl shop-navbar">
 
-            <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>">
+            <a class="navbar-brand" href="<?php echo esc_url(home_url('/')); ?>">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="logo" srcset="">
             </a>
 
@@ -72,31 +72,31 @@ $container = get_theme_mod( 'understrap_container_type' );
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item"
-                                href="<?php echo esc_url( home_url( '/product-category/occasion/thinking-of-you/' ) ); ?>"><i
+                                href="<?php echo esc_url(home_url('/product-category/occasion/thinking-of-you/')); ?>"><i
                                     class="fas fa-chevron-right fa-xs"></i>THINKING OF YOU</a>
                             <a class="dropdown-item"
-                                href="<?php echo esc_url( home_url( '/product-category/occasion/thank-you/' ) ); ?>"><i
+                                href="<?php echo esc_url(home_url('/product-category/occasion/thank-you/')); ?>"><i
                                     class="fas fa-chevron-right fa-xs"></i>THANK YOU</a>
                             <a class="dropdown-item"
-                                href="<?php echo esc_url( home_url( '/product-category/occasion/love/' ) ); ?>"><i
+                                href="<?php echo esc_url(home_url('/product-category/occasion/love/')); ?>"><i
                                     class="fas fa-chevron-right fa-xs"></i>LOVE & ROMANCE</a>
                             <a class="dropdown-item"
-                                href="<?php echo esc_url( home_url( '/product-category/occasion/birthday/' ) ); ?>"><i
+                                href="<?php echo esc_url(home_url('/product-category/occasion/birthday/')); ?>"><i
                                     class="fas fa-chevron-right fa-xs"></i>BIRTHDAY</a>
                             <a class="dropdown-item"
-                                href="<?php echo esc_url( home_url( '/product-category/occasion/anniversary/' ) ); ?>"><i
+                                href="<?php echo esc_url(home_url('/product-category/occasion/anniversary/')); ?>"><i
                                     class="fas fa-chevron-right fa-xs"></i>ANNIVERSARY</a>
                             <a class="dropdown-item"
-                                href="<?php echo esc_url( home_url( '/product-category/occasion/new-baby/' ) ); ?>"><i
+                                href="<?php echo esc_url(home_url('/product-category/occasion/new-baby/')); ?>"><i
                                     class="fas fa-chevron-right fa-xs"></i>NEW BABY</a>
                             <a class="dropdown-item"
-                                href="<?php echo esc_url( home_url( '/product-category/occasion/corsages-&-boutineers/' ) ); ?>"><i
+                                href="<?php echo esc_url(home_url('/product-category/occasion/corsages-&-boutineers/')); ?>"><i
                                     class="fas fa-chevron-right fa-xs"></i>CORSAGES & BOUTINEERS</a>
                             <a class="dropdown-item"
-                                href="<?php echo esc_url( home_url( '/product-category/occasion/get-well/' ) ); ?>"><i
+                                href="<?php echo esc_url(home_url('/product-category/occasion/get-well/')); ?>"><i
                                     class="fas fa-chevron-right fa-xs"></i>GET WELL</a>
                             <a class="dropdown-item"
-                                href="<?php echo esc_url( home_url( '/product-category/occasion/sympathy-&-funeral/' ) ); ?>"><i
+                                href="<?php echo esc_url(home_url('/product-category/occasion/sympathy-&-funeral/')); ?>"><i
                                     class="fas fa-chevron-right fa-xs"></i>SYMPATHY & FUNERAL</a>
                         </div>
                     </li>
@@ -108,61 +108,68 @@ $container = get_theme_mod( 'understrap_container_type' );
                         </a>
 
                         <!-- <a class="dropdown-item"
-                            href="<?php echo esc_url( home_url( '/product-category/holiday/mothers-day/' ) ); ?>"><i
+                            href="<?php echo esc_url(home_url('/product-category/holiday/mothers-day/')); ?>"><i
                                 class="fas fa-chevron-right fa-xs"></i>MOTHER'S DAY
                         </a> -->
 
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 
                             <a class="dropdown-item"
-                                href="<?php echo esc_url( home_url( 'product-category/holiday/fall/' ) ); ?>"><i
+                                href="<?php echo esc_url(home_url('product-category/holiday/valentiness-day/')); ?>"><i
+                                    class="fas fa-chevron-right fa-xs"></i>VALENTINE'S DAY
+                            </a>
+
+                            <!-- <a class="dropdown-item"
+                                href="<?php echo esc_url(home_url('product-category/holiday/fall/')); ?>"><i
                                     class="fas fa-chevron-right fa-xs"></i>FALL
                             </a>
                             <a class="dropdown-item"
-                                href="<?php echo esc_url( home_url( 'product-category/holiday/thanksgiving/' ) ); ?>"><i
+                                href="<?php echo esc_url(home_url('product-category/holiday/thanksgiving/')); ?>"><i
                                     class="fas fa-chevron-right fa-xs"></i>THANKSGIVING
                             </a>
 
                             <a class="dropdown-item"
-                                href="<?php echo esc_url( home_url( 'product-category/holiday/happy-holiday/' ) ); ?>"><i
+                                href="<?php echo esc_url(home_url('product-category/holiday/happy-holiday/')); ?>"><i
                                     class="fas fa-chevron-right fa-xs"></i>HAPPY HOLIDAYS
-                            </a>
+                            </a> -->
                         </div>
                     </li>
 
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle"
-                            href="<?php echo esc_url( home_url( '/product-category/babycakes/' ) ); ?>"
+                            href="<?php echo esc_url(home_url('/product-category/babycakes/')); ?>"
                             id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
                             aria-expanded="false">
                             BABYCAKES
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item"
-                                href="<?php echo esc_url( home_url( '/product-category/babycakes/babycakes-cupcakes/' ) ); ?>"><i
+                                href="<?php echo esc_url(home_url('/product-category/babycakes/babycakes-cupcakes/')); ?>"><i
                                     class="fas fa-chevron-right fa-xs"></i>BABYCAKES CUPCAKES</a>
                             <a class="dropdown-item"
-                                href="<?php echo esc_url( home_url( '/product-category/babycakes/gifts/' ) ); ?>"><i
+                                href="<?php echo esc_url(home_url('/product-category/babycakes/gifts/')); ?>"><i
                                     class="fas fa-chevron-right fa-xs"></i>GIFTS</a>
                         </div>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="<?php echo get_permalink( woocommerce_get_page_id( 'shop' ) ); ?>">ALL
+                        <a class="nav-link" href="<?php echo get_permalink(woocommerce_get_page_id('shop')); ?>">ALL
                             PRODUCTS</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="https://www.rlmaffairs.com/">VENUE & EVENT SERVICES</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?php echo esc_url( home_url( '/my-account/' ) ); ?>">MY ACCOUNT</a>
+                        <a class="nav-link" href="<?php echo esc_url(home_url('/my-account/')); ?>">MY ACCOUNT</a>
                     </li>
                     <li class="nav-item cart">
                         <a class="nav-link pt-0" href="<?php echo esc_url(wc_get_cart_url()); ?>">
                             <i class="fas fa-shopping-cart fa-2x"></i>
                             <a class="cart-icon-number"></a>
                             <div class="cart-hover-holder">
-                                <div class="widget_shopping_cart_content"><?php woocommerce_mini_cart(); ?></div>
+                                <div class="widget_shopping_cart_content">
+                                    <?php woocommerce_mini_cart(); ?>
+                                </div>
                             </div>
                         </a>
                     </li>
