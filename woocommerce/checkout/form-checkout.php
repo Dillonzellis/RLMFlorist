@@ -29,7 +29,7 @@ if ( ! defined( 'ABSPATH' ) ) {
     <div class="checkout-header-wrapper">
         <img loading=lazy src="<?php echo get_template_directory_uri(); ?>/img/about-us-logo.png" alt="">
 		
-		      <!--<h1>We will be closed July 28th - August 4th for a conference.</h1> -->
+        <h1>We will be closed May 10th - 13th for a private event.</h1>
        
      
 
