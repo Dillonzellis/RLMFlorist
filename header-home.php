@@ -1,6 +1,6 @@
     <?php
     /**
-     * Template Name: Home Template
+     * Template Name: home
      *
      * Template for displaying a page without sidebar even if a sidebar widget is published.
      *
@@ -309,7 +309,7 @@
     </div>
     -->
 
-        <div class="strap-video-holder">
+        <div class="strap-video-holder" style="margin-bottom:1rem">
             <div class="video-foreground">
                 <div class="video-title">
                     Farm to Table
