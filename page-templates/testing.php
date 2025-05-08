@@ -1,11 +1,12 @@
 <?php
+
 /**
-     * Template Name: testing home
-     *
-     * Template for displaying a page without sidebar even if a sidebar widget is published.
-     *
-     * @package understrap
-     */
+ * Template Name: testing home
+ *
+ * Template for displaying a page without sidebar even if a sidebar widget is published.
+ *
+ * @package understrap
+ */
 
 // Exit if accessed directly.
 defined('ABSPATH') || exit;
@@ -15,20 +16,22 @@ $container = get_theme_mod('understrap_container_type');
 ?>
 
 <?php if (is_front_page()): ?>
-<?php get_template_part('global-templates/hero'); ?>
+  <?php get_template_part('global-templates/hero'); ?>
 <?php endif; ?>
 
 <style>
-.wc-block-grid__products{
-  list-style: none;
-}
-@media(min-width:1200px){
+  .wc-block-grid__products {
+    list-style: none;
+  }
 
-  .wc-block-grid__products{
-    display: flex;
-    justify-content: center;
-    gap: 2rem; 
-  }}
+  @media(min-width:1200px) {
+
+    .wc-block-grid__products {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+    }
+  }
 </style>
 
 
@@ -67,7 +70,7 @@ $container = get_theme_mod('understrap_container_type');
             </div>
             <div class="col-sm text-sm-left">
               <a href="<?php echo get_permalink(woocommerce_get_page_id('shop')); ?>"><button
-                type="button" class="btn btn-outline-light">Shop Now</button></a>
+                  type="button" class="btn btn-outline-light">Shop Now</button></a>
             </div>
           </div>
           <div class="row">
@@ -96,8 +99,8 @@ $container = get_theme_mod('understrap_container_type');
       <div class="shop-card-titles-holder">
         <div class="row">
           <div class="col">
-            <div class="sub-title">The</div>
-            <div class="shop-card-title">Winter Collection</div>
+            <div class="sub-title"></div>
+            <div class="shop-card-title">Our Favorites</div>
           </div>
         </div>
       </div>
@@ -260,8 +263,8 @@ cart</a></div>
     <div class="row">
       <div class="col text-center fade-in">
         <a href="https://www.rlmaffairs.com/"><button type="button" class="btn btn-lg btn-outline-light">RLM
-          Venue &
-          Event Services</button></a>
+            Venue &
+            Event Services</button></a>
       </div>
     </div>
   </div>
