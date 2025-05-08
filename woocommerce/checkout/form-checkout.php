@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Checkout Form
  *
@@ -15,141 +16,144 @@
  * @version 3.6.1
  */
 
-if ( ! defined( 'ABSPATH' ) ) {
-	exit;
+if (! defined('ABSPATH')) {
+  exit;
 }
 ?>
 <style>
-.hide {
+  .hide {
     display: none !important;
-}
+  }
 </style>
 
 <div class="container">
-    <div class="checkout-header-wrapper">
-        <img loading=lazy src="<?php echo get_template_directory_uri(); ?>/img/about-us-logo.png" alt="">
-		
-        <h1>We will be closed May 10th - 13th for a private event.</h1>
-       
-     
+  <div class="checkout-header-wrapper">
+    <img loading=lazy src="<?php echo get_template_directory_uri(); ?>/img/about-us-logo.png" alt="">
 
-        <h4 class="title">Our shop serves the following areas in Georgia: Flowery Branch, Gainesville, Buford, Hoschton,
-            Braselton,
-            Winder and Oakwood.</h4>
+    <h1>We will be closed for a private event.</h1>
 
-        <h5 class="subtitle">***In Store Pickups and Deliveries are only available during store hours.***</h5>
-        <div class="hours-title">
-            Store Hours
-        </div>
-        <div class="hours">
-            Monday: Call in only, showroom closed.
-        </div>
-        <div class="hours">
-            Tuesday: 10:00am - 4:00pm
-        </div>
-        <div class="hours">
-            Wednesday: 10:00am - 4:00pm
-        </div>
-        <div class="hours">
-            Thursday: 10:00am - 4:00pm
-        </div>
-        <div class="hours">
-            Friday: 10:00am - 4:00pm
-        </div>
-        <div class="hours">
-            Saturday: 10:00am - 12:00pm
-        </div>
+    <h4 class="title">Our shop serves the following areas in Georgia: Flowery Branch, Gainesville, Buford, Hoschton,
+      Braselton,
+      Winder and Oakwood.</h4>
 
-        <h5 class="post-hours">
-            RLM Florist offers 24 hour phone and internet service for your orders and questions after the showroom has
-            closed.
-        </h5>
-
-        <div class="store-phone">
-            770-536-7306
-        </div>
-
-        <h1>Checkout</h1>
-
-        <div>
-            <label class="checkout-radio">
-                <input class="checkout-radio-dot" type="radio" name="check button" id="online" value="online"
-                    checked>Pay Online</label>
-            <label class="checkout-radio">
-                <input class="checkout-radio-dot" type="radio" name="check button" id="in-store" value="inStore">Pay In
-                Store</label>
-        </div>
-
+    <h5 class="subtitle">***In Store Pickups and Deliveries are only available during store hours.***</h5>
+    <div class="hours-title">
+      Store Hours
+    </div>
+    <div class="hours">
+      Monday: Call in only, showroom closed.
+    </div>
+    <div class="hours">
+      Tuesday: 10:00am - 4:00pm
+    </div>
+    <div class="hours">
+      Wednesday: 10:00am - 4:00pm
+    </div>
+    <div class="hours">
+      Thursday: 10:00am - 4:00pm
+    </div>
+    <div class="hours">
+      Friday: 10:00am - 4:00pm
+    </div>
+    <div class="hours">
+      Saturday: 10:00am - 12:00pm
     </div>
 
-    <?php
-	do_action( 'woocommerce_before_checkout_form', $checkout );
+    <h5 class="post-hours">
+      RLM Florist offers 24 hour phone and internet service for your orders and questions after the showroom has
+      closed.
+    </h5>
 
-	// If checkout registration is disabled and not logged in, the user cannot checkout.
-	if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_required() && ! is_user_logged_in() ) {
-		echo esc_html( apply_filters( 'woocommerce_checkout_must_be_logged_in_message', __( 'You must be logged in to checkout.', 'understrap' ) ) );
-		return;
-	}
+    <div class="store-phone">
+      770-536-7306
+    </div>
 
-	?>
+    <!--
+    <h1>Checkout</h1>
 
-    <form name="checkout" method="post" class="checkout woocommerce-checkout"
-        action="<?php echo esc_url( wc_get_checkout_url() ); ?>" enctype="multipart/form-data">
+    <div>
+      <label class="checkout-radio">
+        <input class="checkout-radio-dot" type="radio" name="check button" id="online" value="online"
+          checked>Pay Online</label>
+      <label class="checkout-radio">
+        <input class="checkout-radio-dot" type="radio" name="check button" id="in-store" value="inStore">Pay In
+        Store</label>
+    </div>
+    -->
 
-        <?php if ( $checkout->get_checkout_fields() ) : ?>
+  </div>
 
-        <?php do_action( 'woocommerce_checkout_before_customer_details' ); ?>
+  <?php
+  do_action('woocommerce_before_checkout_form', $checkout);
 
-        <div class="row" id="customer_details">
-            <div class="col-12 col-sm-7">
-                <?php do_action( 'woocommerce_checkout_billing' ); ?>
-            </div>
+  // If checkout registration is disabled and not logged in, the user cannot checkout.
+  if (! $checkout->is_registration_enabled() && $checkout->is_registration_required() && ! is_user_logged_in()) {
+    echo esc_html(apply_filters('woocommerce_checkout_must_be_logged_in_message', __('You must be logged in to checkout.', 'understrap')));
+    return;
+  }
 
-            <div class="col-12 col-sm-5">
-                <?php do_action( 'woocommerce_checkout_shipping' ); ?>
-            </div>
+  ?>
+
+  <!--
+  <form name="checkout" method="post" class="checkout woocommerce-checkout"
+    action="<?php echo esc_url(wc_get_checkout_url()); ?>" enctype="multipart/form-data">
+
+    <?php if ($checkout->get_checkout_fields()) : ?>
+
+      <?php do_action('woocommerce_checkout_before_customer_details'); ?>
+
+      <div class="row" id="customer_details">
+        <div class="col-12 col-sm-7">
+          <?php do_action('woocommerce_checkout_billing'); ?>
         </div>
 
-        <?php do_action( 'woocommerce_checkout_after_customer_details' ); ?>
-
-        <?php endif; ?>
-
-        <h3 id="order_review_heading"><?php esc_html_e( 'Your order', 'understrap' ); ?></h3>
-
-        <?php do_action( 'woocommerce_checkout_before_order_review' ); ?>
-
-        <div id="order_review" class="woocommerce-checkout-review-order">
-            <?php do_action( 'woocommerce_checkout_order_review' ); ?>
+        <div class="col-12 col-sm-5">
+          <?php do_action('woocommerce_checkout_shipping'); ?>
         </div>
+      </div>
 
-        <?php do_action( 'woocommerce_checkout_after_order_review' ); ?>
+      <?php do_action('woocommerce_checkout_after_customer_details'); ?>
 
-    </form>
+    <?php endif; ?>
 
-    <?php do_action( 'woocommerce_after_checkout_form', $checkout ); ?>
+    <h3 id="order_review_heading"><?php esc_html_e('Your order', 'understrap'); ?></h3>
+
+    <?php do_action('woocommerce_checkout_before_order_review'); ?>
+
+    <div id="order_review" class="woocommerce-checkout-review-order">
+      <?php do_action('woocommerce_checkout_order_review'); ?>
+    </div>
+
+    <?php do_action('woocommerce_checkout_after_order_review'); ?>
+
+  */
+  </form>
+-->
+
+  <?php do_action('woocommerce_after_checkout_form', $checkout); ?>
 </div>
 
 
 <script>
-const inStoreRadio = document.querySelector('#in-store');
-const payOnlineRadio = document.querySelector('#online');
+  const inStoreRadio = document.querySelector('#in-store');
+  const payOnlineRadio = document.querySelector('#online');
 
-const billAdd1 = document.querySelector('#billing_address_1_field');
-const billAdd2 = document.querySelector('#billing_address_2_field');
-const billCity = document.querySelector('#billing_city_field');
-const billPostcode = document.querySelector('#billing_postcode_field');
-const billState = document.querySelector('#billing_state_field');
-const billCountry = document.querySelector('.single-country');
-const billCCnum = document.querySelector('#billing_credit_card_number_field');
-const billCCExp = document.querySelector('#billing_credit_card_expirati_field');
-const billCVcode = document.querySelector('#billing_cv_code_field');
-const shippingFields = document.querySelector('.woocommerce-shipping-fields');
-const orderComments = document.querySelector('#order_comments_field');
-const orderCardMsg = document.querySelector('#order_card_message_field');
+  const billAdd1 = document.querySelector('#billing_address_1_field');
+  const billAdd2 = document.querySelector('#billing_address_2_field');
+  const billCity = document.querySelector('#billing_city_field');
+  const billPostcode = document.querySelector('#billing_postcode_field');
+  const billState = document.querySelector('#billing_state_field');
+  const billCountry = document.querySelector('.single-country');
+  const billCCnum = document.querySelector('#billing_credit_card_number_field');
+  const billCCExp = document.querySelector('#billing_credit_card_expirati_field');
+  const billCVcode = document.querySelector('#billing_cv_code_field');
+  const shippingFields = document.querySelector('.woocommerce-shipping-fields');
+  const orderComments = document.querySelector('#order_comments_field');
+  const orderCardMsg = document.querySelector('#order_card_message_field');
 
-const dateDelivery = document.querySelector('#order_date_of_delivery');
+  const dateDelivery = document.querySelector('#order_date_of_delivery');
 
-inStoreRadio.addEventListener('change', (event) => {
+  inStoreRadio.addEventListener('change', (event) => {
     billAdd1.classList.toggle('hide');
     billAdd2.classList.toggle('hide');
     billCity.classList.toggle('hide');
@@ -164,9 +168,9 @@ inStoreRadio.addEventListener('change', (event) => {
     orderCardMsg.classList.toggle('hide');
 
     dateDelivery.innerHTML = 'Date of Pickup';
-});
+  });
 
-payOnlineRadio.addEventListener('change', (event) => {
+  payOnlineRadio.addEventListener('change', (event) => {
     billAdd1.classList.toggle('hide');
     billAdd2.classList.toggle('hide');
     billCity.classList.toggle('hide');
@@ -181,6 +185,6 @@ payOnlineRadio.addEventListener('change', (event) => {
     orderCardMsg.classList.toggle('hide');
 
     dateDelivery.textContent = 'Date of Delivery';
-});
+  });
 </script>
 <?php
