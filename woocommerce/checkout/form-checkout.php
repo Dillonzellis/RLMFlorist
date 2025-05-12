@@ -30,7 +30,7 @@ if (! defined('ABSPATH')) {
   <div class="checkout-header-wrapper">
     <img loading=lazy src="<?php echo get_template_directory_uri(); ?>/img/about-us-logo.png" alt="">
 
-    <h1>We will be closed for a private event.</h1>
+    <!-- <h1>We will be closed for a private event.</h1> -->
 
     <h4 class="title">Our shop serves the following areas in Georgia: Flowery Branch, Gainesville, Buford, Hoschton,
       Braselton,
@@ -68,7 +68,6 @@ if (! defined('ABSPATH')) {
       770-536-7306
     </div>
 
-    <!--
     <h1>Checkout</h1>
 
     <div>
@@ -79,7 +78,6 @@ if (! defined('ABSPATH')) {
         <input class="checkout-radio-dot" type="radio" name="check button" id="in-store" value="inStore">Pay In
         Store</label>
     </div>
-    -->
 
   </div>
 
@@ -94,7 +92,6 @@ if (! defined('ABSPATH')) {
 
   ?>
 
-  <!--
   <form name="checkout" method="post" class="checkout woocommerce-checkout"
     action="<?php echo esc_url(wc_get_checkout_url()); ?>" enctype="multipart/form-data">
 
@@ -126,9 +123,7 @@ if (! defined('ABSPATH')) {
 
     <?php do_action('woocommerce_checkout_after_order_review'); ?>
 
-  */
   </form>
--->
 
   <?php do_action('woocommerce_after_checkout_form', $checkout); ?>
 </div>
